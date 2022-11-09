@@ -1,3 +1,5 @@
 #!/bin/bash
 yarn build
-ssh yireo "cd /home/yireo/public_html/"
+git commit -m 'New CSS' pub/style.css
+git push origin main
+ssh yireo-php "cd /home/yireo/public_html/mage-os.nl && git pull origin main && composer install"

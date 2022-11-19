@@ -16,4 +16,4 @@ Alle hulp is hierbij welkom, dus een van de eerste taken van het interim bestuur
   - Discussie over Mage-OS NL als vereniging met volledige rechtsbevoegdheid;
   - Discussie over het lidmaatschapsbeleid;
   - Discussie over de toekomst van Magento in Nederland en de rol van Mage-OS NL daarbij;
-  - Nieuwjaarsborrel;
+  - Nieuwjaarsborrel

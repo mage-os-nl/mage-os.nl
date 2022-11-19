@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-use Michelf\Markdown;
+use Michelf\MarkdownExtra;
 ?>
 <main class="prose max-w-none">
-    <?php echo Markdown::defaultTransform(file_get_contents(__DIR__.'/../content/home.md')); ?>
+    <?php echo MarkdownExtra::defaultTransform(file_get_contents(__DIR__.'/../content/home.md')); ?>
 </main>
 
 <footer class="pb-8">

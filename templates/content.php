@@ -8,5 +8,6 @@ use Michelf\Markdown;
 
 <footer class="pb-8">
     <hr/>
+    <p class="pt-8 text-sm text-gray-400 clear-both">Mage OS Nederland - KvK 88186288</p>
     <p class="pt-8 text-sm text-gray-400 clear-both">Magento™ is a registered trademark of Adobe Inc. Mage-OS is not affiliated with Adobe or Magento Open Source in any way.</p>
 </footer>

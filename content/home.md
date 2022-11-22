@@ -31,3 +31,4 @@ Alle hulp is hierbij welkom, dus een van de eerste taken van het interim bestuur
   - Discussie over het lidmaatschapsbeleid;
   - Discussie over de toekomst van Magento in Nederland en de rol van Mage-OS NL daarbij;
   - Nieuwjaarsborrel
+- **12-15 Juli 2022**: MageUnconference NL (georganiseerd door Yireo);

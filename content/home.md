@@ -28,10 +28,10 @@ Login op de Mage-OS Discord ([chat.mage-os.org](http://chat.mage-os.org)) en ga 
 - **4 november 2022**: Eerste borrel in Utrecht ter revival van de Nederlandse Magento community;
 - **18 November 2022**: Oprichting Mage-OS Nederland als vereniging met beperkte rechtsbevoegdheid;
 - **December 2022**: Eerste communicatie over doelstellingen van Mage OS NL;
-- **19 Januari 2022**: Eerste ledenvergadering en aansluitend een nieuwjaarsborrel:
+- **19 Januari 2023**: Eerste ledenvergadering en aansluitend een nieuwjaarsborrel:
   - Stemming over definitief eerste bestuur;
   - Discussie over Mage-OS NL als vereniging met volledige rechtsbevoegdheid;
   - Discussie over het lidmaatschapsbeleid;
   - Discussie over de toekomst van Magento in Nederland en de rol van Mage-OS NL daarbij;
   - Nieuwjaarsborrel
-- **12-15 Juli 2022**: MageUnconference NL (georganiseerd door Yireo);
+- **12-15 Juli 2023**: MageUnconference NL (georganiseerd door Yireo);

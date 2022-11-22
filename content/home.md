@@ -21,6 +21,9 @@ Alle hulp is hierbij welkom, dus een van de eerste taken van het interim bestuur
 - Sander de Graaf (3WebApps)
 - Sanne Bolkenstein (Hyvä)
 
+# Chat
+Login op de Mage-OS Discord ([chat.mage-os.org](http://chat.mage-os.org)) en ga dan naar het kanaal #mage-os-nl.
+
 # Agenda
 - **4 november 2022**: Eerste borrel in Utrecht ter revival van de Nederlandse Magento community;
 - **18 November 2022**: Oprichting Mage-OS Nederland als vereniging met beperkte rechtsbevoegdheid;

@@ -3,6 +3,7 @@
 <head>
     <title>Mage-OS Nederland</title>
     <meta charset="utf-8"/>
+    <meta name="description" content="Vereniging voor de Nederlandse Magento community"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,6 +11,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="shortcut icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <meta property="og:title" content="Mage-OS Nederland" />
+    <meta property="og:description" content="Vereniging voor de Nederlandse Magento community" />
+    <meta property="og:image" content="//<?= $_SERVER['HTTP_HOST'] ?>/images/mage-os.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="nl_NL" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@mage_os_nl" />
+    <meta name="twitter:title" content="Mage-OS Nederland" />
+    <meta name="twitter:description" content="Vereniging voor de Nederlandse Magento community" />
+    <meta name="twitter:image" content="//<?= $_SERVER['HTTP_HOST'] ?>/images/mage-os.png" />
+
 </head>
 <body class="bg-white text-black font-sans antialiased">
 <div class="mx-auto max-w-6xl px-4 xl:px-0">

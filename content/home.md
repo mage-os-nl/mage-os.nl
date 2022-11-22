@@ -25,7 +25,7 @@ Alle hulp is hierbij welkom, dus een van de eerste taken van het interim bestuur
 - **4 november 2022**: Eerste borrel in Utrecht ter revival van de Nederlandse Magento community;
 - **November 2022**: Oprichting Mage-OS Nederland als vereniging met beperkte rechtsbevoegdheid;
 - **December 2022**: Eerste communicatie over doelstellingen van Mage OS NL;
-- **Januari 2022**: Eerste ledenvergadering en aansluitend een nieuwjaarsborrel:
+- **19 Januari 2022**: Eerste ledenvergadering en aansluitend een nieuwjaarsborrel:
   - Stemming over definitief eerste bestuur;
   - Discussie over Mage-OS NL als vereniging met volledige rechtsbevoegdheid;
   - Discussie over het lidmaatschapsbeleid;

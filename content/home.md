@@ -30,7 +30,7 @@ Alle hulp is hierbij welkom, dus een van de eerste taken van het interim bestuur
 - Jeroen Boersma (Elgentos)
 
 ### Aanmelden als nieuw lid {#lidworden}
-Wil je ook onderdeel zijn van deze nieuwe Magento community? Meld je dan vrijblijvend als verenigingslid aan via ons Google formulier: [https://docs.google.com/forms/d/1srPGVE5OLvAkPFGPpLXmJKzfORhR-V8exW8j9VBTkA4/prefill](https://docs.google.com/forms/d/1srPGVE5OLvAkPFGPpLXmJKzfORhR-V8exW8j9VBTkA4/prefill)
+Wil je ook onderdeel zijn van deze nieuwe Magento community? Meld je dan vrijblijvend als verenigingslid aan via ons Google formulier: [https://docs.google.com/forms/d/e/1FAIpQLSclanrbUJWqhB0kdUXT-mj8-o_8Y2QQ2pXKbe-knMHjPyas1Q/viewform](https://docs.google.com/forms/d/e/1FAIpQLSclanrbUJWqhB0kdUXT-mj8-o_8Y2QQ2pXKbe-knMHjPyas1Q/viewform)
 
 Lidmaatschapvoorwaarden zoals contributie worden tijdens de ledenvergadering bepaald.
 

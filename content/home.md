@@ -15,7 +15,7 @@ Alle hulp is hierbij welkom, dus een van de eerste taken van het interim bestuur
 - Sanne Bolkenstein (Hyvä)
 - Willem Wigman (Hyvä)
 
-# Bestuursleden
+# Interim bestuursleden
 - Jisse Reitsma (Yireo)
 - Peter Jaap Blaakmeer (Elgentos)
 - Sander de Graaf (3WebApps)

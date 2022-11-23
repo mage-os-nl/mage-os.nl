@@ -20,6 +20,7 @@ Alle hulp is hierbij welkom, dus een van de eerste taken van het interim bestuur
 - Peter Jaap Blaakmeer (Elgentos)
 - Sander de Graaf (3WebApps)
 - Sanne Bolkenstein (Hyvä)
+- Jeroen Boersma (Elgentos)
 
 # Chat
 Login op de Mage-OS Discord ([chat.mage-os.org](http://chat.mage-os.org)) en ga dan naar het kanaal #mage-os-nl.

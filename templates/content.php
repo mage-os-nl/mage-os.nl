@@ -2,7 +2,7 @@
 
 use Michelf\MarkdownExtra;
 ?>
-<main class="prose max-w-none">
+<main class="prose max-w-none break-words">
     <?php echo MarkdownExtra::defaultTransform(file_get_contents(__DIR__.'/../content/home.md')); ?>
 </main>
 

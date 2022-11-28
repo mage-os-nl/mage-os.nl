@@ -6,15 +6,19 @@ use MageOsNl\MenuItem;
 $menuItems = include __DIR__ . '/../data/topmenu.php';
 ?>
 <header class="bg-white mb-8 flex flex-wrap items-center border-b border-gray-400" x-data="{open:false}">
-    <div class="inline-flex pt-4 pb-3 md:py-8 xs:w-2/3  mx-auto md:mx-0">
-        <a href="/">
-            <span class="max-w-xs pb-2"><?php include __DIR__ . '/header/logo.php' ?></span>
-        </a>
-        <a href="/">
-            <h1 class="md:pt-2 text-2xl md:text-4xl font-extrabold">Mage-OS Nederland</h1>
+    <div class="flex pt-4 pb-3 xs:w-1/3 max-width-xs mx-0">
+        <a href="/" class="block pb-2 max-w-[90px] md:max-w-[180px]">
+            <?php include __DIR__ . '/../resources/svg/mage-os-nl.svg' ?>
         </a>
 
-        <button class="outline-none md:hidden" @click="open = ! open">
+        <div>
+            <a href="/">
+                <h1 class="hidden md:block pt-2 pb-2 text-4xl font-extrabold">Mage-OS Nederland</h1>
+                <h1 class="block md:hidden pb-2 text-2xl font-extrabold">Mage-OS NL</h1>
+            </a>
+        </div>
+
+        <button style="position:absolute; right:20px;" class="outline-none md:hidden" @click="open = ! open">
             <svg
                     class="w-6 h-6 text-gray-500"
                     fill="none"

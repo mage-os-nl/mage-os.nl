@@ -2,6 +2,11 @@
 
 require_once '../vendor/autoload.php';
 
+function getRealhost(): string {
+    return 'nl.mage-os.org';
+    //return 'mage-os.nl';
+}
+
 function isLocalhost(): bool {
     if (empty($_SERVER['HTTP_HOST'])) {
         return true;
@@ -11,18 +16,20 @@ function isLocalhost(): bool {
 }
 
 function isRealhost(): bool {
-    return $_SERVER['HTTP_HOST'] === 'mage-os.nl';
+    return $_SERVER['HTTP_HOST'] === getRealhost();
 }
 
+// Redirect non-localhost and non-realhost to realhost
 if (false === isRealhost() && false === isLocalhost()) {
     http_response_code(301);
-    header('Location: https://mage-os.nl/');
+    header('Location: https://'.getRealhost().'/');
     exit;
 }
 
+// Redirect HTTP to HTTPS
 if ((!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] !== "on") && isRealhost()) {
     http_response_code(301);
-    header('Location: https://mage-os.nl/');
+    header('Location: https://'.getRealhost().'/');
     exit;
 }
 

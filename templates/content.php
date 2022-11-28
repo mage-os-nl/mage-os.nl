@@ -10,6 +10,9 @@ use Michelf\MarkdownExtra;
     <a href="https://www.linkedin.com/company/mageos-nederland/" class="p-1">
         <?php include __DIR__ . '/../resources/svg/linkedin.svg' ?>
     </a>
+    <a href="https://github.com/mage-os-nl" class="p-1">
+        <?php include __DIR__ . '/../resources/svg/github.svg' ?>
+    </a>
 </div>
 
 <main class="prose max-w-none break-words">

@@ -43,7 +43,7 @@ Wil je deelnemen aan de aanstaande ledenvergadering en aansluitende nieuwjaarsbo
 - **4 november 2022**: Eerste borrel in Utrecht ter revival van de Nederlandse Magento community;
 - **18 November 2022**: Oprichting Mage-OS Nederland als vereniging met beperkte rechtsbevoegdheid;
 - **December 2022**: Eerste communicatie over doelstellingen van Mage OS NL;
-- **19 Januari 2023**: [Eerste ledenvergadering en aansluitend een nieuwjaarsborrel](https://www.eventbrite.nl/e/tickets-ledenvergadering-nieuwjaarsborrel-478476966487):
+- **19 Januari 2023**: [Eerste ledenvergadering en aansluitend een nieuwjaarsborrel](https://www.eventbrite.nl/e/tickets-ledenvergadering-nieuwjaarsborrel-478476966487) in Toque, Utrecht:
   - Stemming over definitief eerste bestuur;
   - Discussie over Mage-OS NL als vereniging met volledige rechtsbevoegdheid;
   - Discussie over het lidmaatschapsbeleid;

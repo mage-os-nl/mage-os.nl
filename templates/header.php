@@ -13,7 +13,7 @@ $menuItems = include __DIR__ . '/../data/topmenu.php';
 
         <div>
             <a href="/">
-                <h1 class="hidden md:block pt-2 pb-2 text-4xl font-extrabold">Mage-OS Nederland</h1>
+                <h1 class="hidden md:block pt-2 pb-2 text-3xl font-extrabold">Mage-OS Nederland</h1>
                 <h1 class="block md:hidden pb-2 text-2xl font-extrabold">Mage-OS NL</h1>
             </a>
         </div>

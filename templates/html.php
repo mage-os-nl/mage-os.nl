@@ -15,7 +15,6 @@
     <meta name="twitter:title" content="Mage-OS Nederland" />
     <meta name="twitter:description" content="Vereniging voor de Nederlandse Magento community" />
     <meta name="twitter:image" content="//<?= $_SERVER['HTTP_HOST'] ?>/images/mage-os.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="/style.css?v=<?= md5_file(__DIR__.'/../pub/style.css') ?>">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">

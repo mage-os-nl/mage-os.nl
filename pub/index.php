@@ -33,4 +33,11 @@ if ((!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] !== "on") && isRealhost()) {
     exit;
 }
 
+if (strstr($_SERVER['REQUEST_URI'],'/eventbrite') && !empty($_REQUEST['id'])) {
+    $data = (new \MageOsNl\EventbriteExport())->getAttendeesByEventId($_REQUEST['id']);
+    header('Content-Type: application/json');
+    echo json_encode($data, JSON_PRETTY_PRINT);
+    exit;
+}
+
 require_once '../templates/html.php';

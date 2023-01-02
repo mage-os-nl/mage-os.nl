@@ -17,15 +17,20 @@ class EventbriteExport
         $data = $response['body'];
 
         $attendees = [];
+        $totalQty = [];
         foreach ($data['attendees'] as $attendee) {
             $ticket = $attendee['ticket_class_name'];
             $email = $attendee['profile']['email'];
+            $totalQty[$ticket] += $attendee['quantity'];
             $attendees[$ticket]['attendees'][$email] = [
                 'name' => $attendee['profile']['name'],
                 'email' => $email,
                 'qty' => $attendee['quantity'],
             ];
+
         }
+
+        $attendees['total_qty'] = $totalQty;
 
         return $attendees;
     }

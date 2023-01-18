@@ -20,7 +20,7 @@ Alle hulp is hierbij welkom, dus een van de eerste taken van het interim bestuur
 
 ---
 
-## De vereniging van Mage-OS Nederland
+## De vereniging van Mage-OS Nederland {#vereniging}
 
 ### Interim bestuursleden {#bestuur}
 - Jisse Reitsma (Yireo)

@@ -29,7 +29,7 @@ Alle hulp is hierbij welkom, dus een van de eerste taken van het interim bestuur
 - Sanne Bolkenstein (Hyvä)
 - Jeroen Boersma (Elgentos)
 
-## Statuten en huishoudelijk regelement
+### Statuten en huishoudelijk regelement
 De statuten zijn op de pagina [Statuten Mage-OS Nederland](/statuten) terug te vinden.
 
 Qua huishoudelijk regelement nemen we op dit moment de Engelse [Code of Conduct](https://mage-os.org/code-of-conduct) van Mage-OS internationaal over.

@@ -29,6 +29,11 @@ Alle hulp is hierbij welkom, dus een van de eerste taken van het interim bestuur
 - Sanne Bolkenstein (Hyvä)
 - Jeroen Boersma (Elgentos)
 
+## Statuten en huishoudelijk regelement
+De statuten zijn op de pagina [Statuten Mage-OS Nederland](/statuten) terug te vinden.
+
+Qua huishoudelijk regelement nemen we op dit moment de Engelse [Code of Conduct](https://mage-os.org/code-of-conduct) van Mage-OS internationaal over.
+
 ### Aanmelden als nieuw lid {#lidworden}
 Wil je ook onderdeel zijn van deze nieuwe Magento community? Meld je dan vrijblijvend als verenigingslid aan via ons Google formulier: [https://docs.google.com/forms/d/e/1FAIpQLSclanrbUJWqhB0kdUXT-mj8-o_8Y2QQ2pXKbe-knMHjPyas1Q/viewform](https://docs.google.com/forms/d/e/1FAIpQLSclanrbUJWqhB0kdUXT-mj8-o_8Y2QQ2pXKbe-knMHjPyas1Q/viewform)
 

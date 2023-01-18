@@ -2,8 +2,17 @@
 
 use Michelf\MarkdownExtra;
 
-$allowedPages = ['home'];
-$page = $_GET['page'] ?? 'home';
+$allowedPages = ['home', 'statuten'];
+$page = 'home';
+
+if (isset($_GET['page']) && in_array($_GET['page'], $allowedPages)) {
+    $page = $_GET['page'];
+}
+
+$request = trim($_SERVER['REQUEST_URI'], '/');
+if (in_array($request, $allowedPages)) {
+    $page = $request;
+}
 ?>
 
 <div class="float-right flex pb-3">

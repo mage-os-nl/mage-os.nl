@@ -4,7 +4,6 @@ require_once '../vendor/autoload.php';
 
 function getRealhost(): string {
     return 'nl.mage-os.org';
-    //return 'mage-os.nl';
 }
 
 function isLocalhost(): bool {

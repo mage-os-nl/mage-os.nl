@@ -2,12 +2,14 @@
 
 require_once '../vendor/autoload.php';
 
-function getRealhost(): string {
+function getRealhost(): string
+{
     return 'nl.mage-os.org';
     //return 'mage-os.nl';
 }
 
-function isLocalhost(): bool {
+function isLocalhost(): bool
+{
     if (empty($_SERVER['HTTP_HOST'])) {
         return true;
     }
@@ -15,28 +17,34 @@ function isLocalhost(): bool {
     return str_starts_with($_SERVER['HTTP_HOST'], 'localhost');
 }
 
-function isRealhost(): bool {
+function isRealhost(): bool
+{
     return $_SERVER['HTTP_HOST'] === getRealhost();
 }
 
 // Redirect non-localhost and non-realhost to realhost
 if (false === isRealhost() && false === isLocalhost()) {
     http_response_code(301);
-    header('Location: https://'.getRealhost().'/');
+    header('Location: https://' . getRealhost() . '/');
     exit;
 }
 
 // Redirect HTTP to HTTPS
 if ((!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] !== "on") && isRealhost()) {
     http_response_code(301);
-    header('Location: https://'.getRealhost().'/');
+    header('Location: https://' . getRealhost() . '/');
     exit;
 }
 
-if (strstr($_SERVER['REQUEST_URI'],'/eventbrite') && !empty($_REQUEST['id'])) {
+if (strstr($_SERVER['REQUEST_URI'], '/eventbrite') && !empty($_REQUEST['id'])) {
     $data = (new \MageOsNl\EventbriteExport())->getAttendeesByEventId($_REQUEST['id']);
-    header('Content-Type: application/json');
-    echo json_encode($data, JSON_PRETTY_PRINT);
+    if (isset($_REQUEST['format']) && $_REQUEST['format'] === 'json') {
+        header('Content-Type: application/json');
+        echo json_encode($data, JSON_PRETTY_PRINT);
+        exit;
+    }
+
+    require_once '../templates/eventbrite-export.php';
     exit;
 }
 

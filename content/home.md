@@ -39,9 +39,6 @@ Wil je ook onderdeel zijn van deze nieuwe Magento community? Meld je dan vrijbli
 
 Lidmaatschapvoorwaarden zoals contributie worden tijdens de ledenvergadering bepaald.
 
-### Aanmelden voor 19 januari 2023
-Wil je deelnemen aan de aanstaande ledenvergadering en aansluitende nieuwjaarsborrel? Meld je dan aan via EventBrite: [https://www.eventbrite.nl/e/tickets-ledenvergadering-nieuwjaarsborrel-478476966487](https://www.eventbrite.nl/e/tickets-ledenvergadering-nieuwjaarsborrel-478476966487)
-
 ---
 
 ## Onze agenda {#agenda}

@@ -47,11 +47,6 @@ Lidmaatschapvoorwaarden zoals contributie worden tijdens de ledenvergadering bep
 - **december 2022**: Eerste communicatie over doelstellingen van Mage OS NL;
 - **19 januari 2023**: [Eerste ledenvergadering en aansluitend een nieuwjaarsborrel](https://www.eventbrite.nl/e/tickets-ledenvergadering-nieuwjaarsborrel-478476966487) in Toque, Utrecht;
 - **29 maart 2023** - Magento borrel tijdens Web Winkel Vakdagen in Utrecht;
-  - Stemming over definitief eerste bestuur;
-  - Discussie over Mage-OS NL als vereniging met volledige rechtsbevoegdheid;
-  - Discussie over het lidmaatschapsbeleid;
-  - Discussie over de toekomst van Magento in Nederland en de rol van Mage-OS NL daarbij;
-  - Nieuwjaarsborrel
 - **12-15 juli 2023**: MageUnconference NL (georganiseerd door Yireo);
 
 ## Chat {#chat}

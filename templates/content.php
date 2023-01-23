@@ -38,19 +38,3 @@ if (in_array($request, $allowedPages)) {
     <p class="pt-8 text-sm text-gray-400 clear-both">Magento™ is a registered trademark of Adobe Inc. Mage-OS is not
         affiliated with Adobe or Magento Open Source in any way.</p>
 </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

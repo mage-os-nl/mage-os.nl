@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2022-11-04",
+    "date": "4 november 2022",
+    "title": "Community borrel",
+    "description": "Eerste borrel in Utrecht ter revival van de Nederlandse Magento community",
+    "location": "Cafe Joost, Achter Sint Pieter 3, Utrecht"
+  },
+  {
+    "timestamp": "2022-11-18",
+    "date": "18 november 2022",
+    "title": "Oprichting vereniging",
+    "description": "Oprichting Mage-OS Nederland als vereniging met beperkte rechtsbevoegdheid"
+  },
+  {
+    "timestamp": "2023-01-19",
+    "date": "19 januari 2023",
+    "title": "Ledenvergadering en nieuwjaarsborrel",
+    "description": "Eerste ledenvergadering en aansluitend een nieuwjaarsborrel",
+    "location": "Toque Toque Foodcafé, Oudegracht 138, Utrecht"
+  },
+  {
+    "timestamp": "2023-03-29",
+    "date": "29 maart 2023",
+    "time": "17:30 - 22:00",
+    "title": "Magento borrel tijdens Webwinkel Vakdagen",
+    "description": "Traditionele borrel aan het eind van de woensdag van de Webwinkel Vakdagen",
+    "location": "Uncle Jim, Croeselaan 91, Utrecht"
+  },
+  {
+    "timestamp": "2023-07-12",
+    "date": "12-15 juli 2023",
+    "title": "MageUnconference Nederland",
+    "description": "Een nieuwe unconference georganiseerd door Yireo",
+    "location": "Fort aan de Klop, Utrecht",
+    "url": "https://mageunconference.nl/"
+  }
+]

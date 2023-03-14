@@ -1,21 +1,12 @@
 <?php declare(strict_types=1);
 
+use MageOsNl\Website\Router;
 use Michelf\MarkdownExtra;
 
-$allowedPages = ['home', 'statuten'];
-$page = 'home';
-
-if (isset($_GET['page']) && in_array($_GET['page'], $allowedPages)) {
-    $page = $_GET['page'];
-}
-
-$request = trim($_SERVER['REQUEST_URI'], '/');
-if (in_array($request, $allowedPages)) {
-    $page = $request;
-}
+$page = (new Router)->getPage();
 ?>
 
-<div class="float-right flex pb-3">
+<div class="float-right flex pb-4">
     <a href="https://twitter.com/mage_os_nl" class="p-1">
         <?php include __DIR__ . '/../resources/svg/twitter.svg' ?>
     </a>
@@ -25,10 +16,13 @@ if (in_array($request, $allowedPages)) {
     <a href="https://github.com/mage-os-nl" class="p-1">
         <?php include __DIR__ . '/../resources/svg/github.svg' ?>
     </a>
+    <a href="https://chat.mage-os.org" class="p-1">
+        <?php include __DIR__ . '/../resources/svg/discord.svg' ?>
+    </a>
 </div>
 
 <main class="prose max-w-none break-words">
-    <?php echo MarkdownExtra::defaultTransform(file_get_contents(__DIR__ . '/../content/' . $page . '.md')); ?>
+    <?php echo $page->getHtml(); ?>
 </main>
 
 <footer class="pb-8">

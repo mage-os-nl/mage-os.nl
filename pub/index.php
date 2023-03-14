@@ -1,6 +1,10 @@
 <?php declare(strict_types=1);
 
+use MageOsNl\Registry;
+
 require_once '../vendor/autoload.php';
+
+Registry::getInstance()->setContentDirectory(dirname(__DIR__) . '/content');
 
 function getRealhost(): string
 {

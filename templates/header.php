@@ -1,9 +1,10 @@
 <?php declare(strict_types=1);
 
-use MageOsNl\MenuItem;
+use MageOsNl\Registry;
+use MageOsNl\Website\MenuItem;
 
 /** @var MenuItem[] $menuItems */
-$menuItems = include __DIR__ . '/../data/topmenu.php';
+$menuItems = include Registry::getInstance()->getContentDirectory(). '/data/topmenu.php';
 ?>
 <header class="bg-white mb-8 flex flex-wrap items-center border-b border-gray-400" x-data="{open:false}">
     <div class="flex pt-4 pb-3 xs:w-1/3 max-width-xs mx-0">

@@ -1,20 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace MageOsNl;
+namespace MageOsNl\Website;
 
 class MenuItem {
-    private string $label;
-    private string $url;
-    private string $class;
-
     public function __construct(
-        string $label,
-        string $url,
-        string $class = 'block py-4 hover:text-primary transition-colors text-center'
+        private string $label,
+        private string $url,
+        private string $class = 'block py-4 hover:text-primary transition-colors text-center'
     ) {
-        $this->label = $label;
-        $this->url = $url;
-        $this->class = $class;
     }
 
     /**

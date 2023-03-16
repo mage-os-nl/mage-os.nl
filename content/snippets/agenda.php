@@ -28,6 +28,7 @@ $pastEvents = (new EventProvider())->getPastEvents();
                 <?php if ($event->getDescription()): ?>
                     <?= $event->getDescription() ?>
                 <?php endif; ?>
+                <address><a href="https://www.google.nl/maps/search/<?= urlencode($event->getLocation()) ?>"><?= $event->getLocation() ?></a></address>
             </td>
         </tr>
     <?php endforeach; ?>

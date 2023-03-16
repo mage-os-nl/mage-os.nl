@@ -10,6 +10,7 @@ class Event
     private string $time = '';
     private string $description = '';
     private string $url = '';
+    private string $location;
 
     public function __construct(array $data = [])
     {
@@ -19,6 +20,7 @@ class Event
         $this->time = $data['time'] ?? '';
         $this->description = $data['description'] ?? '';
         $this->url = $data['url'] ?? '';
+        $this->location = $data['location'] ?? '';
     }
 
     /**
@@ -72,5 +74,13 @@ class Event
     public function getTimestamp(): int
     {
         return $this->timestamp;
+    }
+
+    /**
+     * @return string
+     */
+    public function getLocation(): string
+    {
+        return $this->location;
     }
 }

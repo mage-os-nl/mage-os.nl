@@ -25,6 +25,9 @@ class EventProvider
         return $events;
     }
 
+    /**
+     * @return Event[]
+     */
     public function getUpcomingEvents(): array
     {
         $activeEvents = [];
@@ -37,6 +40,9 @@ class EventProvider
         return $activeEvents;
     }
 
+    /**
+     * @return Event[]
+     */
     public function getPastEvents(): array
     {
         $pastEvents = [];

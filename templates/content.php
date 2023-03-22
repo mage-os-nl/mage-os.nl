@@ -27,8 +27,10 @@ $page = (new Router)->getPage();
 
 <footer class="pb-8">
     <hr/>
-    <p class="pt-8 text-sm text-gray-400 clear-both">Mage OS Nederland - Vereniging - KvK 88186288 - <a
+    <p class="pt-4 text-sm text-gray-500 clear-both">Mage OS Nederland - Vereniging - KvK 88186288 - <a
                 href="https://github.com/yireo/mage-os.nl">GitHub source</a></p>
-    <p class="pt-8 text-sm text-gray-400 clear-both">Magento™ is a registered trademark of Adobe Inc. Mage-OS is not
+    <p class="pt-4 text-sm text-gray-500 clear-both">Zie je een foutje? Stuur een mail naar <a href="mailto:bestuur@nl.mage-os.org">bestuur@nl.mage-os.org</a> of maak een Pull Request aan op onze <a
+                href="https://github.com/yireo/mage-os.nl">GitHub repository</a></p>
+    <p class="pt-4 text-sm text-gray-500 clear-both">Magento™ is a registered trademark of Adobe Inc. Mage-OS is not
         affiliated with Adobe or Magento Open Source in any way.</p>
 </footer>

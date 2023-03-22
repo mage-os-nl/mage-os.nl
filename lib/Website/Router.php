@@ -11,6 +11,7 @@ class Router
         }
 
         $request = trim($_SERVER['REQUEST_URI'], '/');
+        $request = preg_replace('/\?(.*)/', '', $request);
         return (new PageRepository())->getPageByName($request);
     }
 }

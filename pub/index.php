@@ -1,6 +1,7 @@
 <?php declare(strict_types=1);
 
 use MageOsNl\Registry;
+use MageOsNl\Website\MembershipSubmit;
 
 require_once '../vendor/autoload.php';
 
@@ -49,6 +50,15 @@ if (strstr($_SERVER['REQUEST_URI'], '/eventbrite') && !empty($_REQUEST['id'])) {
 
     require_once '../templates/eventbrite-export.php';
     exit;
+}
+
+if (strstr($_SERVER['REQUEST_URI'], '/lid-worden-post') && $_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST)) {
+    try {
+        (new MembershipSubmit())->execute($_POST);
+    } catch (UnexpectedValueException $unexpectedValueException) {
+        header('Location: /lid-worden?msg=' . $unexpectedValueException->getMessage());
+        exit;
+    }
 }
 
 require_once '../templates/html.php';

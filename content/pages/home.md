@@ -11,15 +11,3 @@ Mage-OS Nederland is een intiatief van enkele community leden om de Nederlandse 
 Het idee is om eerst een vereniging op te zetten (met de initiatiefnemers als interim bestuur, dan een ledenvergadering te organiseren en dan verdere community initiatieven te omarmen (zoals Nederlandse events, een betere website, informatievoorziening richting webwinkeliers en nog veel meer). 
 
 Alle hulp is hierbij welkom, dus een van de eerste taken van het interim bestuur zal zijn om een organisatievorm te starten waardoor allerlei mogelijk initiatieven direct kunnen worden omarmd.
-
-### Initiatiefnemers {#initiatief}
-- Jeroen Boersma (Elgentos)
-- Jisse Reitsma (Yireo)
-- Peter Jaap Blaakmeer (Elgentos)
-- Sander de Graaf (3WebApps)
-- Sanne Bolkenstein (Hyvä)
-- Willem Wigman (Hyvä)
-
-
----
-

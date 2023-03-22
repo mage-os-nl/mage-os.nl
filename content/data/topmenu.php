@@ -3,7 +3,6 @@
 use MageOsNl\Website\MenuItem;
 
 return [
-    new MenuItem('Initiatief', '/'),
     new MenuItem('Vereniging', '/vereniging'),
     new MenuItem('Agenda', '/agenda'),
     new MenuItem('FAQ', '/faq'),

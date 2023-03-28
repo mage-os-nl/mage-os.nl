@@ -25,7 +25,7 @@ $page = (new Router)->getPage();
     <?php echo $page->getHtml(); ?>
 </main>
 
-<footer class="pb-8">
+<footer class="pb-8 pt-12">
     <hr/>
     <p class="pt-4 text-sm text-gray-500 clear-both">Mage OS Nederland - Vereniging - KvK 88186288 - <a
                 href="https://github.com/yireo/mage-os.nl">GitHub source</a></p>

@@ -7,27 +7,11 @@
 - Je kan deelnemen in ledenvergaderingen en beslist daarmee mee over wat er gebeurt in de Nederlandse Magento community;
 
 ## Hoe kan ik me hier aanmelden?
-Je meldt jezelf via het onderstaande formulier. Na het invullen van een geldig emailadres wordt je doorgesluisd naar een Bunq betaalpagina. Daar kan je de contributie van 10 Euro overmaken. Je bent officieel lid vanaf het moment dat wij jouw betaling hebben ontvangen en hebben gekoppeld aan jouw emailadres, je ontvangt daarover vanzelf bericht.
+Je meldt jezelf via het onderstaande Google Forms formulier. Later ontvang je nog een email met instructies voor het overmaken van de contributie van 10 Euro. Je bent officieel lid vanaf het moment dat wij jouw betaling hebben ontvangen en hebben gekoppeld aan jouw emailadres.
 
-<div class="w-full max-w-xs">
-  <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" method="post" action="/lid-worden-post">
-    <div class="mb-4">
-      <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
-        Jouw emailadres
-      </label>
-      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="email" type="email" placeholder="jouwnaam@voorbeeld.nl" required>
-    </div>
-    <div class="flex items-center justify-between">
-      <input type="hidden" name="password2"/>
-      <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
-        Versturen om lid te worden
-      </button>
-    </div>
-  </form>
-</div>
+<a class="py-4 hover:text-primary m-4 p-4 text-white bg-orange-600 transition-colors text-center" href="https://docs.google.com/forms/d/e/1FAIpQLSclanrbUJWqhB0kdUXT-mj8-o_8Y2QQ2pXKbe-knMHjPyas1Q/viewform">Meld je nu direct aan</a>
 
-## Aanmelden via handmatige overschrijving
-Los van het bovenstaande formulier kan je je ook handmatig aanmelden. Hiervoor kan je een mail sturen naar [bestuur@nl.mage-os.org](mailto:bestuur@nl.mage-os.org) en de contributie handmatig overmaken naar het volgende IBAN nummer: (binnenkort beschikbaar) Vermeld in de omschrijving van jouw overschrijving ook jouw emailadres. 
+Er wordt op dit moment hard gewerkt aan een automatisch proces. Helaas is dat op dit moment nog niet beschikbaar.
 
 ## Aanmelden voor sponsorship
 We zijn ook op zoek naar sponsoren. Er wordt nog gewerkt aan sponsorpakketten. Mocht je nu al interesse hebben, stuur dan een mail naar [bestuur@nl.mage-os.org](mailto:bestuur@nl.mage-os.org)

@@ -40,9 +40,9 @@ class PageRepository
     private function getPageNamesFromFiles(): array
     {
         $pages = [];
-        $files = glob(Registry::getInstance()->getContentDirectory().'/pages/*.md');
+        $files = glob(Registry::getInstance()->getContentDirectory().'/pages/*.{md,php}', GLOB_BRACE);
         foreach ($files as $file) {
-            $pages[] = preg_replace('/\.md/', '', basename($file));
+            $pages[] = preg_replace('/\.(md|php)/', '', basename($file));
         }
 
         return $pages;

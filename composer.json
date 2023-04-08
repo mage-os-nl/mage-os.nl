@@ -1,12 +1,13 @@
 {
-    "require": {
-        "michelf/php-markdown": "^2.0",
-        "jamiehollern/eventbrite": "^1.0",
-        "monolog/monolog": "^3.2"
-    },
-    "autoload": {
-        "psr-4": {
-            "MageOsNl\\": "lib/"
-        }
+  "require": {
+    "michelf/php-markdown": "^2.0",
+    "jamiehollern/eventbrite": "^1.0",
+    "monolog/monolog": "^3.2",
+    "ext-intl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "MageOsNl\\": "lib/"
     }
+  }
 }

@@ -1163,12 +1163,12 @@ video {
   padding: 1rem;
 }
 
-.p-1 {
-  padding: 0.25rem;
-}
-
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
 }
 
 .py-4 {
@@ -1236,10 +1236,6 @@ video {
   line-height: 2rem;
 }
 
-.font-medium {
-  font-weight: 500;
-}
-
 .font-extrabold {
   font-weight: 800;
 }
@@ -1247,11 +1243,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-sky-500 {
-  --tw-text-opacity: 1;
-  color: rgb(14 165 233 / var(--tw-text-opacity));
 }
 
 .text-gray-500 {

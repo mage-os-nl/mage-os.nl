@@ -27,6 +27,7 @@ class Page
 
         try {
             $markdown = $this->getMarkdownContent();
+            $markdown = str_replace('---', '', $markdown);
             $html = MarkdownExtra::defaultTransform($markdown);
         } catch(InvalidArgumentException $e) {}
 
@@ -49,7 +50,7 @@ class Page
             throw new InvalidArgumentException('No such file "' . $file . '"');
         }
 
-        return file_get_contents(Registry::getInstance()->getContentDirectory() . '/pages/' . $this->getName() . '.md');
+        return file_get_contents($file);
     }
 
     /**

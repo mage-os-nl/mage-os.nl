@@ -39,10 +39,17 @@ class PageRepository
 
     private function getPageNamesFromFiles(): array
     {
+        $pagesDir = Registry::getInstance()->getContentDirectory() . '/pages/';
+
         $pages = [];
-        $files = glob(Registry::getInstance()->getContentDirectory().'/pages/*.{md,php}', GLOB_BRACE);
+        $files = glob($pagesDir . '/*.{md,php}', GLOB_BRACE);
         foreach ($files as $file) {
             $pages[] = preg_replace('/\.(md|php)/', '', basename($file));
+        }
+
+        $blogFiles = glob($pagesDir . '/blog/*.{md,php}', GLOB_BRACE);
+        foreach ($blogFiles as $blogFile) {
+            $pages[] = 'blog/' . preg_replace('/\.(md|php)/', '', basename($blogFile));
         }
 
         return $pages;

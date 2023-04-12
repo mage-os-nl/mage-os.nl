@@ -15,10 +15,11 @@ class BlogProvider
 
         $blogs = [];
         foreach ($files as $file) {
+            $id = preg_replace('/\.md$/', '', basename($file));
             $timestamp = $this->getTimestampFromFilename($file);
             $content = $this->getContentFromFilename($file);
             $title = $this->getTitleFromFilename($file);
-            $blogs[$timestamp] = new Blog($title, $timestamp, $content);
+            $blogs[$timestamp] = new Blog($id, $title, $timestamp, $content);
         }
 
         krsort($blogs);

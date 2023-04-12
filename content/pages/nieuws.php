@@ -8,6 +8,7 @@ $blogs = (new BlogProvider())->getBlogs();
 
 <?php foreach ($blogs as $blog): ?>
 <h2><?= $blog->getTitle() ?></h2>
-<p><em><?php echo $blog->getDate() ?></em></p>
-<?php echo $blog->getContent() ?>
+<p><em><?= $blog->getDate() ?></em></p>
+<?= $blog->getIntro() ?>
+<a class="p-2 text-white bg-orange-600" href="/blog/<?= $blog->getId() ?>">Lees meer</a>
 <?php endforeach; ?>

@@ -7,16 +7,25 @@ use Michelf\MarkdownExtra;
 
 class Blog
 {
-
+    private string $id;
     private string $title;
     private int $timestamp;
     private string $content;
 
-    public function __construct(string $title, int $timestamp, string $content)
+    public function __construct(string $id, string $title, int $timestamp, string $content)
     {
+        $this->id =$id;
         $this->title = $title;
         $this->timestamp = $timestamp;
         $this->content = $content;
+    }
+
+    /**
+     * @return string
+     */
+    public function getId(): string
+    {
+        return $this->id;
     }
 
     /**
@@ -30,9 +39,19 @@ class Blog
     /**
      * @return string
      */
+    public function getIntro(): string
+    {
+        $parts = explode('---', $this->content);
+        return MarkdownExtra::defaultTransform($parts[0]);
+    }
+
+    /**
+     * @return string
+     */
     public function getContent(): string
     {
-        return MarkdownExtra::defaultTransform($this->content);
+        $content = MarkdownExtra::defaultTransform($this->content);
+        return implode('', explode('---', $content));
     }
 
     /**

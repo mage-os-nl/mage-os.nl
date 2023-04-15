@@ -16,7 +16,7 @@ $page = (new Router)->getPage();
     <a href="https://github.com/mage-os-nl" class="p-1">
         <?php include __DIR__ . '/../resources/svg/github.svg' ?>
     </a>
-    <a href="https://chat.mage-os.org" class="p-1">
+    <a href="http://chat.mage-os.org" class="p-1">
         <?php include __DIR__ . '/../resources/svg/discord.svg' ?>
     </a>
 </div>

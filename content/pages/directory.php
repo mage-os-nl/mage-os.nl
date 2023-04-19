@@ -5,7 +5,7 @@ use MageOsNl\Website\DirectoryProvider;
 $items = (new DirectoryProvider())->getDirectoryItems();
 ?>
 <h1>Directory</h1>
-<p>Hieronder vindt je een lijst van bedrijven actief in het Nederlandse Magento ecosysteem. Ook hierbij vermeld worden? Maak een Pull Request aan op onze <a href="https://github.com/mage-os-nl/mage-os.nl">GitHub repository</a></p>
+<p>Hieronder vind je een lijst van bedrijven actief in het Nederlandse Magento ecosysteem. Ook hierbij vermeld worden? Maak een Pull Request aan op onze <a href="https://github.com/mage-os-nl/mage-os.nl">GitHub repository</a>. We hebben wel de voorwaarde dat op de eigen site een link terug naar onze <a href="https://nl.mage-os.org">nl.mage-os.org</a> website wordt geplaatst als tegenpresentatie.</p>
 
 <div class="grid grid-cols-4 gap-4">
     <?php foreach ($items as $item): ?>

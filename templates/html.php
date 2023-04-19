@@ -1,5 +1,5 @@
 <?php
-$baseUrl = ($_SERVER['HTTPS'] ? 'https' : 'http') . '//' . $_SERVER['HTTP_HOST'];
+$baseUrl = ($_SERVER['HTTPS'] ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
 ?>
 
 <!DOCTYPE HTML>

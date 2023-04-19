@@ -7,7 +7,7 @@ $baseUrl = ($_SERVER['HTTPS'] ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'
 <head>
     <title>Mage-OS Nederland</title>
     <meta charset="utf-8"/>
-    <meta name="description" content="Vereniging voor de Nederlandse Magento community"/>
+    <meta name="description" content="Vereniging voor de Nederlandse Magento community met activiteiten zoals borrels & events organiseren, documentatie schrijven"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Mage-OS Nederland" />
     <meta property="og:description" content="Vereniging voor de Nederlandse Magento community" />

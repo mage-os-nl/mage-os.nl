@@ -43,5 +43,13 @@
     "description": "Een nieuwe unconference georganiseerd door Yireo",
     "location": "Fort aan de Klop, Utrecht",
     "url": "https://mageunconference.nl/"
+  },
+  {
+    "timestamp": "2023-11-02",
+    "date": "2 november 2023",
+    "title": "MeetMagento Nederland",
+    "description": "Eindelijk weer eens een Magento event voor iedereen",
+    "location": "tbd",
+    "url": "http://nl.meet-magento.com/"
   }
 ]

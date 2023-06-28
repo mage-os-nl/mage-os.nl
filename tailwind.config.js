@@ -2,7 +2,8 @@
 module.exports = {
   content: [
       "./content/**/*.{php,phtml,md}",
-      "./templates/**/*.{php,phtml}",
+      "./templates/*.{php,phtml}",
+      "./resources/svg/*.svg",
   ],
   theme: {
     extend: {

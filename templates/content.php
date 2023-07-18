@@ -8,12 +8,6 @@ $page = (new Router)->getPage();
 
 <div class="container mb-12 m-auto grid lg:grid-cols-3 md:grid-cols-1 gap-4 text-white">
     <div class=" bg-orange-600">
-        <a class="block py-4 hover:text-primary p-4 transition-colors text-center" href="https://mageunconference.nl">
-            <?php include __DIR__ . '/../resources/svg/link.svg' ?>
-            MageUnconference NL (13-14 juli)
-        </a>
-    </div>
-    <div class=" bg-orange-600">
         <a class="block py-4 hover:text-primary p-4 transition-colors text-center" href="https://nl.meet-magento.com">
             <?php include __DIR__ . '/../resources/svg/link.svg' ?>
             Meet Magento NL (2 nov)
@@ -23,6 +17,12 @@ $page = (new Router)->getPage();
         <a class="block py-4 hover:text-primary p-4 transition-colors text-center" href="http://eepurl.com/iusMg2">
             <?php include __DIR__ . '/../resources/svg/link.svg' ?>
             Nieuwsbrief
+        </a>
+    </div>
+    <div class=" bg-orange-600">
+        <a class="block py-4 hover:text-primary p-4 transition-colors text-center" href="/lid-worden">
+            <?php include __DIR__ . '/../resources/svg/link.svg' ?>
+            Nu lid worden
         </a>
     </div>
 </div>

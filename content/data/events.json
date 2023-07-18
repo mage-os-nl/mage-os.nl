@@ -23,12 +23,12 @@
     "timestamp": "2023-03-29",
     "date": "29 maart 2023",
     "time": "17:30 - 22:00",
-    "title": "Magento borrel tijdens Webwinkel Vakdagen",
+    "title": "Magento borrel (WWVD)",
     "description": "Traditionele borrel aan het eind van de woensdag van de Webwinkel Vakdagen",
     "location": "Uncle Jim, Croeselaan 91, Utrecht"
   },
   {
-    "timestamp": "2023-05-11",
+    "timestamp": "2023-05-05",
     "date": "5 mei 2023",
     "time": "16:00 - 20:00",
     "title": "Coven of Wisdom - Hyvä Edition",
@@ -43,6 +43,13 @@
     "description": "Een nieuwe unconference georganiseerd door Yireo",
     "location": "Fort aan de Klop, Utrecht",
     "url": "https://mageunconference.nl/"
+  },
+  {
+    "timestamp": "2023-09-09",
+    "date": "9 september 2023",
+    "title": "Magento hackathon",
+    "description": "Samenwerken aan nieuwe oplossingen binnen Magento (bij Yireo)",
+    "url": "https://www.yireo.com/hackathon/magento2-2023-1"
   },
   {
     "timestamp": "2023-11-02",

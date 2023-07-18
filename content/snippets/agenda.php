@@ -5,10 +5,13 @@ use MageOsNl\Website\EventProvider;
 $upcomingEvents = (new EventProvider())->getUpcomingEvents();
 $pastEvents = (new EventProvider())->getPastEvents();
 ?>
+<h2>Aankomende events</h2>
 <table class="table">
     <thead>
     <tr>
-        <th colspan="3">Aankomende events</th>
+        <th colspan="1" width="15%">Datum</th>
+        <th colspan="1" width="25%">Event</th>
+        <th colspan="1">Omschrijving</th>
     </tr>
     </thead>
     <tbody>
@@ -28,14 +31,22 @@ $pastEvents = (new EventProvider())->getPastEvents();
                 <?php if ($event->getDescription()): ?>
                     <?= $event->getDescription() ?>
                 <?php endif; ?>
-                <address><a href="https://www.google.nl/maps/search/<?= urlencode($event->getLocation()) ?>"><?= $event->getLocation() ?></a></address>
+                <address>
+                    <a href="https://www.google.nl/maps/search/<?= urlencode($event->getLocation()) ?>"><?= $event->getLocation() ?></a>
+                </address>
             </td>
         </tr>
     <?php endforeach; ?>
     </tbody>
+</table>
+
+<h2>Events in het verleden</h2>
+<table class="table">
     <thead>
     <tr>
-        <th colspan="3" style="padding-top:30px;">Events in het verleden</th>
+        <th colspan="1" width="15%">Datum</th>
+        <th colspan="1" width="25%">Event</th>
+        <th colspan="1">Omschrijving</th>
     </tr>
     </thead>
     <tbody>

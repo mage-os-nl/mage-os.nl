@@ -4,6 +4,7 @@ use MageOsNl\Website\MenuItem;
 
 return [
     new MenuItem('Vereniging', '/vereniging'),
+    new MenuItem('Nieuwsbrief', 'http://eepurl.com/iusMg2'),
     new MenuItem('Agenda', '/agenda'),
     new MenuItem('Blog', '/blog'),
     new MenuItem('FAQ', '/faq'),

@@ -16,6 +16,7 @@ $menuItems = include Registry::getInstance()->getContentDirectory(). '/data/topm
             <a href="/">
                 <h1 class="hidden md:block pt-2 pb-2 text-3xl font-extrabold">Mage-OS Nederland</h1>
                 <h1 class="block md:hidden pb-2 text-2xl font-extrabold">Mage-OS NL</h1>
+                <h2>De Nederlandse Magento community</h2>
             </a>
         </div>
 
@@ -45,7 +46,7 @@ $menuItems = include Registry::getInstance()->getContentDirectory(). '/data/topm
     </nav>
 
     <nav class="inline-flex w-full md:flex-grow md:w-auto">
-        <ul class="flex flex-row w-full md:w-auto md:ml-auto justify-between gap-2 lg:gap-4 xl:gap-8 md:text-lg">
+        <ul class="flex flex-row w-full md:w-auto md:ml-auto justify-between gap-2 lg:gap-2 xl:gap-4 md:text-lg">
             <?php foreach ($menuItems as $menuItem): ?>
                 <li class="flex-auto hidden lg:block">
                     <a class="<?= $menuItem->getClass() ?>"

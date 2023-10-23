@@ -5,26 +5,10 @@ use Michelf\MarkdownExtra;
 
 $page = (new Router)->getPage();
 ?>
-
-<div class="container mb-12 m-auto grid lg:grid-cols-3 md:grid-cols-1 gap-4 text-white">
-    <div class=" bg-orange-600">
-        <a class="block py-4 hover:text-primary p-4 transition-colors text-center" href="https://nl.meet-magento.com">
-            <?php include __DIR__ . '/../resources/svg/link.svg' ?>
-            Meet Magento NL (2 nov)
-        </a>
-    </div>
-    <div class=" bg-orange-600">
-        <a class="block py-4 hover:text-primary p-4 transition-colors text-center" href="http://eepurl.com/iusMg2">
-            <?php include __DIR__ . '/../resources/svg/link.svg' ?>
-            Nieuwsbrief
-        </a>
-    </div>
-    <div class=" bg-orange-600">
-        <a class="block py-4 hover:text-primary p-4 transition-colors text-center" href="/lid-worden">
-            <?php include __DIR__ . '/../resources/svg/link.svg' ?>
-            Nu lid worden
-        </a>
-    </div>
+<div class="pb-8">
+    <a href="https://nl.meet-magento.com" title="Meet Magento Nederland 2023" target="_new">
+    <img src="/images/headers/mm23nl_x_cover_en.png" alt="Meet Magento Nederland 2023"/>
+    </a>
 </div>
 
 <div class="float-right pb-4">

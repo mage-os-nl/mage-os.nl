@@ -61,4 +61,5 @@ if (strstr($_SERVER['REQUEST_URI'], '/lid-worden-post') && $_SERVER['REQUEST_MET
     }
 }
 
+$_ENV['image_folder'] = dirname(__DIR__) . '/pub/images/';
 require_once '../templates/html.php';

@@ -4,8 +4,10 @@ use MageOsNl\Registry;
 use MageOsNl\Website\MembershipSubmit;
 
 require_once '../vendor/autoload.php';
+require_once '../lib/functions.php';
 
-Registry::getInstance()->setContentDirectory(dirname(__DIR__) . '/content');
+define('__ROOT__', dirname(__DIR__));
+Registry::getInstance()->setContentDirectory(__ROOT__ . '/content');
 
 function getRealhost(): string
 {
@@ -40,7 +42,14 @@ if ((!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] !== "on") && isRealhost()) {
     exit;
 }
 
-if (strstr($_SERVER['REQUEST_URI'], '/eventbrite') && !empty($_REQUEST['id'])) {
+$requestUri = $_SERVER['REQUEST_URI'];
+if (preg_match('#^/(en|nl)(.*)$#', $requestUri, $match)) {
+    $_GET['language'] = $match[1];
+    $requestUri = $match[2];
+    $_SERVER['REQUEST_URI'] = $requestUri;
+}
+
+if (strstr($requestUri, '/eventbrite') && !empty($_REQUEST['id'])) {
     $data = (new \MageOsNl\EventbriteExport())->getAttendeesByEventId($_REQUEST['id']);
     if (isset($_REQUEST['format']) && $_REQUEST['format'] === 'json') {
         header('Content-Type: application/json');

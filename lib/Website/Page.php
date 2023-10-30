@@ -29,11 +29,13 @@ class Page
             $markdown = $this->getMarkdownContent();
             $markdown = str_replace('---', '', $markdown);
             $html = MarkdownExtra::defaultTransform($markdown);
-        } catch(InvalidArgumentException $e) {}
+        } catch (InvalidArgumentException $e) {
+        }
 
         try {
             $html = $this->getPhpContent();
-        } catch(InvalidArgumentException $e) {}
+        } catch (InvalidArgumentException $e) {
+        }
 
         return $this->renderSnippets($html);
     }
@@ -44,10 +46,13 @@ class Page
      */
     private function getMarkdownContent(): string
     {
-        $file = Registry::getInstance()->getContentDirectory() . '/pages/' . $this->getName() . '.md';
+        $file = $this->getPagesDirectory().$this->getName().'-'.Translation::getLanguage().'.md';
+        if (!file_exists($file)) {
+            $file = $this->getPagesDirectory().$this->getName().'.md';
+        }
 
         if (!file_exists($file)) {
-            throw new InvalidArgumentException('No such file "' . $file . '"');
+            throw new InvalidArgumentException('No such file "'.$file.'"');
         }
 
         return file_get_contents($file);
@@ -59,14 +64,15 @@ class Page
      */
     private function getPhpContent(): string
     {
-        $file = Registry::getInstance()->getContentDirectory() . '/pages/' . $this->getName() . '.php';
+        $file = $this->getPagesDirectory().$this->getName().'.php';
 
         if (!file_exists($file)) {
-            throw new InvalidArgumentException('No such file "' . $file . '"');
+            throw new InvalidArgumentException('No such file "'.$file.'"');
         }
 
         ob_start();
         include($file);
+
         return ob_get_clean();
     }
 
@@ -87,7 +93,7 @@ class Page
     private function renderSnippet(string $snippetName): string
     {
         $snippetName = preg_replace('/[\W\d_]/i', '', $snippetName);
-        $snippetFile = Registry::getInstance()->getContentDirectory() . '/snippets/' . $snippetName . '.php';
+        $snippetFile = $this->getContentDirectory().'/snippets/'.$snippetName.'.php';
         if (!file_exists($snippetFile)) {
             return '';
         }
@@ -98,5 +104,15 @@ class Page
         ob_end_clean();
 
         return $snippetHtml;
+    }
+
+    private function getContentDirectory(): string
+    {
+        return Registry::getInstance()->getContentDirectory();
+    }
+
+    private function getPagesDirectory(): string
+    {
+        return $this->getContentDirectory().'/pages/';
     }
 }

@@ -6,7 +6,7 @@ class MenuItem {
     public function __construct(
         private string $label,
         private string $url,
-        private string $class = 'block py-4 hover:text-primary transition-colors text-center'
+        private string $class = 'block py-1 hover:text-primary transition-colors text-center'
     ) {
     }
 
@@ -15,7 +15,7 @@ class MenuItem {
      */
     public function getLabel(): string
     {
-        return $this->label;
+        return __($this->label);
     }
 
     /**
@@ -23,7 +23,11 @@ class MenuItem {
      */
     public function getUrl(): string
     {
-        return $this->url;
+        if (str_starts_with($this->url, 'http')) {
+            return $this->url;
+        }
+
+        return '/' . Translation::getLanguage() . $this->url;
     }
 
     /**

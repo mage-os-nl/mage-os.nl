@@ -5,19 +5,23 @@ $baseUrl = (isset($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTT
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Mage-OS Nederland</title>
+    <title><?= __('Mage-OS Netherlands') ?></title>
     <meta charset="utf-8"/>
-    <meta name="description" content="Vereniging voor de Nederlandse Magento community met activiteiten zoals borrels & events organiseren, documentatie schrijven"/>
+    <meta name="description" content="<?= __('Assocation for the Dutch Magento community') ?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Mage-OS Nederland" />
-    <meta property="og:description" content="Vereniging voor de Nederlandse Magento community" />
+    <meta property="og:title" content="<?= __('Mage-OS Netherlands') ?>" />
+    <meta property="og:description" content="<?= __('Assocation for the Dutch Magento community') ?>" />
     <meta property="og:image" content="<?= $baseUrl ?>/images/mage-os-social.png" />
     <meta property="og:type" content="website" />
-    <meta property="og:locale" content="nl_NL" />
+    <?php if (isset($_GET['language']) && $_GET['language'] === 'en'): ?>
+        <meta property="og:locale" content="en_GB" />
+    <?php else: ?>
+        <meta property="og:locale" content="nl_NL" />
+    <?php endif; ?>
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@mage_os_nl" />
-    <meta name="twitter:title" content="Mage-OS Nederland" />
-    <meta name="twitter:description" content="Vereniging voor de Nederlandse Magento community" />
+    <meta name="twitter:title" content="<?= __('Mage-OS Netherlands') ?>" />
+    <meta name="twitter:description" content="<?= __('Assocation for the Dutch Magento community') ?>" />
     <meta name="twitter:image" content="<?= $baseUrl ?>/images/mage-os-social.png" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="/style.css?v=<?= md5_file(__DIR__.'/../pub/style.css') ?>">

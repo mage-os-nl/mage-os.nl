@@ -44,7 +44,9 @@ class PageRepository
         $pages = [];
         $files = glob($pagesDir . '/*.{md,php}', GLOB_BRACE);
         foreach ($files as $file) {
-            $pages[] = preg_replace('/\.(md|php)/', '', basename($file));
+            $file = preg_replace('/\.(md|php)/', '', basename($file));
+            $file = preg_replace('/-(nl|en)/', '', $file);
+            $pages[] = $file;
         }
 
         $blogFiles = glob($pagesDir . '/blog/*.{md,php}', GLOB_BRACE);

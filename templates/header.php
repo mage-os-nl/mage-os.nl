@@ -21,7 +21,7 @@ $menuItems = include Registry::getInstance()->getContentDirectory(). '/data/topm
             </a>
         </div>
 
-        <button style="position:absolute; right:20px;" class="outline-none md:hidden" @click="open = ! open">
+        <button class="absolute right-0 outline-none md:hidden" @click="open = ! open">
             <svg
                     class="w-6 h-6 text-gray-500"
                     fill="none"

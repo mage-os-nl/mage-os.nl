@@ -1333,6 +1333,28 @@ video {
   transition-duration: 150ms;
 }
 
+@media (max-width: 600px) {
+  .prose :where(h1):not(:where([class~="not-prose"] *)) {
+    font-size: 1.4em;
+  }
+
+  .prose :where(h2):not(:where([class~="not-prose"] *)) {
+    font-size: 1.3em;
+  }
+
+  .prose :where(h3):not(:where([class~="not-prose"] *)) {
+    font-size: 1.2em;
+  }
+
+  .prose :where(h4):not(:where([class~="not-prose"] *)) {
+    font-size: 1.15em;
+  }
+
+  .prose :where(h5):not(:where([class~="not-prose"] *)) {
+    font-size: 1.1em;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:ml-auto {
     margin-left: auto;

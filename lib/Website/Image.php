@@ -43,7 +43,7 @@ class Image
         } catch(RuntimeException $e) {}
 
         usort($sources, function(Source $source1, Source $source2) {
-            return $source1->getSize() > $source2->getSize();
+            return ($source1->getSize() > $source2->getSize()) ? 1 : -1;
         });
 
         return $sources;

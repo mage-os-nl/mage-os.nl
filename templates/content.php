@@ -5,11 +5,8 @@ use MageOsNl\Website\Router;
 
 $page = (new Router)->getPage();
 ?>
-<div class="pb-8">
-    <a href="https://nl.meet-magento.com" title="Meet Magento Nederland 2023" target="_new">
-        <?= ImageFactory::create('headers/mm23nl_x_cover_en.png', 'Meet Magento Nederland 2023') ?>
-    </a>
-</div>
+<?php include_once __DIR__ . '/header/mmnl.php'; ?>
+
 
 <div class="float-right pb-4">
     <div class="md:flex-none lg:flex content-end lg:pb-4">

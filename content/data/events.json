@@ -64,7 +64,17 @@
     "time": "17:30 - 22:00",
     "title": "Magento borrel (WWVD)",
     "description": "Traditionele borrel aan het eind van de eerste dag van de Webwinkel Vakdagen",
-    "location": "Uncle Jim, Croeselaan 91, Utrecht"
+    "location": "Uncle Jim, Croeselaan 91, Utrecht",
+    "url": "https://www.eventbrite.nl/e/tickets-mage-os-wwvd-borrel-777521025317"
+  },
+  {
+    "timestamp": "2024-02-29",
+    "date": "29 februari 2024",
+    "time": "16:00 - 18:00",
+    "title": "Mage-OS NL Ledenvergadering",
+    "description": "Jaarlijkse algemene ledenvergadering met aansluitende borrel",
+    "location": "Nader te bepalen, Utrecht",
+    "url": "https://www.eventbrite.com/e/tickets-mage-os-nederland-ledenvergadering-777521787597"
   },
   {
     "timestamp": "2024-10-31",

@@ -1,3 +1,40 @@
+@font-face {
+    font-family:"obviously-variable";
+    src:url("http://nl.mage-os.orgdev/fonts/obviously-variable.ttf") format("ttf");
+    font-display:auto;
+    font-style:normal;
+    font-weight:500;
+    font-stretch:condensed;
+}
+
+@font-face {
+    font-family:"obviously-super";
+    src:url("http://nl.mage-os.orgdev/fonts/obviously-super.woff2") format("woff2");
+    font-display:auto;
+    font-style:normal;
+    font-weight:800;
+    font-stretch:extra-condensed;
+}
+
+@font-face {
+    font-family:"obviously-condensed";
+    src:url("https://use.typekit.net/af/507dc4/00000000000000007735c9ce/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/507dc4/00000000000000007735c9ce/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/507dc4/00000000000000007735c9ce/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+}
+
+
+@font-face {
+    font-family:"obviously-narrow";
+    src:url("https://use.typekit.net/af/fd9c2d/00000000000000007735c9d9/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/fd9c2d/00000000000000007735c9d9/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/fd9c2d/00000000000000007735c9d9/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+    font-family:"obviously-narrow";
+    src:url("https://use.typekit.net/af/2ae5d7/00000000000000007735c9fc/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/2ae5d7/00000000000000007735c9fc/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/2ae5d7/00000000000000007735c9fc/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:600;font-stretch:normal;
+}
+
 /* latin-ext */
 @font-face {
     font-family: 'Montserrat';
@@ -7,6 +44,7 @@
     src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
+
 /* latin */
 @font-face {
     font-family: 'Montserrat';

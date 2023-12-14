@@ -20,6 +20,10 @@ function isLocalhost(): bool
         return true;
     }
 
+    if ($_SERVER['HTTP_HOST'] === 'nl.mage-os.orgdev') {
+        return true;
+    }
+
     return str_starts_with($_SERVER['HTTP_HOST'], 'localhost');
 }
 

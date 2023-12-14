@@ -1,0 +1,14 @@
+version: '3'
+services:
+  www:
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.mosnl.rule=Host(`nl.mage-os.orgdev`)"
+      - "traefik.http.routers.mosnl.entrypoints=http"
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        uid: 1000
+    volumes:
+      - .:/var/www/html

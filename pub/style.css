@@ -1205,10 +1205,6 @@ video {
   height:1.5rem;
 }
 
-.h-auto {
-  height:auto;
-}
-
 .h-full {
   height:100%;
 }
@@ -1421,11 +1417,6 @@ video {
   line-height:1;
 }
 
-.text-4xl {
-  font-size:2.25rem;
-  line-height:2.5rem;
-}
-
 .font-extrabold {
   font-weight:800;
 }
@@ -1506,11 +1497,6 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:text-2xl {
-    font-size:1.5rem;
-    line-height:2rem;
-  }
-
   .sm\:text-5xl {
     font-size:3rem;
     line-height:1;

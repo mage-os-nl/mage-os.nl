@@ -1,4 +1,4 @@
-# A new Magento community in the Netherlands
+# The Magento community of the Netherlands
 
 
 **Mage-OS Netherlands is an association that supports the Dutch Magento community. Mage-OS Nederland takes its name from [Mage-OS](https://mage-os.org/), a worldwide open initiative for the preservation of Magento Open Source (where *Mage* is a copyright-free corruption of Magento and *OS* stands for Open Source).**

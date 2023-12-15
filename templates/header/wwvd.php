@@ -11,10 +11,10 @@ $image->setCssClass('w-full h-auto');
        title="Webwinkel Vakdagen 2024 Magento Community Drinks" target="_new">
         <div class="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center">
             <div>
-                <h2 class="text-5xl text-white font-extrabold leading-none uppercase text-center">
+                <h2 class="text-5xl text-white font-extrabold uppercase text-center">
                     Webwinkel Vakdagen<br/>Magento Community Drinks
                 </h2>
-                <h3 class="text-3xl text-orange-400 text-center">
+                <h3 class="text-4xl text-orange-400 text-center pt-8">
                     October 31st, 2024 starting at 18:00<br/>
                     Cafe Uncle Jim, Utrecht
                 </h3>

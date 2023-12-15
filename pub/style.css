@@ -1368,6 +1368,10 @@ video {
   padding-left:6rem;
 }
 
+.pt-8 {
+  padding-top:2rem;
+}
+
 .text-center {
   text-align:center;
 }
@@ -1409,8 +1413,17 @@ video {
   line-height:1;
 }
 
+.text-4xl {
+  font-size:2.25rem;
+  line-height:2.5rem;
+}
+
 .font-extrabold {
   font-weight:800;
+}
+
+.font-light {
+  font-weight:300;
 }
 
 .uppercase {
@@ -1419,6 +1432,14 @@ video {
 
 .leading-none {
   line-height:1;
+}
+
+.leading-4 {
+  line-height:1rem;
+}
+
+.leading-10 {
+  line-height:2.5rem;
 }
 
 .text-white {

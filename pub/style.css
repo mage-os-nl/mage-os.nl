@@ -1422,24 +1422,12 @@ video {
   font-weight:800;
 }
 
-.font-light {
-  font-weight:300;
-}
-
 .uppercase {
   text-transform:uppercase;
 }
 
 .leading-none {
   line-height:1;
-}
-
-.leading-4 {
-  line-height:1rem;
-}
-
-.leading-10 {
-  line-height:2.5rem;
 }
 
 .text-white {
@@ -1460,16 +1448,6 @@ video {
 .text-black {
   --tw-text-opacity:1;
   color:rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.text-orange-100 {
-  --tw-text-opacity:1;
-  color:rgb(255 237 213 / var(--tw-text-opacity));
-}
-
-.text-orange-300 {
-  --tw-text-opacity:1;
-  color:rgb(253 186 116 / var(--tw-text-opacity));
 }
 
 .text-orange-400 {

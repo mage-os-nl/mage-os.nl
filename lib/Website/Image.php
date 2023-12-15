@@ -7,22 +7,26 @@ use RuntimeException;
 
 class Image
 {
+    private string $cssClass = '';
+
     public function __construct(
         private string $sourceImage,
         private string $alt = ''
-    ) {}
+    ) {
+    }
 
     public function __toString(): string
     {
-        $html = '<picture>';
+        $html = '<picture class="'.$this->cssClass.'">';
         foreach ($this->getSources() as $source) {
             $html .= '<source srcset="'.$source->getUrl().'" type="'.$source->getMimetype().'">';
         }
 
         $source = new Source($this->sourceImage);
-        $html .= '<img src="'.$source->getUrl().'" alt="'.$this->alt.'" />';
+        $html .= '<img src="'.$source->getUrl().'" alt="'.$this->alt.'" class="'.$this->cssClass.'"/>';
 
         $html .= '</picture>';
+
         return $html;
     }
 
@@ -36,13 +40,15 @@ class Image
 
         try {
             $sources[] = $this->getImageSource('webp');
-        } catch(RuntimeException $e) {}
+        } catch (RuntimeException $e) {
+        }
 
         try {
             $sources[] = $this->getImageSource('avif');
-        } catch(RuntimeException $e) {}
+        } catch (RuntimeException $e) {
+        }
 
-        usort($sources, function(Source $source1, Source $source2) {
+        usort($sources, function (Source $source1, Source $source2) {
             return ($source1->getSize() > $source2->getSize()) ? 1 : -1;
         });
 
@@ -62,5 +68,10 @@ class Image
     private function getBaseName(): string
     {
         return preg_replace('/\.(jpg|jpeg|png)/', '', $this->sourceImage);
+    }
+
+    public function setCssClass(string $cssClass): void
+    {
+        $this->cssClass = $cssClass;
     }
 }

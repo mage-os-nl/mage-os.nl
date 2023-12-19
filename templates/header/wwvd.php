@@ -23,6 +23,5 @@ $image->setCssClass('w-full h-full');
                 </h3>
             </div>
         </div>
-
     </a>
 </div>

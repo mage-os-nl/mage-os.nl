@@ -10,4 +10,5 @@ jobs:
       - uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
+      - uses: php-actions/composer@v6
       - run: php bin/directory-validation.php

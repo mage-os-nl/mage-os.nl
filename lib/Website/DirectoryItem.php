@@ -2,14 +2,10 @@
 
 namespace MageOsNl\Website;
 
-use IntlDateFormatter;
-use Michelf\MarkdownExtra;
-
 class DirectoryItem
 {
     public function __construct(
         private string $name,
-        private string $description,
         private string $role,
         private string $url,
         private string $logo
@@ -22,14 +18,6 @@ class DirectoryItem
     public function getName(): string
     {
         return $this->name;
-    }
-
-    /**
-     * @return string
-     */
-    public function getDescription(): string
-    {
-        return $this->description;
     }
 
     /**

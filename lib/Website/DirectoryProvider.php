@@ -11,22 +11,30 @@ class DirectoryProvider
      */
     public function getDirectoryItems(): array
     {
-        $filename = Registry::getInstance()->getContentDirectory() . '/data/directory.json';
+        $filename = Registry::getInstance()->getContentDirectory() . '/data/directory.csv';
         if (!file_exists($filename)) {
             return [];
         }
 
-        $items = json_decode(file_get_contents($filename), true);
         $directoryItems = [];
-        foreach ($items as $item) {
-            $directoryItems[] = new DirectoryItem(
-                $item['name'],
-                $item['description'],
-                $item['role'] ?? 'agency',
-                $item['url'],
-                $item['logo'],
-            );
+        if (($handle = fopen($filename, "r")) !== FALSE) {
+            while (($item = fgetcsv($handle, 1000, ",")) !== false) {
+                if (empty($item[0]) || $item[0] === 'name') {
+                    continue;
+                }
+
+                $directoryItems[] = new DirectoryItem(
+                    $item[0],
+                    $item[1],
+                    $item[2],
+                    $item[3],
+                );
+            }
         }
+
+        usort($directoryItems, function(DirectoryItem $a, DirectoryItem $b) {
+            return strcmp($a->getName(), $b->getName());
+        });
 
         return $directoryItems;
     }

@@ -23,11 +23,7 @@ class MenuItem {
      */
     public function getUrl(): string
     {
-        if (str_starts_with($this->url, 'http')) {
-            return $this->url;
-        }
-
-        return '/' . Translation::getLanguage() . $this->url;
+        return (new Url($this->url))->getUrl();
     }
 
     /**

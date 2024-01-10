@@ -5,16 +5,16 @@ use MageOsNl\Website\DirectoryProvider;
 $items = (new DirectoryProvider())->getDirectoryItems();
 ?>
 <h1>Directory</h1>
-<p>Hieronder vind je een lijst van bedrijven actief in het Nederlandse Magento ecosysteem. Ook hierbij vermeld worden? Maak een Pull Request aan op onze <a href="https://github.com/mage-os-nl/mage-os.nl">GitHub repository</a>. We hebben wel de voorwaarde dat op de eigen site een link terug naar onze <a href="https://nl.mage-os.org">nl.mage-os.org</a> website wordt geplaatst als tegenpresentatie.</p>
+<?= markdownFile('directory') ?>
 
-<div class="grid grid-cols-4 gap-4">
+<div class="grid grid-cols-4 gap-8">
     <?php foreach ($items as $item): ?>
-        <div class="p-4 text-center">
-            <a class="no-underline" href="<?= $item->getUrl() ?>">
+        <div class="shadow-lg ring-1 ring-black/5 p-8 text-center">
+            <a class="no-underline " href="<?= $item->getUrl() ?>">
                 <h3><?= $item->getName() ?></h3>
                 <em><?= $item->getRole() ?></em>
-                <div class="p-8">
-                    <img class="max-w-48 max-h-48 inline" src="<?= $item->getLogo() ?>" />
+                <div class="p-4">
+                    <img class="w-auto max-h-48 inline" src="<?= $item->getLogo() ?>" title="<?= $item->getName() ?>">
                 </div>
             </a>
         </div>

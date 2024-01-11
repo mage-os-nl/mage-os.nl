@@ -18,7 +18,7 @@ $image->setCssClass('w-full h-full');
                     Webwinkel Vakdagen<br/>Magento Community Drinks
                 </h2>
                 <h3 class="text-1xl md:text-2xl lg:text-4xl text-orange-400 text-center pt-8">
-                    January 23rd, 2024 starting at 18:00<br/>
+                    January 23rd, 2024 starting at 17:00<br/>
                     Cafe Uncle Jim, Utrecht
                 </h3>
             </div>

@@ -8,5 +8,5 @@ return [
     new MenuItem('Agenda', '/agenda'),
     new MenuItem('Blog', '/blog'),
     new MenuItem('FAQ', '/faq'),
-    new MenuItem('Become member', '/lidworden'),
+    new MenuItem('Become member', '/lid-worden'),
 ];

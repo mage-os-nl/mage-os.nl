@@ -15,7 +15,13 @@ function markdown(string $text): string
 
 function markdownFile(string $file): string
 {
-    $file = __ROOT__ . '/content/markdown/' . $file . '.md';
+    $language = Translation::getLanguage();
+    $file = __ROOT__.'/content/markdown/'.$file.'-'.$language.'.md';
+    if (!is_file($file)) {
+        $file = __ROOT__.'/content/markdown/'.$file.'.md';
+    }
+
     $text = file_get_contents($file);
+
     return MarkdownExtra::defaultTransform($text);
 }

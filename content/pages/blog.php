@@ -10,5 +10,5 @@ $blogs = (new BlogProvider())->getBlogs();
 <h2><?= $blog->getTitle() ?></h2>
 <p><em><?= $blog->getDate() ?></em></p>
 <?= $blog->getIntro() ?>
-<a class="p-2 text-white bg-orange-600" href="/blog/<?= $blog->getId() ?>">Lees meer</a>
+<a class="p-2 text-white bg-orange-600" href="/blog/<?= $blog->getId() ?>"><?= __('Read more') ?></a>
 <?php endforeach; ?>

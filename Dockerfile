@@ -5,6 +5,11 @@ ARG uid
 RUN a2enmod rewrite
 ENV PHP_MEMORY_LIMIT=-1
 
+RUN apt-get -y update \
+&& apt-get install -y libicu-dev \
+&& docker-php-ext-configure intl \
+&& docker-php-ext-install intl
+
 ENV APACHE_DOCUMENT_ROOT=/var/www/html/pub
 RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf
 RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/apache2.conf /etc/apache2/conf-available/*.conf

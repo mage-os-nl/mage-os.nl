@@ -1115,6 +1115,10 @@ video {
   right:0px;
 }
 
+.top-2 {
+  top:0.5rem;
+}
+
 .bottom-0 {
   bottom:0px;
 }
@@ -1147,6 +1151,10 @@ video {
   margin:auto;
 }
 
+.m-2 {
+  margin:0.5rem;
+}
+
 .mx-auto {
   margin-left:auto;
   margin-right:auto;
@@ -1157,12 +1165,25 @@ video {
   margin-right:0px;
 }
 
+.my-4 {
+  margin-top:1rem;
+  margin-bottom:1rem;
+}
+
 .mb-2 {
   margin-bottom:0.5rem;
 }
 
 .mt-4 {
   margin-top:1rem;
+}
+
+.mt-8 {
+  margin-top:2rem;
+}
+
+.mb-4 {
+  margin-bottom:1rem;
 }
 
 .block {
@@ -1231,8 +1252,8 @@ video {
           appearance:none;
 }
 
-.grid-cols-5 {
-  grid-template-columns:repeat(5, minmax(0, 1fr));
+.grid-cols-1 {
+  grid-template-columns:repeat(1, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -1293,9 +1314,9 @@ video {
   background-color:rgb(234 88 12 / var(--tw-bg-opacity));
 }
 
-.bg-gray-200 {
+.bg-gray-100 {
   --tw-bg-opacity:1;
-  background-color:rgb(229 231 235 / var(--tw-bg-opacity));
+  background-color:rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -1332,12 +1353,16 @@ video {
      object-fit:cover;
 }
 
+.p-8 {
+  padding:2rem;
+}
+
 .p-2 {
   padding:0.5rem;
 }
 
-.p-8 {
-  padding:2rem;
+.p-1 {
+  padding:0.25rem;
 }
 
 .p-6 {
@@ -1346,10 +1371,6 @@ video {
 
 .p-4 {
   padding:1rem;
-}
-
-.p-1 {
-  padding:0.25rem;
 }
 
 .px-4 {
@@ -1387,6 +1408,10 @@ video {
   padding-bottom:2rem;
 }
 
+.pt-16 {
+  padding-top:4rem;
+}
+
 .pt-4 {
   padding-top:1rem;
 }
@@ -1409,10 +1434,6 @@ video {
 
 .pr-2 {
   padding-right:0.5rem;
-}
-
-.pb-16 {
-  padding-bottom:4rem;
 }
 
 .pb-8 {
@@ -1452,6 +1473,11 @@ video {
   line-height:2.5rem;
 }
 
+.text-2xl {
+  font-size:1.5rem;
+  line-height:2rem;
+}
+
 .text-sm {
   font-size:0.875rem;
   line-height:1.25rem;
@@ -1460,11 +1486,6 @@ video {
 .text-3xl {
   font-size:1.875rem;
   line-height:2.25rem;
-}
-
-.text-2xl {
-  font-size:1.5rem;
-  line-height:2rem;
 }
 
 .text-lg {
@@ -1492,6 +1513,10 @@ video {
 
 .uppercase {
   text-transform:uppercase;
+}
+
+.italic {
+  font-style:italic;
 }
 
 .leading-tight {
@@ -1535,6 +1560,11 @@ video {
 .text-orange-400 {
   --tw-text-opacity:1;
   color:rgb(251 146 60 / var(--tw-text-opacity));
+}
+
+.text-zinc-500 {
+  --tw-text-opacity:1;
+  color:rgb(113 113 122 / var(--tw-text-opacity));
 }
 
 .no-underline {
@@ -1659,6 +1689,10 @@ video {
 
   .md\:flex-none {
     flex:none;
+  }
+
+  .md\:grid-cols-5 {
+    grid-template-columns:repeat(5, minmax(0, 1fr));
   }
 
   .md\:py-32 {

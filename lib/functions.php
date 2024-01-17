@@ -23,5 +23,5 @@ function markdownFile(string $fileId): string
 
     $text = file_get_contents($file);
 
-    return MarkdownExtra::defaultTransform($text);
+    return markdown($text);
 }

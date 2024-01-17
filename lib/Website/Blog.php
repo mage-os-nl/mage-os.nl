@@ -59,7 +59,7 @@ class Blog
      */
     public function getTimestamp(): int
     {
-        return $this->timestamp;
+        return $this->timestamp ?? 0;
     }
 
     public function getDate(): string

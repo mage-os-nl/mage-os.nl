@@ -7,3 +7,5 @@ require_once __DIR__ . '/lib/functions.php';
 
 define('__ROOT__', __DIR__);
 Registry::getInstance()->setContentDirectory(__ROOT__ . '/content');
+
+error_reporting(E_ALL);

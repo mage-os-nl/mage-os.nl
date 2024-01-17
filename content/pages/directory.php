@@ -7,9 +7,9 @@ $form = new DirectoryForm();
 $items = (new DirectoryProvider())->getDirectoryItems();
 $currentSort = (isset($_GET['sort']) && $_GET['sort'] === 'name_desc') ? 'name_desc' : 'name_asc';
 ?>
-<section class="bg-gray-200">
+<section class="bg-gray-100">
     <div class="mx-auto md:max-w-6xl px-4 xl:px-0 py-16">
-        <h1 class="text-4xl text-center p-8">Directory van Magento in Nederland (<?= count($items) ?>)</h1>
+        <h1 class="text-4xl text-center p-8"><?= __('Directory of Magento in Nederland') ?> (<?= count($items) ?>)</h1>
 
 
         <form method="get" class="py-4">
@@ -25,7 +25,7 @@ $currentSort = (isset($_GET['sort']) && $_GET['sort'] === 'name_desc') ? 'name_d
                    value="<?= $form->getSearch() ?>" placeholder="<?= __('Search') ?>" onChange="form.submit()">
         </form>
 
-        <div class="grid grid-cols-5 gap-4">
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
             <?php foreach ($items as $item): ?>
                 <div class="bg-white shadow-lg ring-1 ring-black/5 p-6 text-center">
                     <a class="no-underline " href="<?= $item->getUrl() ?>">
@@ -40,7 +40,7 @@ $currentSort = (isset($_GET['sort']) && $_GET['sort'] === 'name_desc') ? 'name_d
             <?php endforeach; ?>
         </div>
 
-        <div class="prose">
+        <div class="pt-16">
             <?= markdownFile('directory') ?>
         </div>
     </div>

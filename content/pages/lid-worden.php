@@ -13,7 +13,7 @@
                 <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                        name="email" id="email" type="email" placeholder="yourname@example.org" required>
             </div>
-            <div class="mt-4">
+            <div class="my-8">
                 <form class="" id="bank-form" method="get">
                     <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                             onClick="bankFormSubmit()">
@@ -38,6 +38,8 @@
             }
         </script>
 
+        <div class="mt-8">
         <?= markdownFile('become-member/bottom') ?>
+        </div>
     </div>
 </section>

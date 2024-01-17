@@ -1,5 +1,5 @@
 <div class="float-right pb-4">
-    <div class="md:flex-none lg:flex content-end lg:pb-4">
+    <div class="hidden md:flex content-end lg:pb-4">
         <a href="https://twitter.com/mage_os_nl" class="p-1">
             <?php include __ROOT__.'/resources/svg/twitter.svg' ?>
         </a>

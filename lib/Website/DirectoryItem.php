@@ -41,6 +41,6 @@ class DirectoryItem
      */
     public function getLogo(): string
     {
-        return $this->logo;
+        return (!empty($this->logo)) ? $this->logo : '/images/placeholder.svg';
     }
 }

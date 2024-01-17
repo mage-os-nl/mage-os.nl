@@ -3,6 +3,7 @@
 namespace MageOsNl\Website;
 
 use MageOsNl\Registry;
+use RuntimeException;
 
 class DirectoryProvider
 {
@@ -12,8 +13,8 @@ class DirectoryProvider
     public function getDirectoryItems(): array
     {
         $filename = Registry::getInstance()->getContentDirectory() . '/data/directory.csv';
-        if (!file_exists($filename)) {
-            return [];
+        if (false === file_exists($filename)) {
+            throw new RuntimeException('File "'.$filename.'" is not found');
         }
 
         $directoryItems = [];
@@ -27,16 +28,48 @@ class DirectoryProvider
                     $item[0],
                     $item[1],
                     $item[2],
-                    $item[3],
+                    $item[3] ?? '',
                 );
             }
         }
 
-        usort($directoryItems, function(DirectoryItem $a, DirectoryItem $b) {
-            return strcmp($a->getName(), $b->getName());
-        });
+        if (empty($directoryItems)) {
+            throw new RuntimeException('No directory items loaded');
+        }
+
+        $form = new DirectoryForm();
+        if ($form->hasSearch()) {
+            $search = $form->getSearch();
+            $directoryItems = array_filter($directoryItems, function(DirectoryItem $item) use($search) {
+                return stristr($item->getName(), $search) || stristr($item->getRole(), $search);
+            });
+        }
+
+        if ($form->getCurrentSort() === 'name_asc') {
+            usort($directoryItems, function(DirectoryItem $a, DirectoryItem $b) {
+                return strcmp($a->getName(), $b->getName());
+            });
+        }
+
+        if ($form->getCurrentSort() === 'name_desc') {
+            usort($directoryItems, function(DirectoryItem $a, DirectoryItem $b) {
+                return strcmp($b->getName(), $a->getName());
+            });
+        }
 
         return $directoryItems;
+    }
+
+    public function getAllowedRoles(): array
+    {
+        return [
+            'agency',
+            'payment',
+            'technology',
+            'training',
+            'security',
+            'shipping',
+        ];
     }
 
     /**

@@ -10,9 +10,10 @@ $menuItems = include Registry::getInstance()->getContentDirectory().'/data/topme
 <div class="text-sm">
     <div class="mx-auto md:max-w-6xl px-4 xl:px-0">
         <header class="relative flex flex-wrap items-center" x-data="{open:false}">
+            <?= include './header/social-media.php' ?>
             <div class=" flex pt-4 xs:w-1/3 max-width-xs mx-0">
                 <a href="/" class="block pb-2 max-w-[90px] md:max-w-[180px]">
-                    <?php include __DIR__.'/../resources/svg/mage-os-nl.svg' ?>
+                    <?php include __ROOT__.'/resources/svg/mage-os-nl.svg' ?>
                 </a>
 
                 <div>

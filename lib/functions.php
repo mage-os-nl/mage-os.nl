@@ -10,15 +10,15 @@ function __(string $text): string
 
 function markdown(string $text): string
 {
-    return MarkdownExtra::defaultTransform($text);
+    return '<div class="prose">'. MarkdownExtra::defaultTransform($text) . '</div>';
 }
 
-function markdownFile(string $file): string
+function markdownFile(string $fileId): string
 {
     $language = Translation::getLanguage();
-    $file = __ROOT__.'/content/markdown/'.$file.'-'.$language.'.md';
+    $file = __ROOT__.'/content/markdown/'.$fileId.'-'.$language.'.md';
     if (!is_file($file)) {
-        $file = __ROOT__.'/content/markdown/'.$file.'.md';
+        $file = __ROOT__.'/content/markdown/'.$fileId.'.md';
     }
 
     $text = file_get_contents($file);

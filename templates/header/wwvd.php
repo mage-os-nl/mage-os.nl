@@ -6,7 +6,7 @@ use MageOsNl\Website\ImageFactory;
 $image = ImageFactory::create('headers/mosnl-wwvd-nologo.png', 'Webwinkel Vakdagen 2024 Magento Community Drinks');
 $image->setCssClass('w-full h-full object-cover');
 ?>
-<div class="py-8 md:py-32 mb-16 relative" id="banner-wwvd">
+<div class="py-8 md:py-32 relative" id="banner-wwvd">
     <a href="https://www.eventbrite.nl/e/tickets-mage-os-wwvd-borrel-777521025317"
        title="Webwinkel Vakdagen 2024 Magento Community Drinks" target="_new">
         <div class="absolute top-0 left-0 right-0 bottom-0">

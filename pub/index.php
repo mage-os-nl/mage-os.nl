@@ -1,13 +1,8 @@
 <?php declare(strict_types=1);
 
-use MageOsNl\Registry;
 use MageOsNl\Website\MembershipSubmit;
 
-require_once '../vendor/autoload.php';
-require_once '../lib/functions.php';
-
-define('__ROOT__', dirname(__DIR__));
-Registry::getInstance()->setContentDirectory(__ROOT__ . '/content');
+require_once '../app.php';
 
 function getRealhost(): string
 {

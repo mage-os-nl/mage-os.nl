@@ -16,6 +16,13 @@ module.exports = {
         'obviously-condensed': ['obviously-condensed', ...defaultTheme.fontFamily.sans],
         'obviously-narrow': ['obviously-narrow', ...defaultTheme.fontFamily.sans],
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            maxWidth: '100ch',
+          }
+        }
+      }
     },
   },
   plugins: [

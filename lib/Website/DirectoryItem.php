@@ -8,7 +8,8 @@ class DirectoryItem
         private string $name,
         private string $role,
         private string $url,
-        private string $logo
+        private string $logo,
+        private bool $isSponsor = false
     ) {
     }
 
@@ -42,5 +43,10 @@ class DirectoryItem
     public function getLogo(): string
     {
         return (!empty($this->logo)) ? $this->logo : '/images/placeholder.svg';
+    }
+
+    public function isSponsor(): bool
+    {
+        return $this->isSponsor;
     }
 }

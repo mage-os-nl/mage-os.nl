@@ -12,6 +12,8 @@ class DirectoryProvider
      */
     public function getDirectoryItems(): array
     {
+        $sponsors = (new SponsorProvider())->getSponsorNames();
+
         $filename = Registry::getInstance()->getContentDirectory() . '/data/directory.csv';
         if (false === file_exists($filename)) {
             throw new RuntimeException('File "'.$filename.'" is not found');
@@ -24,11 +26,19 @@ class DirectoryProvider
                     continue;
                 }
 
+                $isSponsor = in_array($item[0], $sponsors);
+                $logoUrl = $item[3] ?? '';
+                if (preg_match('/^([a-zA-Z0-9\-\_]+)\.([a-zA-Z0-9]+)$/', $logoUrl)) {
+                    $logoUrl = '/images/directory/'.$logoUrl;
+                }
+
+
                 $directoryItems[] = new DirectoryItem(
                     $item[0],
                     $item[1],
                     $item[2],
-                    $item[3] ?? '',
+                    $logoUrl,
+                    $isSponsor
                 );
             }
         }
@@ -57,19 +67,11 @@ class DirectoryProvider
             });
         }
 
-        return $directoryItems;
-    }
+        usort($directoryItems, function(DirectoryItem $a, DirectoryItem $b) {
+            return $b->isSponsor() ? 1 : -1;
+        });
 
-    public function getAllowedRoles(): array
-    {
-        return [
-            'agency',
-            'payment',
-            'technology',
-            'training',
-            'security',
-            'shipping',
-        ];
+        return $directoryItems;
     }
 
     /**

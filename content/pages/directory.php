@@ -27,14 +27,22 @@ $currentSort = (isset($_GET['sort']) && $_GET['sort'] === 'name_desc') ? 'name_d
 
         <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
             <?php foreach ($items as $item): ?>
-                <div class="bg-white shadow-lg ring-1 ring-black/5 p-6 text-center">
-                    <a class="no-underline " href="<?= $item->getUrl() ?>">
+                <?php $sponsorClass = ($item->isSponsor()) ? 'border-orange-400 border-4' : ''; ?>
+                <div class="<?= $sponsorClass ?> bg-white relative overflow-hidden shadow-lg ring-1 ring-black/5 p-6 text-center">
+                    <?php if ($item->isSponsor()): ?>
+                        <div class="absolute transform rotate-45 right-[-45px] top-[15px] w-[140px] bg-orange-400 text-white" title="Sponsor of Mage-OS Nederland">
+                            Sponsor
+                        </div>
+                    <?php endif; ?>
+                    <a class="no-underline flex items-center justify-center " href="<?= $item->getUrl() ?>">
+                        <div>
                         <h3><?= $item->getName() ?></h3>
                         <div class="p-4">
                             <img class="w-auto max-h-48 inline" src="<?= $item->getLogo() ?>"
-                                 title="<?= $item->getName() ?>">
+                                 title="<?= $item->getName() ?>"/>
                         </div>
                         <span class="text-zinc-400"><?= $item->getRole() ?></span>
+                        </div>
                     </a>
                 </div>
             <?php endforeach; ?>

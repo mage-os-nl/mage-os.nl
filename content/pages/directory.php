@@ -30,18 +30,31 @@ $currentSort = (isset($_GET['sort']) && $_GET['sort'] === 'name_desc') ? 'name_d
                 <?php $sponsorClass = ($item->isSponsor()) ? 'border-orange-400 border-4' : ''; ?>
                 <div class="<?= $sponsorClass ?> bg-white relative overflow-hidden shadow-lg ring-1 ring-black/5 p-6 text-center">
                     <?php if ($item->isSponsor()): ?>
-                        <div class="absolute transform rotate-45 right-[-45px] top-[15px] w-[140px] bg-orange-400 text-white" title="Sponsor of Mage-OS Nederland">
+                        <div class="absolute transform rotate-45 right-[-45px] top-[15px] w-[140px] bg-orange-400 text-white"
+                             title="Sponsor of Mage-OS Nederland">
                             Sponsor
                         </div>
                     <?php endif; ?>
-                    <a class="no-underline flex items-center justify-center " href="<?= $item->getUrl() ?>">
-                        <div>
-                        <h3><?= $item->getName() ?></h3>
-                        <div class="p-4">
-                            <img class="w-auto max-h-48 inline" src="<?= $item->getLogo() ?>"
-                                 title="<?= $item->getName() ?>"/>
+                    <a href="<?= $item->getUrl() ?>">
+                        <div class="hidden md:block relative h-[250px] no-underline">
+                            <h3><?= $item->getName() ?></h3>
+                            <div class="absolute top-0 left-0 bottom-0 right-0 flex items-center justify-center	 p-4">
+                                <img class="w-auto max-h-48 inline" src="<?= $item->getLogo() ?>"
+                                     title="<?= $item->getName() ?>"/>
+                            </div>
+                            <div class="absolute bottom-2">
+                                <span class="text-zinc-400"><?= $item->getRole() ?></span>
+                            </div>
                         </div>
-                        <span class="text-zinc-400"><?= $item->getRole() ?></span>
+                        <div class="block md:hidden no-underline">
+                            <h3 class="text-lg font-bold my-4"><?= $item->getName() ?></h3>
+                            <div>
+                                <img src="<?= $item->getLogo() ?>"
+                                     title="<?= $item->getName() ?>"/>
+                            </div>
+                            <div class="my-4">
+                                <span class="text-zinc-400"><?= $item->getRole() ?></span>
+                            </div>
                         </div>
                     </a>
                 </div>

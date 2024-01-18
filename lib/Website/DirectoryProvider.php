@@ -67,9 +67,9 @@ class DirectoryProvider
             });
         }
 
-        usort($directoryItems, function(DirectoryItem $a, DirectoryItem $b) {
-            return $b->isSponsor() ? 1 : -1;
-        });
+        //usort($directoryItems, function(DirectoryItem $a, DirectoryItem $b) {
+        //    return $b->isSponsor() ? 1 : -1;
+        //});
 
         return $directoryItems;
     }

@@ -18,6 +18,7 @@ class DirectoryValidator
             'training',
             'security',
             'shipping',
+            'extensions',
         ];
     }
 }

@@ -42,14 +42,21 @@ class PageRepository
         $pagesDir = Registry::getInstance()->getContentDirectory() . '/pages/';
 
         $pages = [];
-        $files = glob($pagesDir . '/*.{md,php}', GLOB_BRACE);
+        $files = array_merge(
+            glob($pagesDir . '/*.md'),
+            glob($pagesDir . '/*.php')
+        );
+
         foreach ($files as $file) {
             $file = preg_replace('/\.(md|php)/', '', basename($file));
             $file = preg_replace('/-(nl|en)/', '', $file);
             $pages[] = $file;
         }
 
-        $blogFiles = glob($pagesDir . '/blog/*.{md,php}', GLOB_BRACE);
+        $blogFiles = array_merge(
+            glob($pagesDir . '/blog/*.md'),
+            glob($pagesDir . '/blog/*.php')
+        );
         foreach ($blogFiles as $blogFile) {
             $pages[] = 'blog/' . preg_replace('/\.(md|php)/', '', basename($blogFile));
         }

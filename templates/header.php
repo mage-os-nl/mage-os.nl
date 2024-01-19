@@ -9,7 +9,7 @@ $menuItems = include Registry::getInstance()->getContentDirectory().'/data/topme
 ?>
 <div class="text-sm">
     <div class="mx-auto md:max-w-6xl px-4 xl:px-0 relative">
-        <div class="absolute right-0 top-2">
+        <div class="absolute right-0 top-2 z-10">
             <?php include __ROOT__ .'/templates/header/social-media.php' ?>
         </div>
         <header class="relative flex flex-wrap items-center" x-data="{open:false}">

@@ -17,20 +17,58 @@ if (count($items) < 10) {
 
 $exitCode = 0;
 foreach ($items as $item) {
+    $rowHasError = false;
     if (false === $directoryValidator->hasAllowedRole($item)) {
-        echo "Item has invalid role: ".$item->getName()."\n";
+        echo outputError("Item has invalid role: ".$item->getName()) . "\n";
         $exitCode = 1;
+        $rowHasError = true;
     }
 
     if (empty($item->getUrl())) {
-        echo "Item has empty URL: ".$item->getName()."\n";
+        echo outputError("Item has empty URL: ".$item->getName()) . "\n";
         $exitCode = 1;
+        $rowHasError = true;
     }
 
-    // @todo: If a local image, make sure it exists
-    // @todo: If a remote image, make sure it does not generate a 404 error
+    if ($item->getLogo() &&
+        !str_starts_with($item->getLogo(), 'https://') &&
+        !file_exists(__DIR__ . '/../pub/' . $item->getLogo())
+    ) {
+        echo outputError("Item has invalid logo: ".$item->getName()) . "\n";
+        $exitCode = 1;
+        $rowHasError = true;
+    }
+
+    if (str_starts_with($item->getLogo(), 'https://') && !doesUrlExists($item->getLogo())) {
+        echo outputError("Item has invalid logo: ".$item->getName()) . "\n";
+        $exitCode = 1;
+        $rowHasError = true;
+    }
+
+    if (!$rowHasError) {
+        echo 'Item validated: ' . $item->getName() . "\n";
+    }
 }
 
-// @todo: Implement exit(1)
-
 exit($exitCode);
+
+function outputError(string $text): string {
+    return "\033[31m" . $text . "\033[0m";
+}
+
+function doesUrlExists(string $url): bool {
+    $curl = curl_init($url);
+
+    // Set cURL options
+    curl_setopt($curl, CURLOPT_NOBODY, true); // We only need the header, not the full content
+    curl_setopt($curl, CURLOPT_FOLLOWLOCATION, false); // Don't follow redirects
+    curl_setopt($curl, CURLOPT_TIMEOUT, 5); // Set timeout to 5 seconds
+
+    // Execute and get the response code
+    curl_exec($curl);
+    $statusCode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
+
+    curl_close($curl);
+
+    return $statusCode == 200;
+}

@@ -71,6 +71,7 @@
 "MultiSafepay", "payment", "https://www.multisafepay.com/", "multisafepay.png"
 "Adyen", "payment", "https://www.adyen.com/", ""
 "Mollie", "payment", "https://www.mollie.com/nl", "mollie.svg"
+"Sprinque", "payment", "https://www.sprinque.com/nl", "sprinque.svg"
 "", "payment", "", ""
 "", "payment", "", ""
 "", "payment", "", ""

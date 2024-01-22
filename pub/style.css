@@ -1270,6 +1270,10 @@ video {
   margin-bottom:1rem;
 }
 
+.mr-2 {
+  margin-right:0.5rem;
+}
+
 .mt-12 {
   margin-top:3rem;
 }
@@ -1304,6 +1308,10 @@ video {
 
 .h-6 {
   height:1.5rem;
+}
+
+.h-8 {
+  height:2rem;
 }
 
 .h-\[250px\] {

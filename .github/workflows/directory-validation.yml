@@ -1,5 +1,5 @@
 name: Mage-OS Validations
-on: [push]
+on: [push, pull_request]
 
 jobs:
   directory-validation:

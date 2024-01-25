@@ -47,7 +47,7 @@ $currentSort = (isset($_GET['sort']) && $_GET['sort'] === 'name_desc') ? 'name_d
                     <a href="<?= $item->getUrl() ?>">
                         <div class="hidden md:block relative h-[250px] no-underline">
                             <h3><?= $item->getName() ?></h3>
-                            <div class="absolute top-0 left-0 bottom-0 right-0 flex items-center justify-center	 p-4">
+                            <div class="absolute top-0 left-0 bottom-0 right-0 flex items-center justify-center p-4">
                                 <img class="w-auto max-h-48 inline" src="<?= $item->getLogo() ?>"
                                      title="<?= $item->getName() ?>"/>
                             </div>
@@ -57,10 +57,12 @@ $currentSort = (isset($_GET['sort']) && $_GET['sort'] === 'name_desc') ? 'name_d
                         </div>
                         <div class="block md:hidden no-underline">
                             <h3 class="text-lg font-bold my-4"><?= $item->getName() ?></h3>
-                            <div>
-                                <img src="<?= $item->getLogo() ?>"
-                                     title="<?= $item->getName() ?>"/>
-                            </div>
+                            <?php if ($item->hasLogo()) : ?>
+                                <div>
+                                    <img src="<?= $item->getLogo() ?>"
+                                         title="<?= $item->getName() ?>"/>
+                                </div>
+                            <?php endif; ?>
                             <div class="my-4">
                                 <span class="text-zinc-400"><?= $item->getRole() ?></span>
                             </div>

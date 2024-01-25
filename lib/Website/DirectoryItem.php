@@ -42,7 +42,12 @@ class DirectoryItem
      */
     public function getLogo(): string
     {
-        return (!empty($this->logo)) ? $this->logo : '/images/placeholder.svg';
+        return $this->hasLogo() ? $this->logo : '/images/placeholder.svg';
+    }
+
+    public function hasLogo(): bool
+    {
+        return strlen($this->logo) > 0;
     }
 
     public function isSponsor(): bool

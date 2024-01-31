@@ -6,6 +6,7 @@ use MageOsNl\Website\Url;
 
 /** @var MenuItem[] $menuItems */
 $menuItems = include Registry::getInstance()->getContentDirectory().'/data/topmenu.php';
+$becomeMemberUrl = new Url('lid-worden');
 ?>
 <div class="text-sm">
     <div class="mx-auto md:max-w-6xl px-4 xl:px-0 relative">
@@ -69,12 +70,15 @@ $menuItems = include Registry::getInstance()->getContentDirectory().'/data/topme
 <div class="bg-orange-400 text-white p-4">
     <div class="mx-auto md:max-w-6xl px-4 xl:px-0">
         <nav class="flex w-full md:w-auto">
+            <?php if (false === $becomeMemberUrl->isActive()): ?>
             <div class="float-none md:float-right w-full md:w-auto">
                 <a class="block py-1 hover:text-primary p-6 text-white bg-orange-700 transition-colors text-center"
-                   href="<?= (new Url('lid-worden'))->getUrl() ?>">
+                   href="<?= $becomeMemberUrl->getUrl() ?>">
                     <?= __('Become member') ?>
                 </a>
             </div>
+            <?php endif; ?>
+
             <ul class="hidden lg:flex flex-row w-full md:w-auto md:ml-auto justify-between gap-2 xl:gap-4 md:text-lg">
                 <?php foreach ($menuItems as $menuItem): ?>
                     <li class="flex-auto">

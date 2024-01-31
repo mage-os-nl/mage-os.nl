@@ -22,4 +22,13 @@ class Url
 
         return '/' . Translation::getLanguage() . '/' . $url;
     }
+
+    public function isActive(): bool
+    {
+        if (stristr($_SERVER['REQUEST_URI'], $this->url)) {
+            return true;
+        }
+
+        return false;
+    }
 }

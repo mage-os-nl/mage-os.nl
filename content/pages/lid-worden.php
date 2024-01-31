@@ -5,7 +5,7 @@
     <div class="mx-auto md:max-w-6xl px-4 xl:px-0 py-16">
         <?= markdownFile('become-member/intro') ?>
 
-        <div class="w-full bg-gray-50 rounded shadow-md p-8">
+        <div class="w-full bg-gray-200 rounded shadow-sm p-8 my-8">
             <div>
                 <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
                     <?= __('Your email') ?>

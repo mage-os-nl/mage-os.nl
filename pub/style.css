@@ -1495,6 +1495,10 @@ video {
   padding-right:0.5rem;
 }
 
+.pt-8 {
+  padding-top:2rem;
+}
+
 .pb-8 {
   padding-bottom:2rem;
 }
@@ -1505,10 +1509,6 @@ video {
 
 .pb-4 {
   padding-bottom:1rem;
-}
-
-.pt-8 {
-  padding-top:2rem;
 }
 
 .text-center {
@@ -1552,6 +1552,11 @@ video {
   line-height:2.25rem;
 }
 
+.text-xl {
+  font-size:1.25rem;
+  line-height:1.75rem;
+}
+
 .text-7xl {
   font-size:4.5rem;
   line-height:1;
@@ -1560,11 +1565,6 @@ video {
 .text-5xl {
   font-size:3rem;
   line-height:1;
-}
-
-.text-xl {
-  font-size:1.25rem;
-  line-height:1.75rem;
 }
 
 .font-bold {

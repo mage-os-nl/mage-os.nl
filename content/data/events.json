@@ -90,5 +90,13 @@
     "description": "Ons jaarlijkse samenzijn als community",
     "location": "LIEF, Amsterdam",
     "url": "http://nl.meet-magento.com/"
+  },
+  {
+    "timestamp": "2025-06-26",
+    "date": "26-27 juni 2025",
+    "title": "MageUnconference Nederland",
+    "description": "Een nieuwe unconference georganiseerd door Yireo",
+    "location": "Fort aan de Klop, Utrecht",
+    "url": "https://mageunconference.nl/"
   }
 ]

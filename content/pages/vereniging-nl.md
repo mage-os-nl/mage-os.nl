@@ -5,21 +5,12 @@
 ### Aanmelden als nieuw lid {#lidworden}
 Wil je ook onderdeel zijn van deze nieuwe Magento community? [Meld je dan als lid aan](/lid-worden). Lidmaatschap kost 10 Euro per jaar. Zodra deze contributie is voldaan wordt je definitief lid.
 
-### Bestuursleden {#bestuur}
-Het volgende bestuur is gekozen op woensdag 18 januari 2023:
-
-- Jisse Reitsma (Yireo), voorzitter
-- Michiel Gerritsen (Control Alt Delete), penningmeester
-- Core de Reeper (Sansec), secretaris
-- Sander de Graaf (3WebApps)
-- Sanne Bolkenstein (Hyvä)
-- Jeroen Boersma (Elgentos)
-- Roland Haselager (Taurus Media)
-
 ### Commissies / werkgroepen
 Terwijl het bestuur processen bewaakt, mensen aanjaagt en faciliteert, wordt het verdere werk gedelegeerd aan werkgroepen onder leiding van een commissies. Hieronder is een lijst terug te vinden van de huidige commissies / werkgroepen:
 
-- **Bestuurscommissie**: Bij de oprichting op woensdag 18 januari 2023 zijn statuten goedgekeurd, maar daar mag misschien nog wat aan bijgeschaafd worden. Een commissie onder leiding van Jisse Reitsma, Roland Haselager en Sander de Graaf wil de community vragen om mee te helpen met het correct opstellen van stukken, zodat de basis goed is.
+- **Meet Magento NL commissie**: Ieder jaar wordt Meet Magento Nederland georganiseerd en sinds de oprichting van Mage-OS Nederland gebeurt dat via een commissie van vrijwilligers.
+
+- **Juridische commissie**: Bij de oprichting zijn statuten goedgekeurd maar daar mag misschien nog wat aan bijgeschaafd worden. Via deze commissie wordt de community gevraagd om mee te helpen met het correct opstellen van stukken, zodat de basis goed is.
 
 - **Eventcommissie**: Komt er nog een MeetMagento Nederland? Dat is de vraag die veel mensen bezig houdt. En met Mage-OS Nederland hopen we daar nieuw leven in te kunnen blazen. Onder leiding van Sanne Bolkenstein, Michiel Gerritsen en Core de Reeper kijkt een groep naar de mogelijkheden.
 
@@ -34,6 +25,36 @@ Qua huishoudelijk regelement nemen we op dit moment de Engelse [Code of Conduct]
 
 ### Praat verder op Discord chat {#chat}
 Login op de Mage-OS Discord ([chat.mage-os.org](http://chat.mage-os.org)) en ga dan naar het kanaal #mage-os-nl.
+
+### Commissie Meet Magento Nederland 2023
+- Sanne Bolkenstein
+- Core de Reeper
+- Danny Verkade
+- Tom Ketels
+- Jelle Siderius
+- Henk de Gier
+- Jelle van Genderen
+- Dominique de Maa
+- Danny Uranka
+- Charif Eddini
+- René Donkers
+
+### Juridische commissie
+- Jisse Reitsma
+- Roland Haselager
+- Sander de Graaf
+- Rik Willems
+- Luuk Roovers
+
+### Bestuursleden 2023 {#bestuur}
+
+- Jisse Reitsma (Yireo), voorzitter
+- Michiel Gerritsen (Control Alt Delete), penningmeester
+- Core de Reeper (Sansec), secretaris
+- Sander de Graaf (3WebApps)
+- Sanne Bolkenstein (Hyvä)
+- Jeroen Boersma (Elgentos)
+- Roland Haselager (Taurus Media)
 
 ### Oorspronkelijke initiatiefnemers (2022)
 - Jeroen Boersma (Elgentos)

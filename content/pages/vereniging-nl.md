@@ -43,3 +43,15 @@ Login op de Mage-OS Discord ([chat.mage-os.org](http://chat.mage-os.org)) en ga 
 - Sanne Bolkenstein (Hyvä)
 - Willem Wigman (Hyvä)
 
+### Domeinen in beheer
+De volgende domeinen zijn in beheer door Mage-OS Nederland en kunnen worden gebruikt voor community doeleinden:
+
+- nl.mage-os.org
+- meetmagento.be
+- meet-magento.be
+- meetcommerce.nl
+- meet-commerce.nl
+- magento-unconference.nl
+- magentounconference.nl
+- mageunconference.nl
+- magechat.nl

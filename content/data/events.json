@@ -75,12 +75,21 @@
     "url": "https://www.eventbrite.nl/e/tickets-mage-os-wwvd-borrel-777521025317"
   },
   {
+    "timestamp": "2024-02-22",
+    "date": "22 februari 2024",
+    "time": "17:00 - 21:00",
+    "title": "Mollie Developer Meetup",
+    "description": "Meetup bij Mollie met talks uit de Magento community",
+    "location": "Mollie HQ, Keizersgracht 126, Amsterdam",
+    "url": "https://www.mollie.com/events/developer-meetup"
+  },
+  {
     "timestamp": "2024-02-29",
     "date": "29 februari 2024",
-    "time": "16:00 - 18:00",
+    "time": "16:00 - 23:00",
     "title": "Mage-OS NL Ledenvergadering",
     "description": "Jaarlijkse algemene ledenvergadering met aansluitende borrel",
-    "location": "Nader te bepalen, Utrecht",
+    "location": "De Rechtbank, Korte Nieuwstraat 14, Utrecht",
     "url": "https://www.eventbrite.com/e/tickets-mage-os-nederland-ledenvergadering-777521787597"
   },
   {

@@ -1330,6 +1330,12 @@ video {
   gap:0.5rem;
 }
 
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse:0;
+  margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom:calc(1rem * var(--tw-space-y-reverse));
+}
+
 .overflow-hidden {
   overflow:hidden;
 }
@@ -1457,14 +1463,14 @@ video {
   padding-right:0.75rem;
 }
 
-.py-1 {
-  padding-top:0.25rem;
-  padding-bottom:0.25rem;
-}
-
 .py-8 {
   padding-top:2rem;
   padding-bottom:2rem;
+}
+
+.py-1 {
+  padding-top:0.25rem;
+  padding-bottom:0.25rem;
 }
 
 .pt-16 {
@@ -1757,6 +1763,11 @@ video {
 
   .md\:grid-cols-5 {
     grid-template-columns:repeat(5, minmax(0, 1fr));
+  }
+
+  .md\:py-16 {
+    padding-top:4rem;
+    padding-bottom:4rem;
   }
 
   .md\:py-32 {

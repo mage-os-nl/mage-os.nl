@@ -60,7 +60,8 @@ $currentSort = (isset($_GET['sort']) && $_GET['sort'] === 'name_desc') ? 'name_d
                             <?php if ($item->hasLogo()) : ?>
                                 <div>
                                     <img src="<?= $item->getLogo() ?>"
-                                         title="<?= $item->getName() ?>"/>
+                                         title="<?= $item->getName() ?>"
+                                         class="mx-auto"/>
                                 </div>
                             <?php endif; ?>
                             <div class="my-4">

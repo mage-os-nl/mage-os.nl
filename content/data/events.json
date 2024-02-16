@@ -33,8 +33,7 @@
     "time": "16:00 - 20:00",
     "title": "Coven of Wisdom - Hyvä Edition",
     "description": "Een iO Campus middag over Hyvä met o.a. Hyvä Checkout",
-    "location": "iO Campus, Marconilaan 16, Eindhoven",
-    "url": "https://www.meetup.com/nl-NL/coven-of-wisdom/events/292356004/"
+    "location": "iO Campus, Marconilaan 16, Eindhoven"
   },
   {
     "timestamp": "2023-07-12",
@@ -48,15 +47,14 @@
     "timestamp": "2023-11-01",
     "date": "1 november 2023",
     "title": "Magento hackathon",
-    "description": "Samenwerken aan nieuwe oplossingen binnen Magento (bij Yireo)",
-    "url": "https://www.yireo.com/hackathon/magento2-2023-1"
+    "description": "Samenwerken aan nieuwe oplossingen binnen Magento (bij Yireo)"
   },
   {
     "timestamp": "2023-11-02",
     "date": "2 november 2023",
     "title": "Meet Magento Nederland",
     "description": "Eindelijk weer eens een Magento event voor iedereen",
-    "url": "http://nl.meet-magento.com/"
+    "url": "https://nl.meet-magento.com/"
   },
   {
     "timestamp": "2024-01-22",
@@ -71,8 +69,7 @@
     "time": "17:00 - 22:00",
     "title": "Magento borrel (WWVD)",
     "description": "Traditionele borrel aan het eind van de eerste dag van de Webwinkel Vakdagen",
-    "location": "Uncle Jim, Croeselaan 91, Utrecht",
-    "url": "https://www.eventbrite.nl/e/tickets-mage-os-wwvd-borrel-777521025317"
+    "location": "Uncle Jim, Croeselaan 91, Utrecht"
   },
   {
     "timestamp": "2024-02-22",
@@ -93,12 +90,20 @@
     "url": "https://www.eventbrite.com/e/tickets-mage-os-nederland-ledenvergadering-777521787597"
   },
   {
+    "timestamp": "2024-09-13",
+    "date": "13 september 2024",
+    "title": "MageTitans Groningen",
+    "description": "International developers event",
+    "location": "Groningen",
+    "url": "https://mage-titans.nl/"
+  },
+  {
     "timestamp": "2024-10-31",
     "date": "31 oktober 2024",
     "title": "Meet Magento Nederland",
     "description": "Ons jaarlijkse samenzijn als community",
     "location": "LIEF, Amsterdam",
-    "url": "http://nl.meet-magento.com/"
+    "url": "https://nl.meet-magento.com/"
   },
   {
     "timestamp": "2025-06-26",

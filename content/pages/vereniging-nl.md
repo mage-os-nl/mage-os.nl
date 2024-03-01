@@ -5,8 +5,21 @@
 ### Aanmelden als nieuw lid {#lidworden}
 Wil je ook onderdeel zijn van deze nieuwe Magento community? [Meld je dan als lid aan](/lid-worden). Lidmaatschap kost 10 Euro per jaar. Zodra deze contributie is voldaan wordt je definitief lid.
 
+### Bestuur van 2024 (alfabetische volgorde):
+
+- Jeroen Boersma
+- Jisse Reitsma
+- Karlijn Löwik
+- Michiel Gerritsen
+- Sander de Graaf
+- Sanne Bolkenstein
+- Tabitha Karta
+
+Bekijk de volgende pagina's voor meer informatie rondom het bestuur van de afgelopen jaren:
+
+
 ### Commissies / werkgroepen
-Terwijl het bestuur processen bewaakt, mensen aanjaagt en faciliteert, wordt het verdere werk gedelegeerd aan werkgroepen onder leiding van een commissies. Hieronder is een lijst terug te vinden van de huidige commissies / werkgroepen:
+Terwijl het bestuur processen bewaakt, mensen aanjaagt en faciliteert, wordt het verdere werk gedelegeerd aan werkgroepen onder leiding van een commissie. Hieronder is een lijst terug te vinden van de huidige commissies / werkgroepen:
 
 - **Meet Magento NL commissie**: Ieder jaar wordt Meet Magento Nederland georganiseerd en sinds de oprichting van Mage-OS Nederland gebeurt dat via een commissie van vrijwilligers.
 
@@ -14,9 +27,15 @@ Terwijl het bestuur processen bewaakt, mensen aanjaagt en faciliteert, wordt het
 
 - **Eventcommissie**: Komt er nog een MeetMagento Nederland? Dat is de vraag die veel mensen bezig houdt. En met Mage-OS Nederland hopen we daar nieuw leven in te kunnen blazen. Onder leiding van Sanne Bolkenstein, Michiel Gerritsen en Core de Reeper kijkt een groep naar de mogelijkheden.
 
-- **Contentcommissie**: De website zou aangepast moeten worden, social media moeten gestreamlined zijn, nieuwsbrieven moeten op orde zijn. Jeroen Boersma, Roland Haselager en Jisse Reitsma werken aan betere content. En input van anderen is een must.
+- **Contentcommissie**: De website zou aangepast moeten worden, social media moeten gestreamlined zijn, nieuwsbrieven moeten op orde zijn. Jeroen Boersma, Roland Haselager en Jisse Reitsma werken aan betere content. En input van anderen is een must. Onder deze commissie kan ook vallen een opheldering rondom de platform namen van Magento Open Source, Adobe Commerce en Mage-OS.
 
 - **Sponsorcommissie**: Onder leiding van Sanne Bolkenstein en Sander de Graaf wordt gekeken naar sponsoropties zoals event-specifieke sponsors of bijvoorbeeld een algemene sponsor op de website.
+
+Bekijk de volgende pagina's voor meer informatie over het bestuur en de commissies van dit jaar en afgelopen jaren:
+
+- [Vereniging in 2024](/vereniging-2024)
+- [Vereniging in 2023](/vereniging-2023)
+- [Vereniging in 2022](/vereniging-2022)
 
 ### Statuten en huishoudelijk regelement
 De statuten zijn op de pagina [Statuten Mage-OS Nederland](/statuten) terug te vinden.
@@ -26,53 +45,6 @@ Qua huishoudelijk regelement nemen we op dit moment de Engelse [Code of Conduct]
 ### Praat verder op Discord chat {#chat}
 Login op de Mage-OS Discord ([chat.mage-os.org](http://chat.mage-os.org)) en ga dan naar het kanaal #mage-os-nl.
 
-### Commissie Meet Magento Nederland 2023
-- Sanne Bolkenstein
-- Core de Reeper
-- Danny Verkade
-- Tom Ketels
-- Jelle Siderius
-- Henk de Gier
-- Jelle van Genderen
-- Dominique de Maa
-- Danny Uranka
-- Charif Eddini
-- René Donkers
-
-### Juridische commissie
-- Jisse Reitsma
-- Roland Haselager
-- Sander de Graaf
-- Rik Willems
-- Luuk Roovers
-
-### Bestuursleden 2023 {#bestuur}
-
-- Jisse Reitsma (Yireo), voorzitter
-- Michiel Gerritsen (Control Alt Delete), penningmeester
-- Core de Reeper (Sansec), secretaris
-- Sander de Graaf (3WebApps)
-- Sanne Bolkenstein (Hyvä)
-- Jeroen Boersma (Elgentos)
-- Roland Haselager (Taurus Media)
-
-### Oorspronkelijke initiatiefnemers (2022)
-- Jeroen Boersma (Elgentos)
-- Jisse Reitsma (Yireo)
-- Peter Jaap Blaakmeer (Elgentos)
-- Sander de Graaf (3WebApps)
-- Sanne Bolkenstein (Hyvä)
-- Willem Wigman (Hyvä)
 
 ### Domeinen in beheer
-De volgende domeinen zijn in beheer door Mage-OS Nederland en kunnen worden gebruikt voor community doeleinden:
-
-- nl.mage-os.org
-- meetmagento.be
-- meet-magento.be
-- meetcommerce.nl
-- meet-commerce.nl
-- magento-unconference.nl
-- magentounconference.nl
-- mageunconference.nl
-- magechat.nl
+[Domeinen in beheer van Mage-OS Nederland](/domeinen)

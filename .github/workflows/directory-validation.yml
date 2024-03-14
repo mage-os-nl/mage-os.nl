@@ -12,4 +12,7 @@ jobs:
           php-version: '8.2'
           extensions: intl, sodium
       - uses: php-actions/composer@v6
+        with:
+          php_version: "8.2"
+          php_extensions: intl sodium
       - run: php bin/directory-validation.php

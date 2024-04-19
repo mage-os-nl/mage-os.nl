@@ -5,8 +5,6 @@
 ### Register as a new member {#lidworden}
 Do you also want to be part of this new Magento community? [Register as a member](/en/lid-worden). Membership costs 10 Euro per year. Once this contribution has been paid, you will become a permanent member.
 
-
-
 ### Committees / working groups
 While the board monitors processes, encourages and facilitates people, further work is delegated to working groups led by committees. Below is a list of the current committees/working groups:
 
@@ -24,6 +22,8 @@ While the board monitors processes, encourages and facilitates people, further w
 The articles of association can be found on the page [Articles of association Mage-OS Netherlands](/Articles of association).
 
 In terms of internal regulations, we are currently adopting the English [Code of Conduct](https://mage-os.org/code-of-conduct) from Mage-OS internationally.
+
+{{snippet documents}}
 
 ### Continue the conversation on Discord chat {#chat}
 Log in to the Mage-OS Discord ([chat.mage-os.org](http://chat.mage-os.org)) and then go to the #mage-os-nl channel.

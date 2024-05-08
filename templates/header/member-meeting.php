@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 use MageOsNl\Website\ImageFactory;
 
-$image = ImageFactory::create('headers/mosnl-wwvd-nologo.png', 'Webwinkel Vakdagen 2024 Magento Community Drinks');
+$image = ImageFactory::create('headers/mosnl-wwvd-nologo.png', 'Mage-OS Nederland ledenvergadering');
 $image->setCssClass('w-full h-full object-cover');
 
 if (strstr($_SERVER['REQUEST_URI'], 'lid-worden')) {
@@ -17,11 +17,14 @@ if (strstr($_SERVER['REQUEST_URI'], 'lid-worden')) {
     <div class="relative flex items-center justify-center">
         <div class="text-center">
             <h2 class="text-1xl md:text-3xl sm:text-5xl text-white font-extrabold uppercase text-center">
-                Mage-OS Nederland<br/>Ledenvergadering
+                Mage-OS Nederland<br/>Ledenvergadering + borrel
             </h2>
+            <h3 class="text-1xl md:text-2xl lg:text-2xl text-orange-300 text-center pt-8">
+                mede mogelijk gemaakt door Buckaroo
+            </h3>
             <h3 class="text-1xl md:text-2xl lg:text-4xl text-orange-400 text-center pt-8">
-                29 feb 2024 van 16:00 tot 18:00<br/>
-                in Utrecht
+                27 juni 2024 van 16:00 tot 22:00<br/>
+                in Enspijk (bij Geldermalsen)
             </h3>
             <div class="mt-12">
             <a href="https://www.eventbrite.com/e/tickets-mage-os-nederland-ledenvergadering-777521787597"

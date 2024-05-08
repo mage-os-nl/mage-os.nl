@@ -1637,6 +1637,16 @@ video {
   color:rgb(251 146 60 / var(--tw-text-opacity));
 }
 
+.text-orange-200 {
+  --tw-text-opacity:1;
+  color:rgb(254 215 170 / var(--tw-text-opacity));
+}
+
+.text-orange-300 {
+  --tw-text-opacity:1;
+  color:rgb(253 186 116 / var(--tw-text-opacity));
+}
+
 .no-underline {
   text-decoration-line:none;
 }
@@ -1803,6 +1813,11 @@ video {
   .lg\:text-4xl {
     font-size:2.25rem;
     line-height:2.5rem;
+  }
+
+  .lg\:text-2xl {
+    font-size:1.5rem;
+    line-height:2rem;
   }
 }
 

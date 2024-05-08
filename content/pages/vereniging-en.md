@@ -23,6 +23,8 @@ The articles of association can be found on the page [Articles of association Ma
 
 In terms of internal regulations, we are currently adopting the English [Code of Conduct](https://mage-os.org/code-of-conduct) from Mage-OS internationally.
 
+{{snippet newsletters}}
+
 {{snippet documents}}
 
 ### Continue the conversation on Discord chat {#chat}

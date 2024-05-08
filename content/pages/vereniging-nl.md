@@ -44,6 +44,8 @@ Qua huishoudelijk regelement nemen we op dit moment de Engelse [Code of Conduct]
 
 {{snippet documents}}
 
+{{snippet newsletters}}
+
 ### Praat verder op Discord chat {#chat}
 Login op de Mage-OS Discord ([chat.mage-os.org](http://chat.mage-os.org)) en ga dan naar het kanaal #mage-os-nl.
 

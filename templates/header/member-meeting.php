@@ -27,7 +27,7 @@ if (strstr($_SERVER['REQUEST_URI'], 'lid-worden')) {
                 in Enspijk (bij Geldermalsen)
             </h3>
             <div class="mt-12">
-            <a href="https://www.eventbrite.com/e/tickets-mage-os-nederland-ledenvergadering-777521787597"
+            <a href="https://www.eventbrite.com/e/tickets-algemene-ledenvergadering-mage-os-nederland-zomer-bbq-901465305997"
                title="Mage-OS Nederland Ledenvergadering" target="_new" class="bg-orange-500 text-white text-xl p-4 rounded-md">
                 Meld je aan
             </a>

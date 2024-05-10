@@ -23,7 +23,7 @@ if (strstr($_SERVER['REQUEST_URI'], 'lid-worden')) {
                 mede mogelijk gemaakt door Buckaroo
             </h3>
             <h3 class="text-1xl md:text-2xl lg:text-4xl text-orange-400 text-center pt-8">
-                27 juni 2024 van 16:00 tot 22:00<br/>
+                27 juni 2024 van 15:00 tot 20:30<br/>
                 in Enspijk (bij Geldermalsen)
             </h3>
             <div class="mt-12">

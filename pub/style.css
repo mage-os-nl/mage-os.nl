@@ -1481,8 +1481,12 @@ video {
   padding-top:1rem;
 }
 
-.pb-2 {
-  padding-bottom:0.5rem;
+.pr-4 {
+  padding-right:1rem;
+}
+
+.pb-4 {
+  padding-bottom:1rem;
 }
 
 .pt-2 {
@@ -1511,14 +1515,6 @@ video {
 
 .pl-24 {
   padding-left:6rem;
-}
-
-.pb-4 {
-  padding-bottom:1rem;
-}
-
-.pr-4 {
-  padding-right:1rem;
 }
 
 .text-center {

@@ -1517,6 +1517,10 @@ video {
   padding-bottom:1rem;
 }
 
+.pr-4 {
+  padding-right:1rem;
+}
+
 .text-center {
   text-align:center;
 }

@@ -15,7 +15,7 @@ $becomeMemberUrl = new Url('lid-worden');
         </div>
         <header class="relative flex flex-wrap items-center" x-data="{open:false}">
             <div class=" flex pt-4 xs:w-1/3 max-width-xs mx-0">
-                <a href="/" class="block pb-2 max-w-[90px] md:max-w-[180px]">
+                <a href="/" class="block pr-4 pb-4 max-w-[90px] md:max-w-[180px]">
                     <?php include __ROOT__.'/resources/svg/mage-os-nl.svg' ?>
                 </a>
 

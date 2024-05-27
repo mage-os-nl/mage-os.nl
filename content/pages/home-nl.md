@@ -2,12 +2,8 @@
 
 **Mage-OS Nederland is een vereniging die zich opwerpt ter ondersteuning van de Nederlandse Magento community. Mage-OS Nederland ontleent zijn naam aan [Mage-OS](https://mage-os.org/), een wereldwijd open initiatief voor het behoud van Magento Open Source (waarbij *Mage* een copyright-loze verbastering is van Magento en *OS* staat voor Open Source).**
 
-## Over dit initiatief {#over}
+## Over Mage-OS Nederland {#over}
 
-### Achtergrond
-Mage-OS Nederland is een initiatief van enkele community leden om de Nederlandse community - na een paar jaar van relatieve inactiviteit - nieuw leven in te blazen. 
+Mage-OS Nederland is een initiatief van de Nederlandse Magento community, met als doel het ecosysteem van Magento / Adobe Commerce / Mage-OS in Nederland te vertegenwoordigen. De vereniging stelt zich als doel om initiatieven vanuit de community te faciliteren (zoals Nederlandse events, een betere website, informatievoorziening richting webwinkeliers en nog veel meer). 
 
-### Voortgang
-Het idee is om eerst een vereniging op te zetten (met de initiatiefnemers als interim bestuur, dan een ledenvergadering te organiseren en dan verdere community initiatieven te omarmen (zoals Nederlandse events, een betere website, informatievoorziening richting webwinkeliers en nog veel meer). 
-
-Alle hulp is hierbij welkom, dus een van de eerste taken van het interim bestuur zal zijn om een organisatievorm te starten waardoor allerlei mogelijk initiatieven direct kunnen worden omarmd.
+Alle hulp is hierbij welkom, dus mocht je een idee hebben om Magento in Nederland te versterken, laat het ons weten!

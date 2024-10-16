@@ -124,6 +124,14 @@
     "url": "https://mage-titans.nl/"
   },
   {
+    "timestamp": "2024-10-18",
+    "date": "18 oktober 2024",
+    "title": "Mage-OS Meetup: Mage-OS, Magento en Adobe",
+    "description": "Over de toekomst van Magento",
+    "location": "Yireo, Baarn",
+    "url": "https://www.yireo.nl/meetup/2024-mageos"
+  },
+  {
     "timestamp": "2024-10-31",
     "date": "31 oktober 2024",
     "title": "Meet Magento Nederland",
@@ -138,6 +146,22 @@
     "description": "Lady Magento Brunch",
     "location": "To be announced",
     "url": "https://www.linkedin.com/showcase/lady-magento/"
+  },
+  {
+    "timestamp": "2024-12-11",
+    "date": "11 december 2024",
+    "title": "Magewire v3 hackathon",
+    "description": "Voor Magewire developers",
+    "location": "Yireo, Baarn",
+    "url": "https://www.yireo.nl/hackathon/magewire-2024-3"
+  },
+  {
+    "timestamp": "2024-12-13",
+    "date": "13 december 2024",
+    "title": "Mage-OS Meetup: Welke PIM pak je?",
+    "description": "Over PIM systemen voor Magento",
+    "location": "Yireo, Baarn",
+    "url": "https://www.yireo.nl/meetup/2024-magento-pims"
   },
   {
     "timestamp": "2025-06-26",

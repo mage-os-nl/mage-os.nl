@@ -70,8 +70,9 @@ class Image
         return preg_replace('/\.(jpg|jpeg|png)/', '', $this->sourceImage);
     }
 
-    public function setCssClass(string $cssClass): void
+    public function setCssClass(string $cssClass): Image
     {
         $this->cssClass = $cssClass;
+        return $this;
     }
 }

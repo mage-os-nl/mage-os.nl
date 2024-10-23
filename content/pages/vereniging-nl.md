@@ -10,13 +10,16 @@ Wil je ook onderdeel zijn van deze nieuwe Magento community? [Meld je dan als li
 - Jeroen Boersma
 - Jisse Reitsma
 - Karlijn Löwik
-- Michiel Gerritsen
+- Michiel Gerritsen (afgetreden in de zomer van 2024)
 - Sander de Graaf
 - Sanne Bolkenstein
 - Tabitha Karta
 
 Bekijk de volgende pagina's voor meer informatie rondom het bestuur van de afgelopen jaren:
 
+- [Vereniging in 2024](/vereniging-2024)
+- [Vereniging in 2023](/vereniging-2023)
+- [Vereniging in 2022](/vereniging-2022)
 
 ### Commissies / werkgroepen
 Terwijl het bestuur processen bewaakt, mensen aanjaagt en faciliteert, wordt het verdere werk gedelegeerd aan werkgroepen onder leiding van een commissie. Hieronder is een lijst terug te vinden van de huidige commissies / werkgroepen:

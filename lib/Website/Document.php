@@ -6,8 +6,8 @@ use IntlDateFormatter;
 
 class Document
 {
-    private int $timestamp;
-    private string $name;
+    private int $timestamp = 0;
+    private string $name = '';
 
     public function __construct(
         private string $absolutePath
@@ -47,6 +47,7 @@ class Document
             'Europe/Amsterdam',
             IntlDateFormatter::GREGORIAN
         );
+
         return datefmt_format($fmt, $this->timestamp);
     }
 

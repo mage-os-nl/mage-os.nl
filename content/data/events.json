@@ -164,11 +164,35 @@
     "url": "https://www.yireo.nl/meetup/2024-magento-pims"
   },
   {
+    "timestamp": "2025-01-24",
+    "date": "24 januari 2025",
+    "time": "16:00 - 23:00",
+    "title": "Mage-OS NL Ledenvergadering",
+    "description": "Jaarlijkse algemene ledenvergadering met aansluitende borrel",
+    "location": "De Rechtbank, Korte Nieuwstraat 14, Utrecht"
+  },
+  {
+    "timestamp": "2025-04-03",
+    "date": "3 april 2025",
+    "time": "17:30 - 22:00",
+    "title": "Magento borrel (WWVD)",
+    "description": "Traditionele borrel aan het eind van de woensdag van de Webwinkel Vakdagen",
+    "location": "Utrecht"
+  },
+  {
     "timestamp": "2025-06-26",
     "date": "26-27 juni 2025",
     "title": "MageUnconference Nederland",
     "description": "Een nieuwe unconference georganiseerd door Yireo",
     "location": "Fort aan de Klop, Utrecht",
     "url": "https://mageunconference.nl/"
+  },
+  {
+    "timestamp": "2025-11-06",
+    "date": "6 november 2025",
+    "title": "Meet Magento Nederland",
+    "description": "Ons jaarlijkse samenzijn als community",
+    "location": "LIEF, Amsterdam",
+    "url": "https://nl.meet-magento.com/"
   }
 ]

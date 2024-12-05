@@ -148,14 +148,6 @@
     "url": "https://www.eventbrite.com/e/lady-magento-brunch-tickets-1050609951647?aff=ebemoffollowpublishemail&ref=eemail&utm_campaign=mageosnlsite&utm_content=follow_notification&utm_medium=email&utm_source=eventbrite"
   },
   {
-    "timestamp": "2024-12-11",
-    "date": "11 december 2024",
-    "title": "Magewire v3 hackathon",
-    "description": "Voor Magewire developers",
-    "location": "Yireo, Baarn",
-    "url": "https://www.yireo.nl/hackathon/magewire-2024-3"
-  },
-  {
     "timestamp": "2024-12-13",
     "date": "13 december 2024",
     "title": "Mage-OS Meetup: Welke PIM pak je?",
@@ -164,12 +156,21 @@
     "url": "https://www.yireo.nl/meetup/2024-magento-pims"
   },
   {
+    "timestamp": "2025-01-22",
+    "date": "22 januari 2025",
+    "title": "Magewire v3 hackathon",
+    "description": "Voor Magewire contributors",
+    "location": "Yireo, Baarn",
+    "url": "https://www.yireo.nl/hackathon/magewire-2024-3"
+  },
+  {
     "timestamp": "2025-01-24",
     "date": "24 januari 2025",
     "time": "16:00 - 23:00",
     "title": "Mage-OS NL Ledenvergadering",
     "description": "Jaarlijkse algemene ledenvergadering met aansluitende borrel",
-    "location": "De Rechtbank, Korte Nieuwstraat 14, Utrecht"
+    "location": "De Rechtbank, Korte Nieuwstraat 14, Utrecht",
+    "url": "https://www.eventbrite.com/e/tickets-mage-os-nederland-ledenvergadering-2025-q1-1106568178209"
   },
   {
     "timestamp": "2025-04-03",
@@ -177,7 +178,8 @@
     "time": "17:30 - 22:00",
     "title": "Magento borrel (WWVD)",
     "description": "Traditionele borrel aan het eind van de woensdag van de Webwinkel Vakdagen",
-    "location": "Utrecht"
+    "location": "Utrecht",
+    "url": "https://www.eventbrite.com/e/tickets-mage-os-wwvd-2025-borrel-1106568990639"
   },
   {
     "timestamp": "2025-06-26",

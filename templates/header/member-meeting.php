@@ -6,6 +6,10 @@ use MageOsNl\Website\ImageFactory;
 $image = ImageFactory::create('headers/mosnl-wwvd-nologo.png', 'Mage-OS Nederland ledenvergadering');
 $image->setCssClass('w-full h-full object-cover');
 
+$url = 'https://www.eventbrite.com/e/tickets-mage-os-nederland-ledenvergadering-2025-q1-1106568178209?aff=oddtdtcreator';
+$teaser = 'Beslis mee over de toekomst van Magento';
+$subtitle = '24 januari 2024 in Utrecht';
+
 if (strstr($_SERVER['REQUEST_URI'], 'lid-worden')) {
     return;
 }
@@ -20,14 +24,13 @@ if (strstr($_SERVER['REQUEST_URI'], 'lid-worden')) {
                 Mage-OS Nederland<br/>Ledenvergadering + borrel
             </h2>
             <h3 class="text-1xl md:text-2xl lg:text-2xl text-orange-300 text-center pt-8">
-                mede mogelijk gemaakt door Buckaroo
+                <?= $teaser ?>
             </h3>
             <h3 class="text-1xl md:text-2xl lg:text-4xl text-orange-400 text-center pt-8">
-                27 juni 2024 van 15:00 tot 20:30<br/>
-                in Enspijk (bij Geldermalsen)
+                <?= $subtitle ?>
             </h3>
             <div class="mt-12">
-            <a href="https://www.eventbrite.com/e/tickets-algemene-ledenvergadering-mage-os-nederland-zomer-bbq-901465305997"
+            <a href="<?= $url ?>"
                title="Mage-OS Nederland Ledenvergadering" target="_new" class="bg-orange-500 text-white text-xl p-4 rounded-md">
                 Meld je aan
             </a>

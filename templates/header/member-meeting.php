@@ -8,7 +8,7 @@ $image->setCssClass('w-full h-full object-cover');
 
 $url = 'https://www.eventbrite.com/e/tickets-mage-os-nederland-ledenvergadering-2025-q1-1106568178209?aff=oddtdtcreator';
 $teaser = 'Beslis mee over de toekomst van Magento';
-$subtitle = '24 januari 2024 in Utrecht';
+$subtitle = '24 januari 2025 in Utrecht';
 
 if (strstr($_SERVER['REQUEST_URI'], 'lid-worden')) {
     return;

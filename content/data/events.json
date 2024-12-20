@@ -148,14 +148,6 @@
     "url": "https://www.eventbrite.com/e/lady-magento-brunch-tickets-1050609951647?aff=ebemoffollowpublishemail&ref=eemail&utm_campaign=mageosnlsite&utm_content=follow_notification&utm_medium=email&utm_source=eventbrite"
   },
   {
-    "timestamp": "2024-12-13",
-    "date": "13 december 2024",
-    "title": "Mage-OS Meetup: Welke PIM pak je?",
-    "description": "Over PIM systemen voor Magento",
-    "location": "Yireo, Baarn",
-    "url": "https://www.yireo.nl/meetup/2024-magento-pims"
-  },
-  {
     "timestamp": "2025-01-22",
     "date": "22 januari 2025",
     "title": "Magewire v3 hackathon",
@@ -173,6 +165,22 @@
     "url": "https://www.eventbrite.com/e/tickets-mage-os-nederland-ledenvergadering-2025-q1-1106568178209"
   },
   {
+    "timestamp": "2022-02-07",
+    "date": "7 februari 2025",
+    "title": "Mage-OS Meetup: Deploying Magento",
+    "description": "Over Deployer, Brancher en Blue/Green Deployment",
+    "location": "Yireo, Baarn",
+    "url": "https://www.yireo.nl/meetup/2025-magento-deployment"
+  },
+  {
+    "timestamp": "2025-03-06",
+    "date": "6 maart 2025",
+    "title": "Mage-OS Meetup: Welke PIM pak je?",
+    "description": "Over PIM systemen voor Magento",
+    "location": "Yireo, Baarn",
+    "url": "https://www.yireo.nl/meetup/2024-magento-pims"
+  },
+  {
     "timestamp": "2025-03-08",
     "date": "8 maart 2025",
     "time": "17:30 - 22:00",
@@ -182,7 +190,7 @@
   },
   {
     "timestamp": "2025-04-03",
-    "date": "2 april 2025",
+    "date": "3 april 2025",
     "time": "17:30 - 22:00",
     "title": "Magento borrel (WWVD)",
     "description": "Traditionele borrel aan het eind van de woensdag van de Webwinkel Vakdagen",

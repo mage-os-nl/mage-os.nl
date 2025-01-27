@@ -5,7 +5,7 @@
 ### Aanmelden als nieuw lid {#lidworden}
 Wil je ook onderdeel zijn van deze nieuwe Magento community? [Meld je dan als lid aan](/lid-worden). Lidmaatschap kost 10 Euro per jaar. Zodra deze contributie is voldaan wordt je definitief lid.
 
-### Bestuur van 2025 (alfabetische volgorde):
+### Bestuur van 2025
 
 - Sanne Bolkenstein
 - Tabitha Karta

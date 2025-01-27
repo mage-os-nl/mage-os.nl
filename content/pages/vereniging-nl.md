@@ -5,18 +5,18 @@
 ### Aanmelden als nieuw lid {#lidworden}
 Wil je ook onderdeel zijn van deze nieuwe Magento community? [Meld je dan als lid aan](/lid-worden). Lidmaatschap kost 10 Euro per jaar. Zodra deze contributie is voldaan wordt je definitief lid.
 
-### Bestuur van 2024 (alfabetische volgorde):
+### Bestuur van 2025 (alfabetische volgorde):
 
-- Jeroen Boersma
-- Jisse Reitsma
-- Karlijn Löwik
-- Michiel Gerritsen (afgetreden in de zomer van 2024)
-- Sander de Graaf
 - Sanne Bolkenstein
 - Tabitha Karta
+- Jeroen Boersma
+- Karlijn Löwik
+- Daniel Hukkelhoven
+- Marloes Noortman
 
 Bekijk de volgende pagina's voor meer informatie rondom het bestuur van de afgelopen jaren:
 
+- [Vereniging in 2025](/vereniging-2025)
 - [Vereniging in 2024](/vereniging-2024)
 - [Vereniging in 2023](/vereniging-2023)
 - [Vereniging in 2022](/vereniging-2022)
@@ -33,12 +33,6 @@ Terwijl het bestuur processen bewaakt, mensen aanjaagt en faciliteert, wordt het
 - **Contentcommissie**: De website zou aangepast moeten worden, social media moeten gestreamlined zijn, nieuwsbrieven moeten op orde zijn. Jeroen Boersma, Roland Haselager en Jisse Reitsma werken aan betere content. En input van anderen is een must. Onder deze commissie kan ook vallen een opheldering rondom de platform namen van Magento Open Source, Adobe Commerce en Mage-OS.
 
 - **Sponsorcommissie**: Onder leiding van Sanne Bolkenstein en Sander de Graaf wordt gekeken naar sponsoropties zoals event-specifieke sponsors of bijvoorbeeld een algemene sponsor op de website.
-
-Bekijk de volgende pagina's voor meer informatie over het bestuur en de commissies van dit jaar en afgelopen jaren:
-
-- [Vereniging in 2024](/vereniging-2024)
-- [Vereniging in 2023](/vereniging-2023)
-- [Vereniging in 2022](/vereniging-2022)
 
 ### Statuten en huishoudelijk regelement
 De statuten zijn op de pagina [Statuten Mage-OS Nederland](/statuten) terug te vinden.

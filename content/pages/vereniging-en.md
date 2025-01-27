@@ -5,6 +5,22 @@
 ### Register as a new member {#lidworden}
 Do you also want to be part of this new Magento community? [Register as a member](/en/lid-worden). Membership costs 10 Euro per year. Once this contribution has been paid, you will become a permanent member.
 
+### Board of 2025
+
+- Sanne Bolkenstein
+- Tabitha Karta
+- Jeroen Boersma
+- Karlijn Löwik
+- Daniel Hukkelhoven
+- Marloes Noortman
+
+See the following pages for information on the board in previous years:
+
+- [Vereniging in 2025](/vereniging-2025)
+- [Vereniging in 2024](/vereniging-2024)
+- [Vereniging in 2023](/vereniging-2023)
+- [Vereniging in 2022](/vereniging-2022)
+
 ### Committees / working groups
 While the board monitors processes, encourages and facilitates people, further work is delegated to working groups led by committees. Below is a list of the current committees/working groups:
 
@@ -30,52 +46,5 @@ In terms of internal regulations, we are currently adopting the English [Code of
 ### Continue the conversation on Discord chat {#chat}
 Log in to the Mage-OS Discord ([chat.mage-os.org](http://chat.mage-os.org)) and then go to the #mage-os-nl channel.
 
-### Commissie Meet Magento Nederland 2023
-- Sanne Bolkenstein
-- Core de Reeper
-- Danny Verkade
-- Tom Ketels
-- Jelle Siderius
-- Henk de Gier
-- Jelle van Genderen
-- Dominique de Maa
-- Danny Uranka
-- Charif Eddini
-- René Donkers
-
-### Legal committee
-- Jisse Reitsma
-- Roland Haselager
-- Sander de Graaf
-- Rik Willems
-- Luuk Roovers
-
-### Board members 2023 {#bestuur}
-- Jisse Reitsma (Yireo), voorzitter
-- Michiel Gerritsen (Control Alt Delete), penningmeester
-- Core de Reeper (Sansec), secretaris
-- Sander de Graaf (3WebApps)
-- Sanne Bolkenstein (Hyvä)
-- Jeroen Boersma (Elgentos)
-- Roland Haselager (Taurus Media)
- 
-### Original initiators (2022)
-- Jeroen Boersma (Elgentos)
-- Jisse Reitsma (Yireo)
-- Peter Jaap Blaakmeer (Elgentos)
-- Sander de Graaf (3WebApps)
-- Sanne Bolkenstein (Hyvä)
-- Willem Wigman (Hyvä)
-
 ### Domains in administration
-The following domains are managed by Mage-OS Netherlands and can be used for community purposes:
-
-- nl.mage-os.org
-- meetmagento.be
-- meet-magento.be
-- meetcommerce.nl
-- meet-commerce.nl
-- magento-unconference.nl
-- magentounconference.nl
-- mageunconference.nl
-- magechat.nl
+[Domains in administration by Mage-OS Nederland](/domeinen)

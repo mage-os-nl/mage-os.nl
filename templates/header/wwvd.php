@@ -16,12 +16,12 @@ $image->setCssClass('w-full h-full object-cover');
                 Webwinkel Vakdagen<br/>Magento Community Drinks
             </h2>
             <h3 class="text-1xl md:text-2xl lg:text-4xl text-orange-400 text-center pt-8">
-                January 23rd, 2024 starting at 17:00<br/>
-                Cafe Uncle Jim, Utrecht
+                April 2nd, 2025 starting at 16:00<br/>
+                Beers & Barrels, Utrecht
             </h3>
             <div class="mt-12">
-            <a href="https://www.eventbrite.nl/e/tickets-mage-os-wwvd-borrel-777521025317"
-               title="Webwinkel Vakdagen 2024 Magento Community Drinks" target="_new" class="bg-orange-500 text-white text-xl p-4 rounded-md">
+            <a href="https://www.eventbrite.com/e/tickets-mage-os-wwvd-2025-borrel-1106568990639"
+               title="Webwinkel Vakdagen 2025 Magento Community Drinks" target="_new" class="bg-orange-500 text-white text-xl p-4 rounded-md">
                 Reserve your seat
             </a>
             </div>

@@ -173,12 +173,12 @@
     "url": "https://www.yireo.nl/meetup/2024-magento-pims"
   },
   {
-    "timestamp": "2025-03-08",
-    "date": "8 maart 2025",
-    "time": "17:30 - 22:00",
+    "timestamp": "2025-03-06",
+    "date": "6 maart 2025",
+    "time": "17:00 - 22:00",
     "title": "Lady Magento",
-    "description": "Een event voor ladies op de officiele Internationale Vrouwendag",
-    "location": "Utrecht"
+    "description": "Een event voor ladies bij Mollie HQ",
+    "location": "Amsterdam"
   },
   {
     "timestamp": "2025-04-03",
@@ -188,6 +188,13 @@
     "description": "Traditionele borrel aan het eind van de woensdag van de Webwinkel Vakdagen",
     "location": "Utrecht",
     "url": "https://www.eventbrite.com/e/tickets-mage-os-wwvd-2025-borrel-1106568990639"
+  },
+  {
+    "timestamp": "2025-06-05",
+    "date": "5 juni 2025",
+    "title": "Mage-OS Nederland BBQ",
+    "description": "Een gezellig community event",
+    "location": "Onbekend"
   },
   {
     "timestamp": "2025-06-26",

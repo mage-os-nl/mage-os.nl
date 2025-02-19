@@ -37,8 +37,8 @@ class Translation
 
         $translations = [];
         if (($handle = fopen($languageFile, "r")) !== false) {
-            while (($data = fgetcsv($handle, 1000, ",")) !== false) {
-                $translations[$data[0]] = $data[1];
+            while (($item = fgetcsv($handle, 1000, ",", "\"", "\\")) !== false) {
+                $translations[$item[0]] = $item[1];
             }
             fclose($handle);
         }

@@ -21,7 +21,7 @@ class DirectoryProvider
 
         $directoryItems = [];
         if (($handle = fopen($filename, "r")) !== FALSE) {
-            while (($item = fgetcsv($handle, 1000, ",")) !== false) {
+            while (($item = fgetcsv($handle, 1000, ",", "\"", "\\")) !== false) {
                 if (empty($item[0]) || $item[0] === 'name') {
                     continue;
                 }

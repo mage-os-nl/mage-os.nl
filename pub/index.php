@@ -6,6 +6,10 @@ require_once '../app.php';
 
 function getRealhost(): string
 {
+    if (str_ends_with($_SERVER['HTTP_HOST'], '.test')) {
+        return $_SERVER['HTTP_HOST'];
+    }
+
     return 'nl.mage-os.org';
 }
 

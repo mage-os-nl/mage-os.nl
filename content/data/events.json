@@ -178,7 +178,8 @@
     "time": "17:00 - 22:00",
     "title": "Lady Magento",
     "description": "Een event voor ladies bij Mollie HQ",
-    "location": "Amsterdam"
+    "location": "Amsterdam",
+    "url": "https://www.linkedin.com/showcase/lady-magento"
   },
   {
     "timestamp": "2025-04-03",
@@ -188,6 +189,24 @@
     "description": "Traditionele borrel aan het eind van de woensdag van de Webwinkel Vakdagen",
     "location": "Utrecht",
     "url": "https://www.eventbrite.com/e/tickets-mage-os-wwvd-2025-borrel-1106568990639"
+  },
+  {
+    "timestamp": "2025-05-16",
+    "date": "16 mei 2025",
+    "time": "09:30 - 16:00",
+    "title": "Lady Magento Texel Meet-up",
+    "description": "No talks, no schedules—just good company, networking, and pure relaxation on the island.",
+    "location": "Texel",
+    "url": "https://www.magedispatch.com/agenda/lady-magento-texel-meet-up"
+  },
+  {
+    "timestamp": "2025-05-16",
+    "date": "16 mei 2025",
+    "time": "10:15 - 16:00",
+    "title": "Hackathon Texel",
+    "description": "Bouw iets cools samen met de Nederlandse Magento community. Georganiseerd door MageDispatch.com",
+    "location": "Texel",
+    "url": "https://www.magedispatch.com/agenda/hackathon-16-may-2025"
   },
   {
     "timestamp": "2025-06-05",

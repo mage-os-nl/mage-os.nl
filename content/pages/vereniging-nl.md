@@ -34,9 +34,6 @@ Terwijl het bestuur processen bewaakt, mensen aanjaagt en faciliteert, wordt het
 
 - **Sponsorcommissie**: Onder leiding van Sanne Bolkenstein en Sander de Graaf wordt gekeken naar sponsoropties zoals event-specifieke sponsors of bijvoorbeeld een algemene sponsor op de website.
 
-### Eventcommissie 2025
-
-
 ### Statuten en huishoudelijk regelement
 De statuten zijn op de pagina [Statuten Mage-OS Nederland](/statuten) terug te vinden.
 

@@ -12,3 +12,10 @@ For international events, visit the global Mage-OS site: [mage-os.org/community/
 
 ### Google Calendar feed
 We maintain a Google Calendar feed, which might be handy in your own agenda: [calendar.google.com](https://calendar.google.com/calendar/u/0?cid=ZGY1NTU4ZDE1NjU3N2VhNmFkOWY3YTIxMzJjM2U5MjllMWJiYzVkYmY4OTkyMzllMzRjMjI3NzVmMTVhMTdiZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+
+### Eventswerkgroep
+Deze informatie wordt bijgehouden door een eventswerkgroep van Mage-OS Nederland. Het doel van deze werkgroep is om Magento-gerelateerde events in Nederland te stroomlijnen en te promoten. Momenteel bestaat de werkgroep uit de volgende personen:
+
+- [Jisse Reitsma](https://www.linkedin.com/in/jissereitsma/)
+- [Lars de Weert](https://www.linkedin.com/in/larsdw/)
+- [Michiel Gerritsen](https://www.linkedin.com/in/michielgerritsen/)

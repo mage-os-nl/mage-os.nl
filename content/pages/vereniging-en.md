@@ -28,7 +28,7 @@ While the board monitors processes, encourages and facilitates people, further w
  
 - **Legal Committee**: The articles of association were approved at the time of incorporation on Wednesday, January 18, 2023, but some further refinements may be required. A committee led by Jisse Reitsma, Roland Haselager and Sander de Graaf would like to ask the community to help draw up pieces correctly, so that the basis is good.
 
-- **Event Committee**: Will there be another MeetMagento Netherlands? That is the question that concerns many people. And with Mage-OS Nederland we hope to breathe new life into it. Led by Sanne Bolkenstein, Michiel Gerritsen and Core de Reeper, a group is looking at the possibilities.
+- **Event Committee**: Will there be another MeetMagento Netherlands? That is the question that concerns many people. And with Mage-OS Nederland we hope to breathe new life into it.
 
 - **Content committee**: The website should be adjusted, social media should be streamlined, newsletters should be in order. Jeroen Boersma, Roland Haselager and Jisse Reitsma are working on better content. And input from others is a must.
 

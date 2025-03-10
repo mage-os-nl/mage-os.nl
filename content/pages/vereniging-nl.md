@@ -28,11 +28,14 @@ Terwijl het bestuur processen bewaakt, mensen aanjaagt en faciliteert, wordt het
 
 - **Juridische commissie**: Bij de oprichting zijn statuten goedgekeurd maar daar mag misschien nog wat aan bijgeschaafd worden. Via deze commissie wordt de community gevraagd om mee te helpen met het correct opstellen van stukken, zodat de basis goed is.
 
-- **Eventcommissie**: Komt er nog een MeetMagento Nederland? Dat is de vraag die veel mensen bezig houdt. En met Mage-OS Nederland hopen we daar nieuw leven in te kunnen blazen. Onder leiding van Sanne Bolkenstein, Michiel Gerritsen en Core de Reeper kijkt een groep naar de mogelijkheden.
+- **Eventcommissie**: Komt er nog een MeetMagento Nederland? Dat is de vraag die veel mensen bezig houdt. En met Mage-OS Nederland hopen we daar nieuw leven in te kunnen blazen.
 
 - **Contentcommissie**: De website zou aangepast moeten worden, social media moeten gestreamlined zijn, nieuwsbrieven moeten op orde zijn. Jeroen Boersma, Roland Haselager en Jisse Reitsma werken aan betere content. En input van anderen is een must. Onder deze commissie kan ook vallen een opheldering rondom de platform namen van Magento Open Source, Adobe Commerce en Mage-OS.
 
 - **Sponsorcommissie**: Onder leiding van Sanne Bolkenstein en Sander de Graaf wordt gekeken naar sponsoropties zoals event-specifieke sponsors of bijvoorbeeld een algemene sponsor op de website.
+
+### Eventcommissie 2025
+
 
 ### Statuten en huishoudelijk regelement
 De statuten zijn op de pagina [Statuten Mage-OS Nederland](/statuten) terug te vinden.

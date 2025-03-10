@@ -40,6 +40,8 @@ $pastEvents = (new EventProvider())->getPastEvents();
     </tbody>
 </table>
 
+<button id="past-events-toggler" onClick="togglePastEvents()">Toon events in het verleden</button>
+<div id="past-events" style="display:none">
 <h2>Events in het verleden</h2>
 <table class="table">
     <thead>
@@ -71,3 +73,18 @@ $pastEvents = (new EventProvider())->getPastEvents();
     <?php endforeach; ?>
     </tbody>
 </table>
+</div>
+
+<script>
+function togglePastEvents() {
+    const container = document.getElementById('past-events');
+    const toggler = document.getElementById('past-events-toggler');
+
+    if (container.style.display === 'none') {
+        container.style.display = 'block';
+    } else {
+        container.style.display = 'none';
+    }
+
+}
+</script>

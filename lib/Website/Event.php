@@ -5,7 +5,7 @@ namespace MageOsNl\Website;
 class Event
 {
     private string $title;
-    private int $timestamp;
+    private \DateTimeImmutable $timestamp;
     private string $date;
     private string $time = '';
     private string $description = '';
@@ -15,8 +15,8 @@ class Event
     public function __construct(array $data = [])
     {
         $this->title = $data['title'];
-        $this->timestamp = strtotime($data['timestamp']);
-        $this->date = $data['date'];
+        $this->timestamp = new \DateTimeImmutable($data['timestamp']);
+        $this->date = $data['date'] ?? '';
         $this->time = $data['time'] ?? '';
         $this->description = $data['description'] ?? '';
         $this->url = $data['url'] ?? '';
@@ -65,13 +65,10 @@ class Event
 
     public function isUpcoming(): bool
     {
-        return $this->getTimestamp() > time();
+        return $this->getTimestamp() > new \DateTimeImmutable();
     }
 
-    /**
-     * @return int
-     */
-    public function getTimestamp(): int
+    public function getTimestamp(): \DateTimeImmutable
     {
         return $this->timestamp;
     }
@@ -82,5 +79,15 @@ class Event
     public function getLocation(): string
     {
         return $this->location;
+    }
+
+    public function getFormattedDate(): string
+    {
+        if ($this->date) {
+            return $this->date;
+        }
+
+        $formatter = new \IntlDateFormatter('nl_NL', \IntlDateFormatter::FULL, \IntlDateFormatter::NONE);
+        return $formatter->format($this->timestamp);
     }
 }

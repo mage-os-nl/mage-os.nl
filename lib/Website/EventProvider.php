@@ -52,6 +52,10 @@ class EventProvider
             }
         }
 
+        usort($pastEvents, function(Event $a, Event $b) {
+            return $b->getTimestamp() <=> $a->getTimestamp();
+        });
+
         return $pastEvents;
     }
 }

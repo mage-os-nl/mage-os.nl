@@ -6,85 +6,33 @@ $upcomingEvents = (new EventProvider())->getUpcomingEvents();
 $pastEvents = (new EventProvider())->getPastEvents();
 ?>
 <h2>Aankomende events</h2>
-<table class="table">
-    <thead>
-    <tr>
-        <th colspan="1" width="15%">Datum</th>
-        <th colspan="1" width="25%">Event</th>
-        <th colspan="1">Omschrijving</th>
-    </tr>
-    </thead>
-    <tbody>
-    <?php foreach ($upcomingEvents as $event): ?>
-        <tr>
-            <td>
-                <em><?= $event->getDate() ?></em>
-            </td>
-            <td>
-                <?php if ($event->getUrl()): ?>
-                    <a href="<?= $event->getUrl() ?>"><strong><?= $event->getTitle() ?></strong></a>
-                <?php else: ?>
-                    <strong><?= $event->getTitle() ?></strong>
-                <?php endif; ?>
-            </td>
-            <td>
-                <?php if ($event->getDescription()): ?>
-                    <?= $event->getDescription() ?>
-                <?php endif; ?>
-                <address>
-                    <a href="https://www.google.nl/maps/search/<?= urlencode($event->getLocation()) ?>"><?= $event->getLocation() ?></a>
-                </address>
-            </td>
-        </tr>
-    <?php endforeach; ?>
-    </tbody>
-</table>
 
-<button id="past-events-toggler" onClick="togglePastEvents()">Toon events in het verleden</button>
-<div id="past-events" style="display:none">
-<h2>Events in het verleden</h2>
-<table class="table">
-    <thead>
-    <tr>
-        <th colspan="1" width="15%">Datum</th>
-        <th colspan="1" width="25%">Event</th>
-        <th colspan="1">Omschrijving</th>
-    </tr>
-    </thead>
-    <tbody>
-    <?php foreach ($pastEvents as $event): ?>
-        <tr>
-            <td>
-                <em><?= $event->getDate() ?></em>
-            </td>
-            <td>
-                <?php if ($event->getUrl()): ?>
-                    <a href="<?= $event->getUrl() ?>"><strong><?= $event->getTitle() ?></strong></a>
-                <?php else: ?>
-                    <strong><?= $event->getTitle() ?></strong>
-                <?php endif; ?>
-            </td>
-            <td>
-                <?php if ($event->getDescription()): ?>
-                    <?= $event->getDescription() ?>
-                <?php endif; ?>
-            </td>
-        </tr>
-    <?php endforeach; ?>
-    </tbody>
-</table>
+<div class="not-prose">
+    <ol class="m-0 p-0 divide-y divide-gray-100 text-sm/6 lg:col-span-7 xl:col-span-8">
+        <?php foreach ($upcomingEvents as $event): ?>
+            <?php require __DIR__ . '/agenda-item.php'; ?>
+        <?php endforeach; ?>
+    </ol>
+</div>
+
+
+<button id="past-events-toggler" class="cursor-pointer underline" onClick="togglePastEvents()">Toon events in het verleden</button>
+<div id="past-events" class="hidden">
+    <h2 class="mt-8">Events in het verleden</h2>
+
+    <div class="not-prose">
+        <ol class="m-0 p-0 divide-y divide-gray-100 text-sm/6 lg:col-span-7 xl:col-span-8">
+            <?php foreach ($pastEvents as $event): ?>
+                <?php require __DIR__ . '/agenda-item.php'; ?>
+            <?php endforeach; ?>
+        </ol>
+    </div>
 </div>
 
 <script>
 function togglePastEvents() {
     const container = document.getElementById('past-events');
-    const toggler = document.getElementById('past-events-toggler');
 
-    if (container.style.display === 'none') {
-        container.style.display = 'block';
-    } else {
-        container.style.display = 'none';
-    }
-
+    container.classList.toggle('hidden');
 }
 </script>

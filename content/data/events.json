@@ -1,27 +1,24 @@
 [
   {
     "timestamp": "2022-11-04",
-    "date": "4 november 2022",
     "title": "Community borrel",
     "description": "Eerste borrel in Utrecht ter revival van de Nederlandse Magento community",
     "location": "Cafe Joost, Achter Sint Pieter 3, Utrecht"
   },
   {
     "timestamp": "2022-11-18",
-    "date": "18 november 2022",
     "title": "Oprichting vereniging",
-    "description": "Oprichting Mage-OS Nederland als vereniging met beperkte rechtsbevoegdheid"
+    "description": "Oprichting Mage-OS Nederland als vereniging met beperkte rechtsbevoegdheid",
+    "location": "Kamer van Koophandel, Utrecht"
   },
   {
     "timestamp": "2023-01-19",
-    "date": "19 januari 2023",
     "title": "Ledenvergadering en nieuwjaarsborrel",
     "description": "Eerste ledenvergadering en aansluitend een nieuwjaarsborrel",
     "location": "Toque Toque Foodcafé, Oudegracht 138, Utrecht"
   },
   {
     "timestamp": "2023-03-29",
-    "date": "29 maart 2023",
     "time": "17:30 - 22:00",
     "title": "Magento borrel (WWVD)",
     "description": "Traditionele borrel aan het eind van de woensdag van de Webwinkel Vakdagen",
@@ -29,7 +26,6 @@
   },
   {
     "timestamp": "2023-05-05",
-    "date": "5 mei 2023",
     "time": "16:00 - 20:00",
     "title": "Coven of Wisdom - Hyvä Edition",
     "description": "Een iO Campus middag over Hyvä met o.a. Hyvä Checkout",
@@ -45,27 +41,25 @@
   },
   {
     "timestamp": "2023-11-01",
-    "date": "1 november 2023",
     "title": "Magento hackathon",
-    "description": "Samenwerken aan nieuwe oplossingen binnen Magento (bij Yireo)"
+    "description": "Samenwerken aan nieuwe oplossingen binnen Magento (bij Yireo)",
+    "location": "Yireo Academy"
   },
   {
     "timestamp": "2023-11-02",
-    "date": "2 november 2023",
     "title": "Meet Magento Nederland",
     "description": "Eindelijk weer eens een Magento event voor iedereen",
-    "url": "https://nl.meet-magento.com/"
+    "url": "https://nl.meet-magento.com/",
+    "location": "LIEF, Amsterdam"
   },
   {
     "timestamp": "2024-01-22",
-    "date": "22 januari 2024",
     "title": "Women In Magento Tech diner",
     "description": "Een diner voor 30 vakvrouwen werkzaam in de Magento wereld",
     "location": "Utrecht"
   },
   {
     "timestamp": "2024-01-23",
-    "date": "23 januari 2024",
     "time": "17:00 - 22:00",
     "title": "Magento borrel (WWVD)",
     "description": "Traditionele borrel aan het eind van de eerste dag van de Webwinkel Vakdagen",
@@ -73,7 +67,6 @@
   },
   {
     "timestamp": "2024-02-22",
-    "date": "22 februari 2024",
     "time": "17:00 - 21:00",
     "title": "Mollie Developer Meetup",
     "description": "Meetup bij Mollie met talks uit de Magento community",
@@ -82,7 +75,6 @@
   },
   {
     "timestamp": "2024-02-29",
-    "date": "29 februari 2024",
     "time": "16:00 - 23:00",
     "title": "Mage-OS NL Ledenvergadering",
     "description": "Jaarlijkse algemene ledenvergadering met aansluitende borrel",
@@ -91,7 +83,6 @@
   },
   {
     "timestamp": "2024-05-29",
-    "date": "29 mei 2024",
     "title": "Magewire hackathon",
     "location": "Yireo Academy, Amalialaan 126B, Baarn",
     "description": "Samenwerken aan de release van Magewire v3",
@@ -99,7 +90,6 @@
   },
   {
     "timestamp": "2024-06-27",
-    "date": "27 juni 2024",
     "time": "15:00 - 20:30",
     "title": "Mage-OS NL Ledenvergadering",
     "description": "Jaarlijkse algemene ledenvergadering met aansluitende borrel (gesponsord door Buckaroo)",
@@ -108,7 +98,6 @@
   },
   {
     "timestamp": "2024-07-25",
-    "date": "25 juli 2024",
     "time": "11:30 - 17:30",
     "title": "Women in Magento - Texel Edition",
     "description": "Join us for an exclusive event on the stunning island of Texel. Enjoy a scenic tour around the island followed by a delightful dinner. Contact <a href=\"https://www.linkedin.com/in/jacqueline-gerritsen-kapiteijn-97903727/\">Jacqueline</a> to sign-up.",
@@ -117,7 +106,6 @@
   },
   {
     "timestamp": "2024-09-13",
-    "date": "13 september 2024",
     "title": "MageTitans Groningen",
     "description": "International developers event",
     "location": "Groningen",
@@ -125,7 +113,6 @@
   },
   {
     "timestamp": "2024-10-18",
-    "date": "18 oktober 2024",
     "title": "Mage-OS Meetup: Mage-OS, Magento en Adobe",
     "description": "Over de toekomst van Magento",
     "location": "Yireo, Baarn",
@@ -133,7 +120,6 @@
   },
   {
     "timestamp": "2024-10-31",
-    "date": "31 oktober 2024",
     "title": "Meet Magento Nederland",
     "description": "Ons jaarlijkse samenzijn als community",
     "location": "LIEF, Amsterdam",
@@ -141,7 +127,6 @@
   },
   {
     "timestamp": "2024-11-01",
-    "date": "1 november 2024",
     "title": "Lady Magento Brunch",
     "description": "Lady Magento Brunch",
     "location": "Grand Cafe Hermes, Amsterdam",
@@ -149,7 +134,6 @@
   },
   {
     "timestamp": "2025-01-24",
-    "date": "24 januari 2025",
     "time": "16:00 - 23:00",
     "title": "Mage-OS NL Ledenvergadering",
     "description": "Jaarlijkse algemene ledenvergadering met aansluitende borrel",
@@ -158,7 +142,6 @@
   },
   {
     "timestamp": "2025-02-07",
-    "date": "7 februari 2025",
     "title": "Mage-OS Meetup: Deploying Magento",
     "description": "Over Deployer, Brancher en Blue/Green Deployment",
     "location": "Hypernode, Amsterdam",
@@ -166,7 +149,6 @@
   },
   {
     "timestamp": "2025-03-06",
-    "date": "6 maart 2025",
     "title": "Mage-OS Meetup: Welke PIM pak je?",
     "description": "Over PIM systemen voor Magento",
     "location": "Yireo, Baarn",
@@ -174,7 +156,6 @@
   },
   {
     "timestamp": "2025-03-06",
-    "date": "6 maart 2025",
     "time": "17:00 - 22:00",
     "title": "Lady Magento",
     "description": "Een event voor ladies bij Mollie HQ",
@@ -183,7 +164,6 @@
   },
   {
     "timestamp": "2025-04-03",
-    "date": "2 april 2025",
     "time": "16:00 - 19:00",
     "title": "Magento borrel (WWVD)",
     "description": "Traditionele borrel aan het eind van de woensdag van de Webwinkel Vakdagen",
@@ -192,7 +172,6 @@
   },
   {
     "timestamp": "2025-05-16",
-    "date": "16 mei 2025",
     "time": "09:30 - 16:00",
     "title": "Lady Magento Texel Meet-up",
     "description": "No talks, no schedules—just good company, networking, and pure relaxation on the island.",
@@ -201,7 +180,6 @@
   },
   {
     "timestamp": "2025-05-16",
-    "date": "16 mei 2025",
     "time": "10:15 - 16:00",
     "title": "Hackathon Texel",
     "description": "Bouw iets cools samen met de Nederlandse Magento community. Georganiseerd door MageDispatch.com",
@@ -210,14 +188,12 @@
   },
   {
     "timestamp": "2025-06-05",
-    "date": "5 juni 2025",
     "title": "Mage-OS Nederland BBQ",
     "description": "Een gezellig community event",
     "location": "Onbekend"
   },
   {
     "timestamp": "2025-06-18",
-    "date": "18 juni 2025",
     "title": "General Assembly of Mage-OS Worldwide",
     "description": "Denk mee met het bouwen van de nieuwe Mage-OS community",
     "location": "Zoom",
@@ -233,7 +209,6 @@
   },
   {
     "timestamp": "2025-11-06",
-    "date": "6 november 2025",
     "title": "Meet Magento Nederland",
     "description": "Ons jaarlijkse samenzijn als community",
     "location": "LIEF, Amsterdam",

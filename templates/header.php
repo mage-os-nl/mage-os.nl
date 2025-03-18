@@ -30,7 +30,7 @@ $becomeMemberUrl = new Url('lid-worden');
                     </a>
                 </div>
 
-                <button class="absolute right-0 outline-none md:hidden" @click="open = ! open">
+                <button class="absolute right-0 outline-hidden md:hidden" @click="open = ! open">
                     <svg
                             class="w-6 h-6 text-gray-500"
                             fill="none"

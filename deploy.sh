@@ -1,5 +1,7 @@
 #!/bin/bash
+yarn install
 yarn build
+
 git commit -m 'New CSS' pub/style.css
 git push origin main
 

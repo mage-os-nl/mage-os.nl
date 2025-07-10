@@ -1,5 +1,4 @@
 "name", "role", "url", "logo"
-"101media", "agency", "https://www.101media.nl/", "101media.svg"
 "3WebApps", "agency", "https://3webapps.com/", "3webapps.png"
 "Abovo Media", "agency", "https://www.abovomedia.nl/", ""
 "Accent Interactive", "agency", "https://www.accentinteractive.nl/", "accentinteractive.png"
@@ -81,6 +80,7 @@
 "Sedero", "agency", "https://www.sedero.nl/", ""
 "Shopcommerce", "agency", "https://www.shopcommerce.nl/", "shopcommerce.svg"
 "Siteation", "agency", "https://siteation.nl/", "siteation.svg"
+"Spits", "agency", "https://www.spits.online", "spits.svg"
 "Sprinque", "payment", "https://www.sprinque.com/nl", "sprinque.svg"
 "Strix", "agency", "https://nl.strix.net/", ""
 "SupportDesk", "agency", "https://www.supportdesk.nu/", "supportdesk.svg"

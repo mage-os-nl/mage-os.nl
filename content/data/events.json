@@ -229,5 +229,13 @@
     "description": "Ons jaarlijkse samenzijn als community",
     "location": "LIEF, Amsterdam",
     "url": "https://nl.meet-magento.com/"
+  },
+  {
+    "timestamp": "2026-06-25",
+    "date": "24-27 juni 2026",
+    "title": "MageUnconference Nederland",
+    "description": "Een echt Magento community event, georganiseerd door Yireo",
+    "location": "Fort aan de Klop, Utrecht",
+    "url": "https://mageunconference.nl/"
   }
 ]

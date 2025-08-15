@@ -216,7 +216,14 @@
     "location": "Fort aan de Klop, Utrecht",
     "url": "https://mageunconference.nl/"
   },
-    {
+  {
+    "timestamp": "2025-09-12",
+    "title": "Hypernode Developer Meetup",
+    "description": "Meetup on Tideways, PHP 8.4 native lazy objects and more",
+    "location": "Amsterdam",
+    "url": "https://content.hypernode.nl/hypernode-developer-meet-up"
+  },
+  {
     "timestamp": "2025-09-26",
     "title": "MageTitans Groningen",
     "description": "International developers event",

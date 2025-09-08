@@ -224,18 +224,18 @@
     "url": "https://content.hypernode.nl/hypernode-developer-meet-up"
   },
   {
-    "timestamp": "2025-09-26",
-    "title": "MageTitans Groningen",
-    "description": "International developers event",
-    "location": "DOT Vrydemalaan 2, 9713 WS Groningen, Nederland",
-    "url": "https://mage-titans.nl/"
-  },
-  {
     "timestamp": "2025-09-25",
     "title": "MageTitans - Hyvä Hackathon",
     "description": "You'll be working hands-on in small teams to enhance the Hyvä ecosystem and sharpen your technical skills. Brought to you by the MageTitans team.",
     "location": "Elgentos office, Hereweg 120 (4th floor), 9725 AK Groningen ",
     "url": "https://mage-titans.nl/hyva-hackathon"
+  },
+  {
+    "timestamp": "2025-09-26",
+    "title": "MageTitans Groningen",
+    "description": "International developers event",
+    "location": "DOT Vrydemalaan 2, 9713 WS Groningen, Nederland",
+    "url": "https://mage-titans.nl/"
   },
   {
     "timestamp": "2025-11-05",
@@ -252,8 +252,9 @@
   {
     "timestamp": "2025-11-13",
     "title": "Women in eCommerce",
-    "description": "Yes, finally a woman in eCommerce in Groningen! Join us not only for drinks and food but also to get inspired by a panel discussion with Maria Bruin (Partner Manager at Alumio), Marianne Deenik (Head of Agency Partnerships), and Karlijn Lowik (CEO of RUMvision).",
-    "location": "Uurwerkertje, Groningen"
+    "description": "Groningen krijgt eindelijk haar eigen Women in E-commerce meetup! Netwerken, inspiratie en natuurlijk een borrel. Kom je ook?",
+    "location": "Uurwerkertje, Groningen",
+    "url": "https://www.eventbrite.com/e/women-in-e-commerce-groningen-tickets-1673036861289"
   },
   {
     "timestamp": "2026-01-29",

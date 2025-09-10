@@ -6,56 +6,67 @@ use MageOsNl\Registry;
 
 class EventProvider
 {
+    private array $events = [];
+
     /**
-     * @return Event[]
+     * @return EventGroup[]
      */
-    public function getEvents(): array
+    public function getEventGroups(): array
     {
+        if ($this->events !== []) {
+            return $this->events;
+        }
+
         $filename = Registry::getInstance()->getContentDirectory() . '/data/events.json';
         if (!file_exists($filename)) {
             return [];
         }
 
         $items = json_decode(file_get_contents($filename), true);
-        $events = [];
+        $grouped = [];
         foreach ($items as $item) {
-            $events[] = new Event($item);
+            $key = array_key_exists('group', $item) ? $item['group'] : $item['title'] . $item['timestamp'];
+            $grouped[$key][] = new Event($item);
         }
 
-        return $events;
+        foreach ($grouped as $key => $childEvents) {
+            $this->events[] = new EventGroup($key, $childEvents);
+        }
+
+        return $this->events;
     }
 
     /**
-     * @return Event[]
+     * @return EventGroup[]
      */
-    public function getUpcomingEvents(): array
+    public function getUpcomingEventGroups(): array
     {
-        $activeEvents = [];
-        foreach ($this->getEvents() as $event) {
-            if ($event->isUpcoming()) {
-                $activeEvents[] = $event;
+        $groups = [];
+        foreach ($this->getEventGroups() as $group) {
+            if ($group->isUpcoming()) {
+                $groups[] = $group;
             }
         }
 
-        return $activeEvents;
+        return $groups;
     }
 
     /**
-     * @return Event[]
+     * @return EventGroup[]
      */
-    public function getPastEvents(): array
+    public function getPastEventGroups(): array
     {
-        $pastEvents = [];
-        foreach ($this->getEvents() as $event) {
-            if (false === $event->isUpcoming()) {
-                $pastEvents[] = $event;
+        $groups = [];
+        foreach ($this->getEventGroups() as $group) {
+            if (!$group->isUpcoming()) {
+                $groups[] = $group;
             }
         }
 
-        usort($pastEvents, function(Event $a, Event $b) {
-            return $b->getTimestamp() <=> $a->getTimestamp();
+        usort($groups, function(EventGroup $a, EventGroup $b) {
+            return $b->events[0]->getTimestamp() <=> $a->events[0]->getTimestamp();
         });
 
-        return $pastEvents;
+        return $groups;
     }
 }

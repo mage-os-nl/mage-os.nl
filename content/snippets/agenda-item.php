@@ -1,5 +1,17 @@
-<?php /** @var \MageOsNl\Website\Event $event */ ?>
-<li class="relative flex gap-x-6 pl-0 py-6 xl:static hover:bg-gray-50 -ml-2 pl-2">
+<?php
+/** @var array $item */
+/** @var \MageOsNl\Website\Event $event */
+
+$event = $item['event'];
+$firstOfGroupClasses = 'rounded-t-lg';
+$lastOfGroupClasses = 'rounded-b-lg border-b-0 mb-8';
+
+$classes = '';
+$classes .= $item['first'] ? $firstOfGroupClasses . ' ' : '';
+$classes .= $item['last'] ? $lastOfGroupClasses . ' ' : '';
+$classes .= $event->isMainEvent() ? 'bg-yellow-50 hover:bg-yellow-100' : 'bg-white hover:bg-gray-50';
+?>
+<li class="<?= $classes ?> relative py-4 border-gray-100 border-b-1 xl:static -ml-2 pl-2 shadow-sm dark:divide-white/10 dark:bg-gray-800/50 dark:shadow-none dark:outline dark:-outline-offset-1 dark:outline-white/10">
     <div class="flex-auto prose">
         <h3 class="pr-10 font-semibold text-gray-900 xl:pr-0">
             <?php if ($event->getUrl()): ?>
@@ -51,6 +63,7 @@
                     </dd>
                 </div>
             <?php endif; ?>
+            <?php if ($event->getLocation()): ?>
             <div class="mt-2 flex items-start gap-x-3 xl:ml-3.5 xl:mt-0 xl:border-l xl:border-gray-400/50 xl:pl-3.5">
                 <dt class="mt-0.5">
                     <span class="sr-only">Location</span>
@@ -60,10 +73,11 @@
                 </dt>
                 <dd>
                     <address>
-                        <a class="underline" href="<?= $event->getUrl() ?>"><?= $event->getLocation() ?></a>
+                        <a class="underline" target="_blank" rel="noreferrer noopener" href="https://www.google.com/maps/search/?api=1&query=<?= urlencode($event->getAddress()) ?>"><?= $event->getLocation() ?></a>
                     </address>
                 </dd>
             </div>
+            <?php endif; ?>
             <div class="mt-2 flex items-start gap-x-3 xl:ml-3.5 xl:mt-0 xl:border-l xl:border-gray-400/50 xl:pl-3.5">
                 <dt class="mt-0.5">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -71,7 +85,7 @@
                     </svg>
                 </dt>
                 <dd>
-                    <a class="underline" href="<?= $event->getUrl() ?>">Event link</a>
+                    <a class="underline" target="_blank" rel="noreferrer noopener" href="<?= $event->getUrl() ?>">Event link</a>
                 </dd>
             </div>
         </dl>

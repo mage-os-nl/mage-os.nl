@@ -11,6 +11,8 @@ class Event
     private string $description = '';
     private string $url = '';
     private string $location;
+    private string $address;
+    private bool $mainEvent;
 
     public function __construct(array $data = [])
     {
@@ -21,6 +23,8 @@ class Event
         $this->description = $data['description'] ?? '';
         $this->url = $data['url'] ?? '';
         $this->location = $data['location'] ?? '';
+        $this->address = $data['address'] ?? $this->location;
+        $this->mainEvent = $data['main_event'] ?? false;
     }
 
     /**
@@ -60,7 +64,13 @@ class Event
      */
     public function getUrl(): string
     {
-        return $this->url;
+        $utm = 'utm_source=mage-os-nl&utm_medium=agenda&utm_campaign=mage-os-nl';
+
+        if (strstr($this->url, '?') !== false) {
+            return $this->url . '&' . $utm;
+        }
+
+        return $this->url . '?' . $utm;
     }
 
     public function isUpcoming(): bool
@@ -79,6 +89,16 @@ class Event
     public function getLocation(): string
     {
         return $this->location;
+    }
+
+    public function getAddress(): string
+    {
+        return $this->address;
+    }
+
+    public function isMainEvent(): bool
+    {
+        return $this->mainEvent;
     }
 
     public function getFormattedDate(): string

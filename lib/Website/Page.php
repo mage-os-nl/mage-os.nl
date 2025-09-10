@@ -25,12 +25,17 @@ class Page
     {
         $html = 'No content';
 
+        $template = match ($this->getName()) {
+            'agenda' => 'section-agenda.php',
+            default => 'section-default.php',
+        };
+
         try {
             $markdown = $this->getMarkdownContent();
             $markdown = str_replace('---', '', $markdown);
             $html = MarkdownExtra::defaultTransform($markdown);
             ob_start();
-            include __ROOT__ .'/templates/section-html.php';
+            include __ROOT__ .'/templates/' . $template;
             $html = ob_get_contents();
             ob_end_clean();
 

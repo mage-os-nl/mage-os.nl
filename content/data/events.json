@@ -220,41 +220,52 @@
     "timestamp": "2025-09-12",
     "title": "Hypernode Developer Meetup",
     "description": "Meetup on Tideways, PHP 8.4 native lazy objects and more",
-    "location": "Amsterdam",
+    "location": "Hypernode Amsterdam",
+    "address": "Hypernode Amsterdam",
     "url": "https://content.hypernode.nl/hypernode-developer-meet-up"
   },
   {
     "timestamp": "2025-09-25",
     "title": "Pre MageTitans Groningen - Hyvä Hackathon",
     "description": "You'll be working hands-on in small teams to enhance the Hyvä ecosystem and sharpen your technical skills. Brought to you by the MageTitans team.",
-    "location": "Elgentos office, Hereweg 120 (4th floor), 9725 AK Groningen ",
-    "url": "https://mage-titans.nl/hyva-hackathon"
+    "location": "Elgentos office",
+    "address": "Hereweg 120 (4th floor), 9725 AK Groningen",
+    "url": "https://mage-titans.nl/hyva-hackathon",
+    "group": "MageTitans Groningen 2025"
   },
   {
     "timestamp": "2025-09-26",
     "title": "MageTitans Groningen",
     "description": "International developers event",
-    "location": "DOT Vrydemalaan 2, 9713 WS Groningen, Nederland",
-    "url": "https://mage-titans.nl/"
+    "location": "DOT Groningen",
+    "address": "Vrydemalaan 2, 9713 WS Groningen, Nederland",
+    "url": "https://mage-titans.nl/",
+    "group": "MageTitans Groningen 2025",
+    "main_event": true
   },
   {
     "timestamp": "2025-10-15",
     "title": "Yireo - Loki Hackathon",
     "description": "Get started with Loki Components, Loki Admin Components and more to build Magento shops faster",
-    "location": "Yireo, Amalialaan 126D, 3743 KJ Baarn",
+    "location": "Yireo",
+    "address": "Yireo, Amalialaan 126D, 3743 KJ Baarn",
     "url": "https://www.yireo.com/hackathon/loki-2025-q4"
   },
   {
     "timestamp": "2025-11-05",
     "title": "Pre Meet Magento hackathon",
-    "location": "Bold Commerce Teleportboulevard 128, 1043 EJ Amsterdam"
+    "location": "Bold Commerce, Amsterdam",
+    "address": "Bold Commerce, Teleportboulevard 128, 1043 EJ Amsterdam",
+    "group": "Meet Magento NL 2025"
   },
   {
     "timestamp": "2025-11-06",
     "title": "Meet Magento Nederland",
     "description": "Ons jaarlijkse samenzijn als community",
     "location": "LIEF, Amsterdam",
-    "url": "https://nl.meet-magento.com/"
+    "url": "https://nl.meet-magento.com/",
+    "group": "Meet Magento NL 2025",
+    "main_event": true
   },
   {
     "timestamp": "2025-11-13",
@@ -266,20 +277,19 @@
     "timestamp": "2025-12-02",
     "title": "Magento PageBuilder Hackathon",
     "description": "Met Magento PageBuilder is zoveel meer mogelijk dan standaard geopperd door concurrenten. Met deze hackathon brengen we alle puzzelstukken samen en breiden we de boel uit",
-    "location": "Yireo, Amalialaan 126D, 3743 KJ Baarn",
+    "location": "Yireo",
+    "address": "Yireo, Amalialaan 126D, 3743 KJ Baarn",
     "url": "https://www.yireo.com/hackathon/pagebuilder-2025-q4"
   },
   {
     "timestamp": "2026-01-29",
     "title": "Mage-OS NL Nieuwjaarsborrel",
-    "description": "Nieuwjaarsborrel",
-    "location": "n.t.b."
+    "description": "Nieuwjaarsborrel"
   },
   {
     "timestamp": "2026-03-25",
     "title": "Webwinkelvakdagen borrel",
-    "description": "Traditionele borrel aan het eind van de woensdag van de Webwinkel Vakdagen",
-    "location": "Utrecht"
+    "description": "Traditionele borrel aan het eind van de woensdag van de Webwinkel Vakdagen"
   },
   {
     "timestamp": "2026-06-25",

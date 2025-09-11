@@ -5,7 +5,7 @@
 {{snippet agenda}}
 
 ### Staat jouw event er niet bij? 
-Maak een Pull Request aan via onze [GitHub repository](https://github.com/mage-os-nl/mage-os.nl/blob/main/content/data/events.json). Kom je daar niet uit? Neem contact met ons op.
+Maak een Pull Request aan via onze [GitHub repository](https://github.com/mage-os-nl/mage-os.nl/blob/main/content/data/events.json). Kom je daar niet uit? Neem contact met ons op. Dit kan door te mailen naar: [events@nl.mage-os.org](events@nl.mage-os.org).
 
 ### Overige events
 Kijk voor internationale events op de wereldwijde Mage-OS website: [mage-os.org/community/events/](https://mage-os.org/community/events/)

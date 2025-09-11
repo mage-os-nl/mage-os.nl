@@ -15,7 +15,7 @@ $classes .= $event->isMainEvent() ? 'bg-yellow-50 hover:bg-yellow-100' : 'bg-whi
     <div class="flex-auto prose">
         <h3 class="pr-10 font-semibold text-gray-900 xl:pr-0">
             <?php if ($event->getUrl()): ?>
-                <a class="no-underline" href="<?= $event->getUrl() ?>"><strong><?= $event->getTitle() ?></strong></a>
+                <a class="no-underline" target="_blank" rel="noreferrer" href="<?= $event->getUrl() ?>"><strong><?= $event->getTitle() ?></strong></a>
             <?php else: ?>
                 <strong><?= $event->getTitle() ?></strong>
             <?php endif; ?>

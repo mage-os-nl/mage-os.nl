@@ -13,6 +13,8 @@ class Event
     private string $location;
     private string $address;
     private bool $mainEvent;
+    private bool $meetMagentoEvent;
+
 
     public function __construct(array $data = [])
     {
@@ -25,6 +27,7 @@ class Event
         $this->location = $data['location'] ?? '';
         $this->address = $data['address'] ?? $this->location;
         $this->mainEvent = $data['main_event'] ?? false;
+        $this->meetMagentoEvent = $data['meet_magento_event'] ?? false;
     }
 
     /**
@@ -99,6 +102,11 @@ class Event
     public function isMainEvent(): bool
     {
         return $this->mainEvent;
+    }
+
+    public function isMeetMagentoEvent(): bool
+    {
+        return $this->meetMagentoEvent;
     }
 
     public function getFormattedDate(): string

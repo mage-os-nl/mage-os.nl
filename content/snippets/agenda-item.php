@@ -10,10 +10,12 @@ $classes = '';
 $classes .= $item['first'] ? $firstOfGroupClasses . ' ' : '';
 $classes .= $item['last'] ? $lastOfGroupClasses . ' ' : '';
 $classes .= $event->isMainEvent() ? 'bg-yellow-50 hover:bg-yellow-100' : 'bg-white hover:bg-gray-50';
+
+$textClasses = $event->isMeetMagentoEvent() ? 'text-orange-400' : 'text-gray-900';
 ?>
 <li class="<?= $classes ?> relative py-4 border-gray-100 border-b-1 xl:static -ml-2 pl-2 shadow-sm">
     <div class="flex-auto prose">
-        <h3 class="pr-10 font-semibold text-gray-900 xl:pr-0">
+        <h3 class="<?= $textClasses ?> pr-10 font-semibold  xl:pr-0">
             <?php if ($event->getUrl()): ?>
                 <a class="no-underline" target="_blank" rel="noreferrer" href="<?= $event->getUrl() ?>"><strong><?= $event->getTitle() ?></strong></a>
             <?php else: ?>

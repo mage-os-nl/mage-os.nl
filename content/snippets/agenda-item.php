@@ -11,7 +11,7 @@ $classes .= $item['first'] ? $firstOfGroupClasses . ' ' : '';
 $classes .= $item['last'] ? $lastOfGroupClasses . ' ' : '';
 $classes .= $event->isMainEvent() ? 'bg-yellow-50 hover:bg-yellow-100' : 'bg-white hover:bg-gray-50';
 
-$textClasses = $event->isMeetMagentoEvent() ? 'text-orange-400' : 'text-gray-900';
+$textClasses = $event->isMageOsNlEvent() ? 'text-orange-400' : 'text-gray-900';
 ?>
 <li class="<?= $classes ?> relative py-4 border-gray-100 border-b-1 xl:static -ml-2 pl-2 shadow-sm">
     <div class="flex-auto prose">

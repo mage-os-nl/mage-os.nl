@@ -15,16 +15,16 @@ if (strstr($_SERVER['REQUEST_URI'], 'lid-worden')) {
         <?= $image ?>
     </div>
     <div class="relative flex items-center justify-center">
-        <div class="text-center">
-            <h2 class="text-1xl md:text-3xl sm:text-5xl text-white font-extrabold uppercase text-center">
+        <div class="text-center bg-green px-8 py-16 rounded-xl">
+            <h2 class="text-1xl md:text-3xl sm:text-5xl text-orange font-extrabold uppercase text-center">
                 Mage-OS Nederland
             </h2>
-            <h3 class="text-1xl md:text-2xl lg:text-4xl text-orange-400 text-center pt-8">
+            <h3 class="text-1xl md:text-2xl lg:text-4xl text-blue text-center pt-8">
                 Een Nederlandse Magento community<br/> van en voor iedereen
             </h3>
             <div class="mt-12">
             <a href="/lid-worden"
-               title="Lid worden" class="bg-orange-500 text-white text-xl p-4 rounded-md">
+               title="Lid worden" class="button button-big button-orange">
                 Word nu lid
             </a>
             </div>

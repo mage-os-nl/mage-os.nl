@@ -2,3 +2,27 @@
 
 @import 'tailwindcss';
 @config '../tailwind.config.js';
+
+
+@theme {
+    --color-green: #EEFEEE;
+    --color-blue: #002299;
+    --color-red: #FF5501;
+    --color-orange: #F37121;
+    --color-dark: #374151;
+    --color-darker: #2B2B2B;
+}
+
+.button {
+    @apply py-1 p-6 text-white transition-colors text-center border border-white;
+    @apply hover:text-orange hover:bg-white;
+    @apply rounded-sm;
+}
+
+.button-big {
+    @apply text-2xl py-2;
+}
+
+.button-orange {
+    @apply bg-orange border-orange;
+}

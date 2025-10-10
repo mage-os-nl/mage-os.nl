@@ -31,6 +31,11 @@ class MenuItem {
      */
     public function getClass(): string
     {
-        return $this->class;
+        $class = $this->class;
+        if ($_SERVER['REQUEST_URI'] == $this->url) {
+            $class =  ' border-b-orange border-b-2 mt-1 inline-block';
+        }
+
+        return $class;
     }
 }

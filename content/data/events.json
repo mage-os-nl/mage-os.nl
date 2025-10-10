@@ -254,10 +254,20 @@
   {
     "timestamp": "2025-11-05",
     "title": "Mage OS and Mage OS NL Hackathon",
+    "time": "10:00 - 17:00",
     "location": "Bold Commerce, Amsterdam",
     "address": "Bold Commerce, Teleportboulevard 128, 1043 EJ Amsterdam",
     "group": "Meet Magento NL 2025",
     "url": "https://www.eventbrite.com/e/pre-mm25nl-hackaton-tickets-1658933638169"
+  },
+  {
+    "timestamp": "2025-11-05",
+    "title": "Pre-Party MM25NL",
+    "time": "19:00 - 23:00",
+    "location": "Café Kobalt, Amsterdam",
+    "address": "Café Kobalt, 2 A Singel, 1013 GA Amsterdam",
+    "group": "Meet Magento NL 2025",
+    "url": "https://www.eventbrite.com/e/pre-party-mm25nl-tickets-1775845825669"
   },
   {
     "timestamp": "2025-11-06",

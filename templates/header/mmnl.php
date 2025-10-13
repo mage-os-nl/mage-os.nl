@@ -24,7 +24,7 @@ if (strstr($_SERVER['REQUEST_URI'], 'lid-worden')) {
                 LIEF, Amsterdam
             </h3>
             <div class="mt-12">
-                <a href="https://www.eventbrite.com/e/tickets-meet-magento-netherlands-2025-1325385617059"
+                <a href="https://meetmagentonetherlands2025.eventbrite.com/"
                    class="button button-big button-orange">
                     Get your tickets
                 </a>

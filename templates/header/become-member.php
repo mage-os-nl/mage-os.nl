@@ -3,12 +3,13 @@ declare(strict_types=1);
 
 use MageOsNl\Website\ImageFactory;
 
-$image = ImageFactory::create('headers/mosnl-meeting-2024-02.jpg', 'Become a member');
-$image->setCssClass('w-full h-full object-cover');
-
-if (strstr($_SERVER['REQUEST_URI'], 'lid-worden')) {
+// Only show the banner on the homepage
+if ($_SERVER['REQUEST_URI'] != '/') {
     return;
 }
+
+$image = ImageFactory::create('headers/mosnl-meeting-2024-02.jpg', 'Become a member');
+$image->setCssClass('w-full h-full object-cover');
 ?>
 <div class="py-8 md:py-32 relative" id="banner-wwvd">
     <div class="absolute top-0 left-0 right-0 bottom-0">

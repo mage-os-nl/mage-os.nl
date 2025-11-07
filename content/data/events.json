@@ -310,5 +310,15 @@
     "description": "Een echt Magento community event, georganiseerd door Yireo",
     "location": "Fort aan de Klop, Utrecht",
     "url": "https://mageunconference.nl/"
+  },
+  {
+    "timestamp": "2026-11-05",
+    "title": "Meet Magento Nederland",
+    "description": "Ons jaarlijkse samenzijn als community",
+    "location": "LIEF, Amsterdam",
+    "url": "https://nl.meet-magento.com/",
+    "group": "Meet Magento NL 2026",
+    "main_event": true,
+    "mage_os_nl_event": true
   }
 ]

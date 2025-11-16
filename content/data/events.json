@@ -296,12 +296,16 @@
   {
     "timestamp": "2026-01-29",
     "title": "Mage-OS NL Nieuwjaarsborrel",
-    "description": "Nieuwjaarsborrel"
+    "description": "Nieuwjaarsborrel",
+    "location": "Bar Beton",
+    "address": "Bar Beton, Stationshal 2-9, 3511CE Utrecht"
   },
   {
     "timestamp": "2026-03-25",
     "title": "Webwinkelvakdagen borrel",
-    "description": "Traditionele borrel aan het eind van de woensdag van de Webwinkel Vakdagen"
+    "description": "Traditionele borrel aan het eind van de woensdag van de Webwinkel Vakdagen",
+    "location": "Beers & Barrels",
+    "address": "Beers & Barrels, Veilinghavenkade 177, 3521 BE Utrecht"
   },
   {
     "timestamp": "2026-06-25",

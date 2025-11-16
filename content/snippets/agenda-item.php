@@ -80,16 +80,18 @@ $textClasses = $event->isMageOsNlEvent() ? 'text-orange-400' : 'text-gray-900';
                 </dd>
             </div>
             <?php endif; ?>
-            <div class="mt-2 flex items-start gap-x-3 xl:ml-3.5 xl:mt-0 xl:border-l xl:border-gray-400/50 xl:pl-3.5">
-                <dt class="mt-0.5">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
-                    </svg>
-                </dt>
-                <dd>
-                    <a class="underline" target="_blank" rel="noreferrer noopener" href="<?= $event->getUrl() ?>">Event link</a>
-                </dd>
-            </div>
+            <?php if ($event->getUrl()): ?>
+                <div class="mt-2 flex items-start gap-x-3 xl:ml-3.5 xl:mt-0 xl:border-l xl:border-gray-400/50 xl:pl-3.5">
+                    <dt class="mt-0.5">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+                        </svg>
+                    </dt>
+                    <dd>
+                        <a class="underline" target="_blank" rel="noreferrer noopener" href="<?= $event->getUrl() ?>">Event link</a>
+                    </dd>
+                </div>
+            <?php endif; ?>
         </dl>
     </div>
 </li>

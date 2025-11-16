@@ -67,6 +67,10 @@ class Event
      */
     public function getUrl(): string
     {
+        if (!$this->url) {
+            return '';
+        }
+
         $utm = 'utm_source=mage-os-nl&utm_medium=agenda&utm_campaign=mage-os-nl';
 
         if (strstr($this->url, '?') !== false) {

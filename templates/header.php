@@ -4,8 +4,14 @@ use MageOsNl\Registry;
 use MageOsNl\Website\MenuItem;
 use MageOsNl\Website\Url;
 
+// Load menu items from JSON
+$menuItemsData = json_decode(
+    file_get_contents(Registry::getInstance()->getContentDirectory().'/data/topmenu.json'),
+    true
+);
+
 /** @var MenuItem[] $menuItems */
-$menuItems = include Registry::getInstance()->getContentDirectory().'/data/topmenu.php';
+$menuItems = array_map(fn($item) => new MenuItem($item['label'], $item['url']), $menuItemsData);
 $becomeMemberUrl = new Url('lid-worden');
 ?>
 <div class="bg-green text-sm">
@@ -48,14 +54,14 @@ $becomeMemberUrl = new Url('lid-worden');
             <nav class="md:hidden w-full items-center" x-show="open">
                 <ul class="py-4">
                     <?php foreach ($menuItems as $menuItem): ?>
-                        <li class="pt-2 pb-1 border-t border-gray-300">
+                        <li class="pt-2 pb-1 border-t border-gray-300 hover:text-orange">
                             <a href="<?= $menuItem->getUrl() ?>"><?= $menuItem->getLabel() ?></a>
                         </li>
                     <?php endforeach; ?>
                 </ul>
             </nav>
 
-            <div class="absolute right-0 bottom-0 text-blue text-lg">
+            <div class="absolute right-0 bottom-0 text-blue text-lg hover:text-orange">
                 <?php if (isset($_GET['language']) && $_GET['language'] === 'en'): ?>
                     <a href="/nl<?= $_SERVER['REQUEST_URI'] ?>" title="Dutch language">NL</a>
                     <span class="hidden md:inline">| EN</span>

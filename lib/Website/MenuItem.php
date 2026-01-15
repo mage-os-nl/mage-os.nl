@@ -6,7 +6,7 @@ class MenuItem {
     public function __construct(
         private string $label,
         private string $url,
-        private string $class = 'block py-1 hover:text-primary transition-colors text-center'
+        private string $class = 'block py-1 hover:text-orange transition-colors text-center'
     ) {
     }
 

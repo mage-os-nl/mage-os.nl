@@ -1,0 +1,30 @@
+[
+  {
+    "label": "Association",
+    "url": "/vereniging"
+  },
+  {
+    "label": "Newsletter",
+    "url": "http://eepurl.com/iusMg2"
+  },
+  {
+    "label": "Agenda",
+    "url": "/agenda"
+  },
+  {
+    "label": "Directory",
+    "url": "/directory"
+  },
+  {
+    "label": "Blog",
+    "url": "/blog"
+  },
+  {
+    "label": "FAQ",
+    "url": "/faq"
+  },
+  {
+    "label": "Become member",
+    "url": "/lid-worden"
+  }
+]

@@ -1,0 +1,36 @@
+# Local override file for custom Docker Compose configuration
+# This file is automatically loaded by Docker Compose
+# and overrides/extends the base docker-compose.yml
+#
+# Copy this file to docker-compose.override.yml and adjust to your needs
+
+# Example 1: Warden setup with HTTPS and custom domain
+# Uncomment and adjust the configuration below for Warden environments
+#
+# services:
+#   www:
+#     labels:
+#       - "traefik.enable=true"
+#       - "traefik.http.routers.mosnl.rule=Host(`nl.mage-os.test`)"
+#       - "traefik.http.routers.mosnl.entrypoints=http,https"
+#       - "traefik.http.routers.mosnl.tls=true"
+#     networks:
+#       - warden
+#       - default
+#
+# networks:
+#   warden:
+#     external: true
+
+# Example 2: Custom port mapping (for local development without Traefik)
+# services:
+#   www:
+#     ports:
+#       - "8080:80"
+
+# Example 3: Custom UID for file permissions
+# services:
+#   www:
+#     build:
+#       args:
+#         uid: 501

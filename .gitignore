@@ -2,3 +2,4 @@ node_modules/
 vendor/
 .idea/
 .env
+docker-compose.override.yml

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "member-meeting",
+    "active": true,
+    "banner_id": "banner-mm",
+    "image": "headers/mosnl-meeting-2024-02.jpg",
+    "image_alt": "Mage-OS Nederland ledenvergadering",
+    "hide_on_pages": ["/lid-worden"],
+    "show_on_pages": ["/"],
+    "title": "Mage-OS Nederland<br/>Ledenvergadering + borrel",
+    "tagline": "Beslis mee over de toekomst van Magento",
+    "details": "29 januari 2026 in Utrecht",
+    "button_url": "https://www.eventbrite.com/e/tickets-mage-os-nederland-nieuwjaarsborrel-1975123005077?utm_source=mage-os-nl&utm_medium=agenda&utm_campaign=mage-os-nl",
+    "button_text": "Meld je aan"
+  },
+  {
+    "id": "wwvd",
+    "active": false,
+    "banner_id": "banner-wwvd",
+    "image": "headers/mosnl-wwvd-nologo.png",
+    "image_alt": "Webwinkel Vakdagen 2024 Magento Community Drinks",
+    "show_on_pages": ["/"],
+    "title": "Webwinkel Vakdagen<br/>Magento Community Drinks",
+    "tagline": "April 2nd, 2025 starting at 16:00<br/>Beers & Barrels, Utrecht",
+    "button_url": "https://www.eventbrite.com/e/tickets-mage-os-wwvd-2025-borrel-1106568990639",
+    "button_text": "Reserve your seat"
+  },
+  {
+    "id": "bbq",
+    "active": false,
+    "banner_id": "banner-bbq",
+    "image": "headers/mosnl-meeting-2024-02.jpg",
+    "image_alt": "",
+    "show_on_pages": ["/"],
+    "title": "Algemene ledenvergadering<br/>+ zomer BBQ 2025!",
+    "tagline": "5 June 2025, starting at 15:30<br/>De Hofvlietvilla, Zwolle",
+    "button_url": "https://www.eventbrite.com/e/tickets-algemene-ledenvergadering-mage-os-nederland-zomer-bbq-2025-1318544154059",
+    "button_text": "Get your tickets"
+  },
+  {
+    "id": "mageunconference",
+    "active": false,
+    "banner_id": "banner-mageunconference",
+    "image": "headers/mosnl-meeting-2024-02.jpg",
+    "image_alt": "",
+    "show_on_pages": ["/"],
+    "title": "Mage Unconference 2025<br/>The Dutch Edition",
+    "tagline": "26 & 27 June 2025<br/>Fort aan de Klop, Utrecht",
+    "button_url": "https://mageunconference.nl/",
+    "button_text": "Get your tickets"
+  },
+  {
+    "id": "mmnl",
+    "active": false,
+    "banner_id": "banner-mmnl",
+    "image": "headers/mosnl-meeting-2024-02.jpg",
+    "image_alt": "Meet Magento Netherlands",
+    "hide_on_pages": ["/lid-worden"],
+    "show_on_pages": ["/"],
+    "title": "Meet Magento Netherlands 2025",
+    "tagline": "6th of November 2025<br/>LIEF, Amsterdam",
+    "button_url": "https://meetmagentonetherlands2025.eventbrite.com/",
+    "button_text": "Get your tickets"
+  },
+  {
+    "id": "become-member",
+    "active": false,
+    "banner_id": "banner-become-member",
+    "image": "headers/mosnl-meeting-2024-02.jpg",
+    "image_alt": "Become a member",
+    "show_on_pages": ["/"],
+    "title": "Mage-OS Nederland",
+    "tagline": "Een Nederlandse Magento community<br/> van en voor iedereen",
+    "button_url": "/lid-worden",
+    "button_text": "Word nu lid",
+    "button_target": ""
+  }
+]

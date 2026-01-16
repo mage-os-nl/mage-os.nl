@@ -1,0 +1,17 @@
+[
+  {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/company/mageos-nederland/",
+    "icon": "linkedin.svg"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com/mage-os-nl",
+    "icon": "github.svg"
+  },
+  {
+    "name": "Discord",
+    "url": "http://chat.mage-os.org",
+    "icon": "discord.svg"
+  }
+]

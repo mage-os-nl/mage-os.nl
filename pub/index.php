@@ -23,6 +23,10 @@ function isLocalhost(): bool
         return true;
     }
 
+    if ($_SERVER['HTTP_HOST'] === 'nl.mage-os.test') {
+        return true;
+    }
+
     return str_starts_with($_SERVER['HTTP_HOST'], 'localhost');
 }
 
@@ -39,7 +43,10 @@ if (false === isRealhost() && false === isLocalhost()) {
 }
 
 // Redirect HTTP to HTTPS
-if ((!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] !== "on") && isRealhost()) {
+$isHttps = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') ||
+           (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https');
+
+if (!$isHttps && isRealhost()) {
     http_response_code(301);
     header('Location: https://' . getRealhost() . '/');
     exit;

@@ -9,7 +9,6 @@ Wil je ook onderdeel zijn van deze nieuwe Magento community? [Meld je dan als li
 
 - Sanne Bolkenstein
 - Tabitha Karta
-- Jeroen Boersma
 - Karlijn Löwik
 - Daniel Hukkelhoven
 - Marloes Noortman

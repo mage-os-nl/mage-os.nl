@@ -3,13 +3,12 @@
 ### Bestuursleden 2026 {#bestuur}
 
 - Sanne Bolkenstein (Hyvä), voorzitter
-- Tabitha Karta (Youwe), secretaris 
-- Jeroen Boersma (Elgentos), penningmeester
+- Tabitha Karta (Vendic), secretaris
+- Wouter Steenmeijer (Elgentos), penningmeester
 - Karlijn Löwik (RUMvision)
 - Daniel Hukkelhoven (Made By Mouses)
 - Marloes Noortman (Vendic)
 - Luuk Roovers (Vicus)
-- Wouter Steenmeijer (Elgentos)
 
 ### Commissie Meet Magento Nederland 2026
 - Sanne Bolkenstein

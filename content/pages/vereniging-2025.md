@@ -3,7 +3,7 @@
 ### Bestuursleden 2025 {#bestuur}
 
 - Sanne Bolkenstein (Hyvä), voorzitter
-- Tabitha Karta (Youwe), secretaris 
+- Tabitha Karta (Vendic), secretaris
 - Jeroen Boersma (Elgentos), penningmeester
 - Karlijn Löwik (RUMvision)
 - Daniel Hukkelhoven (Made By Mouses)

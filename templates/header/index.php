@@ -8,7 +8,7 @@
  * 2. Find the matching banner configuration from banners.json
  * 3. Use the event's timestamp to determine if it's in the future
  * 4. The first future event (sorted by date) with a banner_id will be shown
- * 5. If no future events exist, fall back to banners with "active": true
+ * 5. If no future events exist, fall back to become-member banner
  */
 
 // Load events from JSON

@@ -42,8 +42,12 @@ $sixMonthsFromNow = date('Y-m-d', strtotime('+6 months'));
 
 foreach ($events as $event) {
     if (isset($event['banner_id']) && isset($event['timestamp'])) {
+        // For multi-day events, use the end date if available
+        $endDate = $event['timestamp_end'] ?? $event['timestamp'];
+
         // Only include future events that are within 6 months
-        if ($event['timestamp'] > $today && $event['timestamp'] <= $sixMonthsFromNow && isset($bannerMap[$event['banner_id']])) {
+        // Event is "future" if its end date hasn't passed yet
+        if ($endDate >= $today && $event['timestamp'] <= $sixMonthsFromNow && isset($bannerMap[$event['banner_id']])) {
             $futureEventBanners[] = [
                 'event' => $event,
                 'banner' => $bannerMap[$event['banner_id']]

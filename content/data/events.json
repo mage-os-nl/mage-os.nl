@@ -15,7 +15,8 @@
     "timestamp": "2023-01-19",
     "title": "Ledenvergadering en nieuwjaarsborrel",
     "description": "Eerste ledenvergadering en aansluitend een nieuwjaarsborrel",
-    "location": "Toque Toque Foodcafé, Oudegracht 138, Utrecht"
+    "location": "Toque Toque Foodcafé, Oudegracht 138, Utrecht",
+    "banner_id": "member-meeting-new-years"
   },
   {
     "timestamp": "2023-03-29",
@@ -94,7 +95,8 @@
     "title": "Mage-OS NL Ledenvergadering",
     "description": "Jaarlijkse algemene ledenvergadering met aansluitende borrel (gesponsord door Buckaroo)",
     "location": "De Koestal, Boerengoed, Hoevenseweg 5, 4157 JB Enspijk",
-    "url": "https://www.eventbrite.com/e/tickets-algemene-ledenvergadering-mage-os-nederland-zomer-bbq-901465305997"
+    "url": "https://www.eventbrite.com/e/tickets-algemene-ledenvergadering-mage-os-nederland-zomer-bbq-901465305997",
+    "banner_id": "member-meeting-bbq"
   },
   {
     "timestamp": "2024-07-25",
@@ -138,7 +140,8 @@
     "title": "Mage-OS NL Ledenvergadering",
     "description": "Jaarlijkse algemene ledenvergadering met aansluitende borrel",
     "location": "Utrecht",
-    "url": "https://www.eventbrite.com/e/tickets-mage-os-nederland-ledenvergadering-2025-q1-1106568178209"
+    "url": "https://www.eventbrite.com/e/tickets-mage-os-nederland-ledenvergadering-2025-q1-1106568178209",
+    "banner_id": "member-meeting-new-years"
   },
   {
     "timestamp": "2025-02-07",
@@ -168,7 +171,8 @@
     "title": "Magento borrel (WWVD)",
     "description": "Traditionele borrel aan het eind van de woensdag van de Webwinkel Vakdagen",
     "location": "Utrecht",
-    "url": "https://www.eventbrite.com/e/tickets-mage-os-wwvd-2025-borrel-1106568990639"
+    "url": "https://www.eventbrite.com/e/tickets-mage-os-wwvd-2025-borrel-1106568990639",
+    "banner_id": "wwvd"
   },
   {
     "timestamp": "2025-05-09",
@@ -199,7 +203,8 @@
     "title": "Algemene ledenvergadering Mage-OS Nederland + zomer BBQ 2025!",
     "description": "Voor deze Algemene Ledenvergadering (ALV) zomereditie, nodigen we jullie vanaf 15.00 graag uit op de prachtige locatie: De Eendracht Zwolle . Eerst met een officieel gedeelte, daarna met een gezellige zomerborrel en BBQ.",
     "location": "De Hofvlietvilla, Zwolle",
-    "url": "https://www.eventbrite.com/e/tickets-algemene-ledenvergadering-mage-os-nederland-zomer-bbq-2025-1318544154059"
+    "url": "https://www.eventbrite.com/e/tickets-algemene-ledenvergadering-mage-os-nederland-zomer-bbq-2025-1318544154059",
+    "banner_id": "member-meeting-bbq"
   },
   {
     "timestamp": "2025-06-18",
@@ -214,7 +219,8 @@
     "title": "MageUnconference Nederland",
     "description": "Een nieuwe unconference georganiseerd door Yireo",
     "location": "Fort aan de Klop, Utrecht",
-    "url": "https://mageunconference.nl/"
+    "url": "https://mageunconference.nl/",
+    "banner_id": "mageunconference"
   },
   {
     "timestamp": "2025-09-12",
@@ -277,7 +283,8 @@
     "url": "https://www.eventbrite.com/e/tickets-meet-magento-netherlands-2025-1325385617059",
     "group": "Meet Magento NL 2025",
     "main_event": true,
-    "mage_os_nl_event": true
+    "mage_os_nl_event": true,
+    "banner_id": "mmnl"
   },
   {
     "timestamp": "2025-11-13",
@@ -305,18 +312,21 @@
     "description": "Nieuwjaarsborrel",
     "location": "Bar Beton",
     "address": "Bar Beton, Stationshal 2-9, 3511CE Utrecht",
-    "url": "https://www.eventbrite.com/e/tickets-mage-os-nederland-nieuwjaarsborrel-1975123005077?utm_source=mage-os-nl&utm_medium=agenda&utm_campaign=mage-os-nl"
+    "url": "https://www.eventbrite.com/e/tickets-mage-os-nederland-nieuwjaarsborrel-1975123005077?utm_source=mage-os-nl&utm_medium=agenda&utm_campaign=mage-os-nl",
+    "banner_id": "member-meeting-new-years"
   },
   {
     "timestamp": "2026-03-25",
     "title": "Webwinkelvakdagen borrel",
     "description": "Traditionele borrel aan het eind van de woensdag van de Webwinkel Vakdagen",
     "location": "Beers & Barrels",
-    "address": "Beers & Barrels, Veilinghavenkade 177, 3521 BE Utrecht"
+    "address": "Beers & Barrels, Veilinghavenkade 177, 3521 BE Utrecht",
+    "banner_id": "wwvd"
   },
   {
     "timestamp": "2026-06-04",
-    "title": "Zomer BBQ 2026"
+    "title": "Zomer BBQ 2026",
+    "banner_id": "member-meeting-bbq"
   },
   {
     "timestamp": "2026-06-25",
@@ -324,7 +334,8 @@
     "title": "MageUnconference Nederland",
     "description": "Een echt Magento community event, georganiseerd door Yireo",
     "location": "Fort aan de Klop, Utrecht",
-    "url": "https://mageunconference.nl/"
+    "url": "https://mageunconference.nl/",
+    "banner_id": "mageunconference"
   },
   {
     "timestamp": "2026-11-05",
@@ -334,6 +345,7 @@
     "url": "https://nl.meet-magento.com/",
     "group": "Meet Magento NL 2026",
     "main_event": true,
-    "mage_os_nl_event": true
+    "mage_os_nl_event": true,
+    "banner_id": "mmnl"
   }
 ]

@@ -82,7 +82,9 @@ class Event
 
     public function isUpcoming(): bool
     {
-        return $this->getTimestamp() >= new \DateTimeImmutable();
+        // Compare with start of today (00:00:00) so events happening today are still "upcoming"
+        $startOfToday = new \DateTimeImmutable('today');
+        return $this->getTimestamp() >= $startOfToday;
     }
 
     public function getTimestamp(): \DateTimeImmutable

@@ -82,7 +82,7 @@ class Event
 
     public function isUpcoming(): bool
     {
-        return $this->getTimestamp() > new \DateTimeImmutable();
+        return $this->getTimestamp() >= new \DateTimeImmutable();
     }
 
     public function getTimestamp(): \DateTimeImmutable

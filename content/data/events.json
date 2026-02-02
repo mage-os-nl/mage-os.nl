@@ -34,6 +34,7 @@
   },
   {
     "timestamp": "2023-07-12",
+    "timestamp_end": "2023-07-15",
     "date": "12-15 juli 2023",
     "title": "MageUnconference Nederland",
     "description": "Een nieuwe unconference georganiseerd door Yireo",
@@ -215,6 +216,7 @@
   },
   {
     "timestamp": "2025-06-26",
+    "timestamp_end": "2025-06-27",
     "date": "26-27 juni 2025",
     "title": "MageUnconference Nederland",
     "description": "Een nieuwe unconference georganiseerd door Yireo",
@@ -329,7 +331,8 @@
     "banner_id": "member-meeting-bbq"
   },
   {
-    "timestamp": "2026-06-25",
+    "timestamp": "2026-06-24",
+    "timestamp_end": "2026-06-27",
     "date": "24-27 juni 2026",
     "title": "MageUnconference Nederland",
     "description": "Een echt Magento community event, georganiseerd door Yireo",

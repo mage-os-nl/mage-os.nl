@@ -6,6 +6,7 @@ class Event
 {
     private string $title;
     private \DateTimeImmutable $timestamp;
+    private ?\DateTimeImmutable $timestampEnd;
     private string $date;
     private string $time = '';
     private string $description = '';
@@ -20,6 +21,7 @@ class Event
     {
         $this->title = $data['title'];
         $this->timestamp = new \DateTimeImmutable($data['timestamp']);
+        $this->timestampEnd = isset($data['timestamp_end']) ? new \DateTimeImmutable($data['timestamp_end']) : null;
         $this->date = $data['date'] ?? '';
         $this->time = $data['time'] ?? '';
         $this->description = $data['description'] ?? '';
@@ -84,7 +86,11 @@ class Event
     {
         // Compare with start of today (00:00:00) so events happening today are still "upcoming"
         $startOfToday = new \DateTimeImmutable('today');
-        return $this->getTimestamp() >= $startOfToday;
+
+        // For multi-day events, use the end date if available
+        $endDate = $this->timestampEnd ?? $this->timestamp;
+
+        return $endDate >= $startOfToday;
     }
 
     public function getTimestamp(): \DateTimeImmutable

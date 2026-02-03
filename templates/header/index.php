@@ -160,12 +160,7 @@ $getLocalizedField = function(array $banner, string $field) use ($language): ?st
         return $banner[$localizedField];
     }
 
-    // Fallback to non-localized field (backwards compatibility)
-    if (isset($banner[$field])) {
-        return $banner[$field];
-    }
-
-    return null;
+    return $banner[$field] ?? '';
 };
 
 // Replace {event_year} placeholder in title with actual year from event

@@ -5,7 +5,7 @@ use MageOsNl\Website\EventProvider;
 $upcomingEvents = (new EventProvider())->getUpcomingEventGroups();
 $pastEvents = (new EventProvider())->getPastEventGroups();
 ?>
-<h2>Aankomende events</h2>
+<h2><?= __('Upcoming events') ?></h2>
 
 <div class="not-prose">
     <ol class="m-0 p-0 text-sm/6 lg:col-span-7 xl:col-span-8">
@@ -18,9 +18,9 @@ $pastEvents = (new EventProvider())->getPastEventGroups();
 </div>
 
 
-<button id="past-events-toggler" class="cursor-pointer underline" onClick="togglePastEvents()">Toon events in het verleden</button>
+<button id="past-events-toggler" class="cursor-pointer underline" onClick="togglePastEvents()"><?= __('Show past events') ?></button>
 <div id="past-events" class="hidden">
-    <h2 class="mt-8">Events in het verleden</h2>
+    <h2 class="mt-8"><?= __('Past events') ?></h2>
 
     <div class="not-prose">
         <ol class="m-0 p-0 divide-y divide-gray-100 text-sm/6 lg:col-span-7 xl:col-span-8">

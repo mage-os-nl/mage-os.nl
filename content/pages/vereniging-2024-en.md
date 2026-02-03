@@ -1,18 +1,18 @@
-# Vereniging in 2024
+# Association in 2024
 
-### Bestuursleden 2024 {#bestuur}
+### Board members 2024 {#bestuur}
 
-- Jisse Reitsma (Yireo), voorzitter
+- Jisse Reitsma (Yireo), chairperson
 - Michiel Gerritsen (Control Alt Delete)
-- Sander de Graaf (3WebApps), secretaris
+- Sander de Graaf (3WebApps), secretary
 - Sanne Bolkenstein (Hyvä)
-- Jeroen Boersma (Elgentos), penningmeester
+- Jeroen Boersma (Elgentos), treasurer
 - Karlijn Löwik (RUMvision)
 - Tabitha Karta (Youwe)
 
-In de zomer van 2024 is Michiel afgetreden. Zijn taak als penningmeester is overgenomen door Jeroen.
+In the summer of 2024, Michiel stepped down. His role as treasurer was taken over by Jeroen.
 
-### Commissie Meet Magento Nederland 2024
+### Meet Magento Netherlands 2024 Committee
 - Sanne Bolkenstein
 - Marloes Noortman
 - Daniel Hukkelhoven
@@ -23,7 +23,7 @@ In de zomer van 2024 is Michiel afgetreden. Zijn taak als penningmeester is over
 - Jelle Siderius
 - Jacqueline Gerritsen - Kapiteijn
 
-### Juridische commissie 2024
+### Legal committee 2024
 - Jisse Reitsma
 - Roland Haselager
 - Sander de Graaf

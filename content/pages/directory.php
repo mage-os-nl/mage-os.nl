@@ -40,8 +40,8 @@ $currentSort = (isset($_GET['sort']) && $_GET['sort'] === 'name_desc') ? 'name_d
                 >
                     <?php if ($item->isSponsor()): ?>
                         <div class="absolute transform rotate-45 right-[-45px] top-[15px] w-[140px] bg-orange-400 text-white"
-                             title="Sponsor of Mage-OS Nederland">
-                            Sponsor
+                             title="<?= __('Sponsor of Mage-OS Netherlands') ?>">
+                            <?= __('Sponsor') ?>
                         </div>
                     <?php endif; ?>
                     <a href="<?= $item->getUrl() ?>">

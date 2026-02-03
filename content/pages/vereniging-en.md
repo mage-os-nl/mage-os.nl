@@ -5,17 +5,19 @@
 ### Register as a new member {#lidworden}
 Do you also want to be part of this new Magento community? [Register as a member](/en/lid-worden). Membership costs 10 Euro per year. Once this contribution has been paid, you will become a permanent member.
 
-### Board of 2025
+### Board of 2026
 
 - Sanne Bolkenstein
 - Tabitha Karta
-- Jeroen Boersma
 - Karlijn Löwik
 - Daniel Hukkelhoven
 - Marloes Noortman
+- Luuk Roovers
+- Wouter Steenmeijer
 
 See the following pages for information on the board in previous years:
 
+- [Vereniging in 2026](/vereniging-2026)
 - [Vereniging in 2025](/vereniging-2025)
 - [Vereniging in 2024](/vereniging-2024)
 - [Vereniging in 2023](/vereniging-2023)

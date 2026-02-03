@@ -28,7 +28,7 @@
                 const url = 'https://bunq.me/MageOSNederland/10/';
                 const email = document.getElementById('email').value;
                 if (!email) {
-                    alert('Not a valid email address');
+                    alert('<?= __('Not a valid email address') ?>');
                     return;
                 }
 

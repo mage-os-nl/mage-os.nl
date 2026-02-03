@@ -61,13 +61,13 @@ $becomeMemberUrl = new Url('lid-worden');
                 </ul>
             </nav>
 
-            <div class="absolute right-0 bottom-0 text-blue text-lg hover:text-orange">
+            <div class="absolute right-0 bottom-0 text-blue text-lg">
                 <?php if (isset($_GET['language']) && $_GET['language'] === 'en'): ?>
-                    <a href="/nl<?= $_SERVER['REQUEST_URI'] ?>" title="<?= __('Dutch language') ?>">NL</a>
+                    <a href="/nl<?= $_SERVER['REQUEST_URI'] ?>" class="hover:text-orange" title="<?= __('Dutch language') ?>">NL</a>
                     <span class="hidden md:inline">| EN</span>
                 <?php else: ?>
                     <span class="hidden md:inline">NL |</span>
-                    <a href="/en<?= $_SERVER['REQUEST_URI'] ?>" title="<?= __('English language') ?>">EN</a>
+                    <a href="/en<?= $_SERVER['REQUEST_URI'] ?>" class="hover:text-orange" title="<?= __('English language') ?>">EN</a>
                 <?php endif; ?>
             </div>
         </header>

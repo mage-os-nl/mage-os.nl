@@ -6,10 +6,14 @@
     "image_alt": "",
     "hide_on_pages": ["/lid-worden"],
     "show_on_pages": ["/"],
-    "title": "Mage-OS Nederland<br/>Ledenvergadering + borrel",
-    "tagline": "Beslis mee over de toekomst van Magento",
-    "details": "29 januari 2026 in Utrecht",
-    "button_text": "Meld je aan"
+    "title_nl": "Mage-OS Nederland<br/>Ledenvergadering + borrel",
+    "title_en": "Mage-OS Netherlands<br/>Member meeting + drinks",
+    "tagline_nl": "Beslis mee over de toekomst van Magento",
+    "tagline_en": "Have a say in the future of Magento",
+    "details_nl": "29 januari 2026 in Utrecht",
+    "details_en": "January 29th 2026 in Utrecht",
+    "button_text_nl": "Meld je aan",
+    "button_text_en": "Sign up"
   },
   {
     "id": "wwvd",
@@ -17,9 +21,12 @@
     "image": "headers/mosnl-wwvd-nologo.png",
     "image_alt": "",
     "show_on_pages": ["/"],
-    "title": "Webwinkel Vakdagen<br/>Magento Community Drinks",
-    "tagline": "April 2nd, 2025 starting at 16:00<br/>Beers & Barrels, Utrecht",
-    "button_text": "Reserve your seat"
+    "title_nl": "Webwinkel Vakdagen<br/>Magento Community Drinks",
+    "title_en": "Webshop Trade Days<br/>Magento Community Drinks",
+    "tagline_nl": "2 april 2025 vanaf 16:00<br/>Beers & Barrels, Utrecht",
+    "tagline_en": "April 2nd, 2025 starting at 16:00<br/>Beers & Barrels, Utrecht",
+    "button_text_nl": "Reserveer je plek",
+    "button_text_en": "Reserve your seat"
   },
   {
     "id": "member-meeting-bbq",
@@ -27,9 +34,12 @@
     "image": "headers/mosnl-meeting-2024-02.jpg",
     "image_alt": "",
     "show_on_pages": ["/"],
-    "title": "Algemene ledenvergadering<br/>+ zomer BBQ {event_year}!",
-    "tagline": "5 June 2025, starting at 15:30<br/>De Hofvlietvilla, Zwolle",
-    "button_text": "Get your tickets"
+    "title_nl": "Algemene ledenvergadering<br/>+ zomer BBQ {event_year}!",
+    "title_en": "General member meeting<br/>+ summer BBQ {event_year}!",
+    "tagline_nl": "5 juni 2025, vanaf 15:30<br/>De Hofvlietvilla, Zwolle",
+    "tagline_en": "June 5th 2025, starting at 15:30<br/>De Hofvlietvilla, Zwolle",
+    "button_text_nl": "Bestel je tickets",
+    "button_text_en": "Get your tickets"
   },
   {
     "id": "mageunconference",
@@ -37,9 +47,12 @@
     "image": "headers/mosnl-meeting-2024-02.jpg",
     "image_alt": "",
     "show_on_pages": ["/"],
-    "title": "Mage Unconference {event_year}<br/>The Dutch Edition",
-    "tagline": "26 & 27 June 2025<br/>Fort aan de Klop, Utrecht",
-    "button_text": "Get your tickets"
+    "title_nl": "Mage Unconference {event_year}<br/>The Dutch Edition",
+    "title_en": "Mage Unconference {event_year}<br/>The Dutch Edition",
+    "tagline_nl": "26 & 27 juni 2025<br/>Fort aan de Klop, Utrecht",
+    "tagline_en": "June 26th & 27th 2025<br/>Fort aan de Klop, Utrecht",
+    "button_text_nl": "Bestel je tickets",
+    "button_text_en": "Get your tickets"
   },
   {
     "id": "mmnl",
@@ -48,9 +61,12 @@
     "image_alt": "Meet Magento Netherlands",
     "hide_on_pages": ["/lid-worden"],
     "show_on_pages": ["/"],
-    "title": "Meet Magento Netherlands {event_year}",
-    "tagline": "6th of November 2025<br/>LIEF, Amsterdam",
-    "button_text": "Get your tickets"
+    "title_nl": "Meet Magento Netherlands {event_year}",
+    "title_en": "Meet Magento Netherlands {event_year}",
+    "tagline_nl": "6 november 2025<br/>LIEF, Amsterdam",
+    "tagline_en": "November 6th 2025<br/>LIEF, Amsterdam",
+    "button_text_nl": "Bestel je tickets",
+    "button_text_en": "Get your tickets"
   },
   {
     "id": "become-member",
@@ -58,10 +74,14 @@
     "image": "headers/mosnl-meeting-2024-02.jpg",
     "image_alt": "Become a member",
     "show_on_pages": ["/"],
-    "title": "Mage-OS Nederland",
-    "tagline": "Een Nederlandse Magento community<br/> van en voor iedereen",
-    "button_url": "/lid-worden",
-    "button_text": "Word nu lid",
+    "title_nl": "Mage-OS Nederland",
+    "title_en": "Mage-OS Netherlands",
+    "tagline_nl": "Een Nederlandse Magento community<br/> van en voor iedereen",
+    "tagline_en": "A Dutch Magento community<br/> by and for everyone",
+    "button_url_nl": "/nl/lid-worden",
+    "button_url_en": "/en/lid-worden",
+    "button_text_nl": "Word nu lid",
+    "button_text_en": "Become a member",
     "button_target": ""
   }
 ]

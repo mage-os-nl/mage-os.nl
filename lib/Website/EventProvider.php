@@ -23,9 +23,13 @@ class EventProvider
         }
 
         $items = json_decode(file_get_contents($filename), true);
+        $language = Translation::getLanguage();
         $grouped = [];
         foreach ($items as $item) {
-            $key = array_key_exists('group', $item) ? $item['group'] : $item['title'] . $item['timestamp'];
+            // Use localized title for grouping key (e.g., 'title_nl' or 'title_en')
+            $titleField = 'title_' . $language;
+            $title = $item[$titleField] ?? '';
+            $key = array_key_exists('group', $item) ? $item['group'] : $title . $item['timestamp'];
             $grouped[$key][] = new Event($item);
         }
 

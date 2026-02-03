@@ -124,16 +124,18 @@ $containsOutdatedYear = function(string $text) use ($currentYear): bool {
 };
 
 // Helper function to format event date
-$formatEventDate = function(array $event): string {
+$formatEventDate = function(array $event) use ($language): string {
     $timestamp = new \DateTimeImmutable($event['timestamp']);
 
-    // If there's a custom date field (like "26-27 juni 2025"), use that
-    if (isset($event['date']) && $event['date']) {
-        return $event['date'];
+    // If there's a custom localized date field (like "26-27 juni 2025"), use that
+    $dateField = 'date_' . $language;
+    if (isset($event[$dateField]) && $event[$dateField]) {
+        return $event[$dateField];
     }
 
-    // Otherwise format the timestamp
-    $formatter = new \IntlDateFormatter('nl_NL', \IntlDateFormatter::FULL, \IntlDateFormatter::NONE);
+    // Otherwise format the timestamp with correct locale
+    $locale = $language === 'en' ? 'en_GB' : 'nl_NL';
+    $formatter = new \IntlDateFormatter($locale, \IntlDateFormatter::FULL, \IntlDateFormatter::NONE);
     $formattedDate = $formatter->format($timestamp);
 
     // Add time if available
@@ -149,8 +151,17 @@ $formatEventDate = function(array $event): string {
     return $formattedDate;
 };
 
+// Determine current language
+$language = \MageOsNl\Website\Translation::getLanguage(); // 'nl' or 'en'
+
+// Helper to get language-specific field (e.g., 'title_nl' or 'title_en')
+$getLocalizedField = function(array $banner, string $field) use ($language): ?string {
+    $localizedField = $field . '_' . $language;
+    return $banner[$localizedField] ?? null;
+};
+
 // Replace {event_year} placeholder in title with actual year from event
-$title = $activeBanner['title'];
+$title = $getLocalizedField($activeBanner, 'title') ?? '';
 if ($activeEvent) {
     $eventYear = (new \DateTimeImmutable($activeEvent['timestamp']))->format('Y');
     $title = str_replace('{event_year}', $eventYear, $title);
@@ -158,26 +169,29 @@ if ($activeEvent) {
 $config['title'] = $title;
 
 // Tagline: use banner tagline if valid, otherwise use event date
-if (isset($activeBanner['tagline']) && !$containsOutdatedYear($activeBanner['tagline'])) {
-    $config['tagline'] = $activeBanner['tagline'];
+$tagline = $getLocalizedField($activeBanner, 'tagline');
+if ($tagline && !$containsOutdatedYear($tagline)) {
+    $config['tagline'] = $tagline;
 } elseif ($activeEvent) {
     $config['tagline'] = $formatEventDate($activeEvent);
 }
 
 // Details: use banner details if valid, otherwise skip (we already have tagline with date)
-if (isset($activeBanner['details']) && !$containsOutdatedYear($activeBanner['details'])) {
-    $config['details'] = $activeBanner['details'];
+$details = $getLocalizedField($activeBanner, 'details');
+if ($details && !$containsOutdatedYear($details)) {
+    $config['details'] = $details;
 }
 
-// Button URL: use event URL, or banner URL for become-member
+// Button URL: use event URL, or language-specific banner URL
 if ($activeEvent && isset($activeEvent['url'])) {
     $config['button_url'] = $activeEvent['url'];
 } else {
-    $config['button_url'] = $activeBanner['button_url'] ?? '';
+    $config['button_url'] = $getLocalizedField($activeBanner, 'button_url') ?? '';
 }
 
-if (isset($activeBanner['button_text'])) {
-    $config['button_text'] = $activeBanner['button_text'];
+$buttonText = $getLocalizedField($activeBanner, 'button_text');
+if ($buttonText) {
+    $config['button_text'] = $buttonText;
 }
 
 // Include the generic banner template

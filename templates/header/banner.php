@@ -12,11 +12,15 @@ use MageOsNl\Website\ImageFactory;
  *     'image' => 'headers/image.jpg',                   // Image path
  *     'image_alt' => 'Alt text',                        // Image alt text
  *     'show_condition' => fn() => true,                 // Optional: Function to determine if banner should show
- *     'title' => 'Banner Title',                        // H2 title (can contain <br/> tags)
- *     'tagline' => 'Tagline text',                      // Optional: Tagline/description (can contain <br/> tags)
- *     'details' => 'Date/location details',             // Optional: Details like date/location (can contain <br/> tags)
+ *     'title_nl' => 'Banner Title NL',                  // H2 title (can contain <br/> tags)
+ *     'title_en' => 'Banner Title EN',                  // H2 title (can contain <br/> tags)
+ *     'tagline_nl' => 'Tagline text NL',                // Optional: Tagline/description (can contain <br/> tags)
+ *     'tagline_en' => 'Tagline text ED',                // Optional: Tagline/description (can contain <br/> tags)
+ *     'details_nl' => 'Date/location details NL',       // Optional: Details like date/location (can contain <br/> tags)
+ *     'details_en' => 'Date/location details EN',       // Optional: Details like date/location (can contain <br/> tags)
  *     'button_url' => 'https://...',                    // Button URL
- *     'button_text' => 'Button text',                   // Button text
+ *     'button_text_nl' => 'Button text NL',             // Button text
+ *     'button_text_en' => 'Button text EN',             // Button text
  *     'button_target' => '_blank',                      // Optional: Button target (default: _blank)
  * ]
  *
@@ -52,8 +56,8 @@ $buttonTarget = $config['button_target'] ?? '_blank';
         <?= $image ?>
     </div>
     <div class="relative flex items-center justify-center">
-        <div class="text-center bg-green px-8 py-16 rounded-xl">
-            <h2 class="text-1xl md:text-3xl sm:text-5xl text-orange font-extrabold uppercase text-center">
+        <div class="text-center bg-green p-4 md:px-8 md:py-16 rounded-xl">
+            <h2 class="text-1xl sm:text-2xl md:text-3xl text-orange font-extrabold uppercase text-center">
                 <?= $config['title'] ?>
             </h2>
             <?php if (isset($config['tagline'])): ?>

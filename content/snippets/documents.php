@@ -3,14 +3,13 @@
 use MageOsNl\Website\DocumentProvider;
 
 $documents = (new DocumentProvider())->getDocuments();
-?>
-<h2>Documenten</h2>
+?><h2><?= __('Documents') ?></h2>
 <table class="table">
     <thead>
     <tr>
-        <th colspan="1">Document</th>
-        <th colspan="1">Datum</th>
-        <th colspan="1">Download</th>
+        <th colspan="1"><?= __('Document') ?></th>
+        <th colspan="1"><?= __('Date') ?></th>
+        <th colspan="1"><?= __('Download') ?></th>
     </tr>
     </thead>
     <tbody>

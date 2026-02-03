@@ -1,19 +1,45 @@
 <?php
 $baseUrl = (isset($_SERVER['HTTPS']) ? 'https' : 'http').'://'.$_SERVER['HTTP_HOST'];
+$originalRequestUri = $_SERVER['REQUEST_URI'] ?? '/';
+$currentPath = parse_url($originalRequestUri, PHP_URL_PATH);
+
+// Determine language from GET parameter (set by index.php when /nl/ or /en/ prefix is detected)
+$language = $_GET['language'] ?? 'nl';
+$isEnglish = $language === 'en';
+
+// Get the path without language prefix for building alternate URLs
+$pathWithoutLanguage = preg_replace('#^/(en|nl)#', '', $currentPath);
+if (empty($pathWithoutLanguage) || $pathWithoutLanguage === '/') {
+    $pathWithoutLanguage = '';
+}
+
+// Build canonical URL - points to current language version
+$canonicalUrl = $baseUrl . ($isEnglish ? '/en' : '/nl') . $pathWithoutLanguage;
+
+// Build alternate URLs
+$nlUrl = $baseUrl . '/nl' . $pathWithoutLanguage;
+$enUrl = $baseUrl . '/en' . $pathWithoutLanguage;
 ?>
 
 <!DOCTYPE HTML>
-<html>
+<html lang="<?= $isEnglish ? 'en' : 'nl' ?>">
 <head>
     <title><?= __('Mage-OS Netherlands') ?></title>
     <meta charset="utf-8"/>
     <meta name="description" content="<?= __('Assocation for the Dutch Magento community') ?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Canonical and hreflang tags -->
+    <link rel="canonical" href="<?= $canonicalUrl ?>" />
+    <link rel="alternate" hreflang="nl" href="<?= $nlUrl ?>" />
+    <link rel="alternate" hreflang="en" href="<?= $enUrl ?>" />
+    <link rel="alternate" hreflang="x-default" href="<?= $nlUrl ?>" />
+
     <meta property="og:title" content="<?= __('Mage-OS Netherlands') ?>"/>
     <meta property="og:description" content="<?= __('Assocation for the Dutch Magento community') ?>"/>
     <meta property="og:image" content="<?= $baseUrl ?>/images/mage-os-nl-logo.png"/>
     <meta property="og:type" content="website"/>
-    <?php if (isset($_GET['language']) && $_GET['language'] === 'en'): ?>
+    <?php if ($isEnglish): ?>
         <meta property="og:locale" content="en_GB"/>
     <?php else: ?>
         <meta property="og:locale" content="nl_NL"/>

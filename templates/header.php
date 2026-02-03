@@ -22,7 +22,7 @@ $becomeMemberUrl = new Url('lid-worden');
         <header class="relative flex flex-wrap items-center" x-data="{open:false}">
             <div class=" flex pt-4 xs:w-1/3 max-width-xs mx-0">
                 <a href="/" class="block pr-4 pb-4 max-w-[90px] md:max-w-[180px]">
-                    <img src="/images/mage-os-nl-logo-small.png" alt="Mage-OS NL Logo" />
+                    <img src="/images/mage-os-nl-logo-small.png" alt="<?= __('Mage-OS NL Logo') ?>" />
                 </a>
 
                 <div>
@@ -61,13 +61,13 @@ $becomeMemberUrl = new Url('lid-worden');
                 </ul>
             </nav>
 
-            <div class="absolute right-0 bottom-0 text-blue text-lg hover:text-orange">
+            <div class="absolute right-0 bottom-0 text-blue text-lg">
                 <?php if (isset($_GET['language']) && $_GET['language'] === 'en'): ?>
-                    <a href="/nl<?= $_SERVER['REQUEST_URI'] ?>" title="Dutch language">NL</a>
+                    <a href="/nl<?= $_SERVER['REQUEST_URI'] ?>" class="hover:text-orange" title="<?= __('Dutch language') ?>">NL</a>
                     <span class="hidden md:inline">| EN</span>
                 <?php else: ?>
                     <span class="hidden md:inline">NL |</span>
-                    <a href="/en<?= $_SERVER['REQUEST_URI'] ?>" title="English language">EN</a>
+                    <a href="/en<?= $_SERVER['REQUEST_URI'] ?>" class="hover:text-orange" title="<?= __('English language') ?>">EN</a>
                 <?php endif; ?>
             </div>
         </header>

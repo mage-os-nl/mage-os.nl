@@ -64,8 +64,11 @@ class Blog
 
     public function getDate(): string
     {
+        $language = Translation::getLanguage();
+        $locale = $language === 'en' ? 'en_GB' : 'nl_NL';
+
         $fmt = datefmt_create(
-            'nl_NL',
+            $locale,
             IntlDateFormatter::FULL,
             IntlDateFormatter::NONE,
             'Europe/Amsterdam',

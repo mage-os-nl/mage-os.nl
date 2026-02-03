@@ -19,12 +19,20 @@ class Event
 
     public function __construct(array $data = [])
     {
-        $this->title = $data['title'];
+        $language = Translation::getLanguage(); // 'nl' or 'en'
+
+        // Helper to get localized field (e.g., 'title_nl' or 'title_en')
+        $getLocalizedField = function(string $field) use ($data, $language): string {
+            $localizedField = $field . '_' . $language;
+            return $data[$localizedField] ?? '';
+        };
+
+        $this->title = $getLocalizedField('title');
         $this->timestamp = new \DateTimeImmutable($data['timestamp']);
         $this->timestampEnd = isset($data['timestamp_end']) ? new \DateTimeImmutable($data['timestamp_end']) : null;
-        $this->date = $data['date'] ?? '';
+        $this->date = $getLocalizedField('date');
         $this->time = $data['time'] ?? '';
-        $this->description = $data['description'] ?? '';
+        $this->description = $getLocalizedField('description');
         $this->url = $data['url'] ?? '';
         $this->location = $data['location'] ?? '';
         $this->address = $data['address'] ?? $this->location;
@@ -127,7 +135,9 @@ class Event
             return $this->date;
         }
 
-        $formatter = new \IntlDateFormatter('nl_NL', \IntlDateFormatter::FULL, \IntlDateFormatter::NONE);
+        $language = Translation::getLanguage();
+        $locale = $language === 'en' ? 'en_GB' : 'nl_NL';
+        $formatter = new \IntlDateFormatter($locale, \IntlDateFormatter::FULL, \IntlDateFormatter::NONE);
         return $formatter->format($this->timestamp);
     }
 }

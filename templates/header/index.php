@@ -124,16 +124,18 @@ $containsOutdatedYear = function(string $text) use ($currentYear): bool {
 };
 
 // Helper function to format event date
-$formatEventDate = function(array $event): string {
+$formatEventDate = function(array $event) use ($language): string {
     $timestamp = new \DateTimeImmutable($event['timestamp']);
 
-    // If there's a custom date field (like "26-27 juni 2025"), use that
-    if (isset($event['date']) && $event['date']) {
-        return $event['date'];
+    // If there's a custom localized date field (like "26-27 juni 2025"), use that
+    $dateField = 'date_' . $language;
+    if (isset($event[$dateField]) && $event[$dateField]) {
+        return $event[$dateField];
     }
 
-    // Otherwise format the timestamp
-    $formatter = new \IntlDateFormatter('nl_NL', \IntlDateFormatter::FULL, \IntlDateFormatter::NONE);
+    // Otherwise format the timestamp with correct locale
+    $locale = $language === 'en' ? 'en_GB' : 'nl_NL';
+    $formatter = new \IntlDateFormatter($locale, \IntlDateFormatter::FULL, \IntlDateFormatter::NONE);
     $formattedDate = $formatter->format($timestamp);
 
     // Add time if available
@@ -152,15 +154,10 @@ $formatEventDate = function(array $event): string {
 // Determine current language
 $language = \MageOsNl\Website\Translation::getLanguage(); // 'nl' or 'en'
 
-// Helper to get language-specific field
+// Helper to get language-specific field (e.g., 'title_nl' or 'title_en')
 $getLocalizedField = function(array $banner, string $field) use ($language): ?string {
-    // Try language-specific field first (e.g., 'title_nl' or 'title_en')
     $localizedField = $field . '_' . $language;
-    if (isset($banner[$localizedField])) {
-        return $banner[$localizedField];
-    }
-
-    return $banner[$field] ?? '';
+    return $banner[$localizedField] ?? null;
 };
 
 // Replace {event_year} placeholder in title with actual year from event

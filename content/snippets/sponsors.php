@@ -24,12 +24,9 @@ if (empty($sponsors)) {
                         <?php if ($sponsor->hasLogo()): ?>
                             <img class="w-auto max-h-[100px] inline object-contain"
                                  src="<?= $sponsor->getLogo() ?>"
-                                 alt="<?= $sponsor->getName() ?>"
+                                 alt=""
+                                 loading="lazy"
                             />
-                        <?php else: ?>
-                            <div class="w-full h-full flex items-center justify-center bg-gray-100">
-                                <span class="text-gray-400 text-sm">No logo</span>
-                            </div>
                         <?php endif; ?>
                     </div>
                     <div class="mt-auto">

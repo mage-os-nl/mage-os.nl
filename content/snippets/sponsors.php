@@ -14,7 +14,7 @@ if (empty($sponsors)) {
 }
 ?>
 <section class="py-8">
-    <h2 class="text-3xl font-bold text-center mb-8">Sponsoren</h2>
+    <h2 class="text-3xl font-bold text-center mb-8"><?= __('Sponsors') ?></h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <?php foreach ($sponsors as $sponsor): ?>
@@ -37,5 +37,5 @@ if (empty($sponsors)) {
         <?php endforeach; ?>
     </div>
 
-    <p class="my-8">Wilt u ook sponsor worden van Mage-OS Nederland? Stuur een email naar <a class="hover:text-orange" href="mailto:bestuur@nl.mage-os.org?subject=Interesse in sponsorschap Mage-OS Nederland">bestuur@nl.mage-os.org</a></p>
+    <p class="my-8"><?= __('Want to become a sponsor of Mage-OS Netherlands? Send an email to') ?> <a class="hover:text-orange" href="mailto:bestuur@nl.mage-os.org?subject=<?= __('Interest in sponsorship Mage-OS Netherlands') ?>">bestuur@nl.mage-os.org</a></p>
 </section>

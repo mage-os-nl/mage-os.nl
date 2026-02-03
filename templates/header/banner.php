@@ -52,8 +52,8 @@ $buttonTarget = $config['button_target'] ?? '_blank';
         <?= $image ?>
     </div>
     <div class="relative flex items-center justify-center">
-        <div class="text-center bg-green px-8 py-16 rounded-xl">
-            <h2 class="text-1xl md:text-3xl sm:text-5xl text-orange font-extrabold uppercase text-center">
+        <div class="text-center bg-green p-4 md:px-8 md:py-16 rounded-xl">
+            <h2 class="text-1xl sm:text-2xl md:text-3xl text-orange font-extrabold uppercase text-center">
                 <?= $config['title'] ?>
             </h2>
             <?php if (isset($config['tagline'])): ?>

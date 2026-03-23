@@ -1,7 +1,8 @@
 #!/bin/bash
+php=/usr/bin/php8.4
 git diff main...origin/main --quiet --exit-code && exit
 
-php bin/directory-validation.php || exit
+$php bin/directory-validation.php || exit
 
 git pull origin main
 

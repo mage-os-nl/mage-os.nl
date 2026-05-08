@@ -424,8 +424,11 @@
   },
   {
     "timestamp": "2026-06-04",
-    "title_nl": "Zomer BBQ 2026",
-    "title_en": "Summer BBQ 2026",
+    "title_nl": "Zomer BBQ & ALV Mage-OS NL 2026",
+    "title_en": "Summer BBQ & AGM Mage-OS NL 2026",
+    "description_nl": "Tijd voor de jaarlijkse zomer-BBQ! Vanaf 15:00 welkom in Zwolle voor de ALV (15:30–16:30), gevolgd door een borrel en BBQ tot 20:30.",
+    "description_en": "Time for the annual summer BBQ! Join us from 15:00 in Zwolle for the AGM (15:30–16:30), followed by drinks and BBQ until 20:30.",
+    "location": "De Eendracht in De Hofvlietvilla, Zwolle",
     "url": "https://www.eventbrite.nl/e/summer-bbq-alv-mageos-nl-tickets-1986049477450",
     "banner_id": "member-meeting-bbq"
   },

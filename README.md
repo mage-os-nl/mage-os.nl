@@ -6,6 +6,9 @@ Kijk naar de Markdown bestanden in de `content/pages/` folder en pas de teksten 
 ## Meehelpen met de sources?
 Check de repository lokaal uit, draai `composer install`, draai een publieke webserver met als webroot `pub/` en PHP 8.1 support and voila, je hebt een site.
 
-## TODOs
-- Fix anchor tags binnen pagina
-- Serveer Google Font lokaal met eigen Tailwind CSS
+## CSS compileren
+Dit project gebruikt Tailwind CSS. Na het aanpassen van templates moet je de CSS opnieuw compileren:
+
+- Eenmalig bouwen: `npm run build`
+- Automatisch hercompileren tijdens ontwikkeling: `npm run dev`
+

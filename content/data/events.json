@@ -446,6 +446,16 @@
     "banner_id": "mageunconference"
   },
   {
+    "timestamp": "2026-09-17",
+    "title_nl": "Cream Meetup Frontend Performance",
+    "title_en": "Cream Meetup Frontend Performance",
+    "description_nl": "Drie experts van Cream, Hyvä en RUMvision nemen je mee in de wereld van frontend performance",
+    "description_en": "Three experts from Cream, Hyvä and RUMvision will take you into the world of frontend performance.",
+    "location": "Cream Office, Leeuwenhoekstraat 134, Berkel en Rodenrijs",
+    "url": "https://cream.nl/event/cream-meetup-frontend-performance/",
+    "banner_id": "cream-meetup"
+  },
+  {
     "timestamp": "2026-11-05",
     "title_nl": "Meet Magento Nederland",
     "title_en": "Meet Magento Netherlands",

@@ -456,6 +456,17 @@
     "banner_id": "cream-meetup"
   },
   {
+    "timestamp": "2026-09-24",
+    "time": "10:00 - 17:00",
+    "title_nl": "Mage-OS Hackathon: Ship It Together",
+    "title_en": "Mage-OS Hackathon: Ship It Together",
+    "description_nl": "Een dag samen bouwen aan Magento: breng je ideeën mee en ship ze meteen, van beginner tot pro",
+    "description_en": "A day of building Magento together: bring your ideas and ship them right away, from beginner to pro",
+    "location": "Made by Mouses, Westerlaan 129A, Zwolle",
+    "url": "https://www.eventbrite.com/e/tickets-mage-os-hackathon-ship-it-together-1999279184861",
+    "mage_os_nl_event": false
+  },
+  {
     "timestamp": "2026-11-05",
     "title_nl": "Meet Magento Nederland",
     "title_en": "Meet Magento Netherlands",

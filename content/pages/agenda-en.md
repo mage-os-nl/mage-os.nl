@@ -7,6 +7,9 @@
 ### Is your event not listed?
 Create a Pull Request via our [GitHub repository](https://github.com/mage-os-nl/mage-os.nl/blob/main/content/data/events.json). Doesn't that work for you? Feel free to contact us.
 
+### Want to organize a hackathon?
+Mage-OS Netherlands has budget available to help organize a hackathon. Do you have an idea for a hackathon? Submit your idea via [events@nl.mage-os.org](mailto:events@nl.mage-os.org). We will then assess whether there is still budget available and whether the idea fits the vision of Mage-OS.
+
 ### Other events
 For international events, visit the global Mage-OS site: [mage-os.org/community/events/](https://mage-os.org/community/events/)
 

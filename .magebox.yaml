@@ -1,0 +1,7 @@
+name: mageosnl
+domains:
+  - host: mageosnl.localhost
+php: "8.2"
+services:
+  mysql: "8.0"
+  redis: true

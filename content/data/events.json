@@ -467,6 +467,18 @@
     "mage_os_nl_event": false
   },
   {
+    "timestamp": "2026-11-04",
+    "time": "10:00 - 17:00",
+    "title_nl": "Mage-OS Pre-MMNL Hackathon",
+    "title_en": "Mage-OS Pre-MMNL Hackathon",
+    "description_nl": "Een dag samen bouwen aan Mage-OS en Magento, de dag voor Meet Magento Nederland",
+    "description_en": "A day of building Mage-OS and Magento together, the day before Meet Magento Netherlands",
+    "location": "Bold Commerce, Amsterdam",
+    "address": "Bold Commerce, Teleportboulevard 128, 1043 EJ Amsterdam",
+    "url": "https://www.eventbrite.com/e/tickets-mage-os-pre-mmnl-hackathon-2002328045084",
+    "group": "Meet Magento NL 2026"
+  },
+  {
     "timestamp": "2026-11-05",
     "title_nl": "Meet Magento Nederland",
     "title_en": "Meet Magento Netherlands",

@@ -502,5 +502,29 @@
     "main_event": true,
     "mage_os_nl_event": true,
     "banner_id": "mmnl"
+  },
+  {
+    "timestamp": "2027-05-27",
+    "time": "09:00 - 17:30",
+    "title_nl": "Pre MageTitans Groningen - Hyvä Hackathon",
+    "title_en": "Pre MageTitans Groningen - Hyvä Hackathon",
+    "description_nl": "Een dag in teams werken aan problemen en features in het Hyvä-ecosysteem, de dag voor MageTitans. Gratis, inclusief lunch. Neem een laptop mee met Magento, Hyvä en sample data.",
+    "description_en": "A day of working in teams on problems and features in the Hyvä ecosystem, the day before MageTitans. Free, lunch included. Bring a laptop with Magento, Hyvä and sample data installed.",
+    "location": "Elgentos office, Groningen",
+    "address": "Hereweg 120 (4th floor), 9725 AK Groningen",
+    "group": "MageTitans Groningen 2027"
+  },
+  {
+    "timestamp": "2027-05-28",
+    "time": "08:30 - 16:30",
+    "title_nl": "MageTitans Groningen",
+    "title_en": "MageTitans Groningen",
+    "description_nl": "Eén dag, één track, geen salespraatjes: een Magento-conferentie door developers, voor developers",
+    "description_en": "One day, one track, no sales talks: a Magento conference by developers, for developers",
+    "location": "DOT Groningen",
+    "address": "Vrydemalaan 2, 9713 WS Groningen",
+    "url": "https://luma.com/3zl7yit4",
+    "group": "MageTitans Groningen 2027",
+    "main_event": true
   }
 ]

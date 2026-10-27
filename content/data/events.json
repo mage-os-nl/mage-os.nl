@@ -526,6 +526,18 @@
     "mage_os_nl_event": false
   },
   {
+    "timestamp": "2027-01-14",
+    "time": "16:00 - 19:30",
+    "title_nl": "Mage-OS NL ALV + Nieuwjaarsborrel",
+    "title_en": "Mage-OS NL AGM + New Year drinks",
+    "description_nl": "Proosten op het nieuwe jaar met het bestuur en de leden van Mage-OS Nederland, met eerst de algemene ledenvergadering en daarna bites & drinks",
+    "description_en": "Toast to the new year with the board and members of Mage-OS Nederland, starting with the general members meeting followed by bites & drinks",
+    "location": "Bar Beton",
+    "address": "Bar Beton, Stationshal 2-9, 3511CE Utrecht",
+    "url": "https://www.eventbrite.nl/e/tickets-mage-os-nederland-nieuwjaarsborrel-2027-2003905144230",
+    "banner_id": "member-meeting-new-years"
+  },
+  {
     "timestamp": "2027-05-27",
     "time": "09:00 - 17:30",
     "title_nl": "Pre MageTitans Groningen - Hyvä Hackathon",

@@ -27,7 +27,8 @@ function isLocalhost(): bool
         return true;
     }
 
-    return str_starts_with($_SERVER['HTTP_HOST'], 'localhost');
+    return str_starts_with($_SERVER['HTTP_HOST'], 'localhost')
+        || str_ends_with($_SERVER['HTTP_HOST'], '.localhost');
 }
 
 function isRealhost(): bool

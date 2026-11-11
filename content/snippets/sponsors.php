@@ -21,13 +21,11 @@ if (empty($sponsors)) {
             <div class="bg-white relative overflow-hidden shadow-lg ring-1 ring-black/5 p-6 text-center hover:shadow-xl transition-shadow flex flex-col">
                 <a href="<?= $sponsor->getUrl() ?>" class="no-underline flex flex-col h-full">
                     <div class="relative h-[120px] flex items-center justify-center">
-                        <?php if ($sponsor->hasLogo()): ?>
-                            <img class="w-auto max-h-[100px] inline object-contain"
-                                 src="<?= $sponsor->getLogo() ?>"
-                                 alt=""
-                                 loading="lazy"
-                            />
-                        <?php endif; ?>
+                        <img class="w-auto max-h-[100px] inline object-contain"
+                             src="<?= $sponsor->getLogo() ?>"
+                             alt=""
+                             loading="lazy"
+                        />
                     </div>
                     <div class="mt-auto">
                         <h3 class="text-base font-semibold text-gray-900"><?= $sponsor->getName() ?></h3>

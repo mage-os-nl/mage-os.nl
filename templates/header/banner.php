@@ -54,6 +54,7 @@ $buttonTarget = $config['button_target'] ?? '_blank';
 <div class="py-8 md:py-32 relative" id="<?= htmlspecialchars($bannerId) ?>">
     <div class="absolute top-0 left-0 right-0 bottom-0">
         <?= $image ?>
+        <div class="absolute top-0 left-0 right-0 bottom-0 backdrop-blur-sm"></div>
     </div>
     <div class="relative flex items-center justify-center">
         <div class="text-center bg-green p-4 md:px-8 md:py-16 rounded-xl">

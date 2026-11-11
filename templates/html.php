@@ -49,7 +49,6 @@ $enUrl = $baseUrl . '/en' . $pathWithoutLanguage;
     <meta name="twitter:title" content="<?= __('Mage-OS Netherlands') ?>"/>
     <meta name="twitter:description" content="<?= __('Assocation for the Dutch Magento community') ?>"/>
     <meta name="twitter:image" content="<?= $baseUrl ?>/images/mage-os-nl-logo.png"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="/style.css?v=<?= md5_file(__DIR__.'/../pub/style.css') ?>">
 
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />

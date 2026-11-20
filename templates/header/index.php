@@ -107,15 +107,14 @@ if (isset($activeBanner['button_target'])) {
     $config['button_target'] = $activeBanner['button_target'];
 }
 
-// Helper function to check if text contains outdated year
-$currentYear = (int) date('Y');
-$containsOutdatedYear = function(string $text) use ($currentYear): bool {
-    // Find all 4-digit years in the text
+$language = \MageOsNl\Website\Translation::getLanguage();
+
+// Banner texts are reused across editions, so a year older than the event's own year means a stale hardcoded date.
+$referenceYear = $activeEvent ? (int) substr($activeEvent['timestamp'], 0, 4) : (int) date('Y');
+$containsOutdatedYear = function(string $text) use ($referenceYear): bool {
     if (preg_match_all('/\b(20\d{2})\b/', $text, $matches)) {
         foreach ($matches[1] as $year) {
-            $yearInt = (int) $year;
-            // If we find a year that's older than current year, it's outdated
-            if ($yearInt < $currentYear) {
+            if ((int) $year < $referenceYear) {
                 return true;
             }
         }
@@ -151,9 +150,6 @@ $formatEventDate = function(array $event) use ($language): string {
     return $formattedDate;
 };
 
-// Determine current language
-$language = \MageOsNl\Website\Translation::getLanguage(); // 'nl' or 'en'
-
 // Helper to get language-specific field (e.g., 'title_nl' or 'title_en')
 $getLocalizedField = function(array $banner, string $field) use ($language): ?string {
     $localizedField = $field . '_' . $language;
@@ -170,16 +166,20 @@ $config['title'] = $title;
 
 // Tagline: use banner tagline if valid, otherwise use event date
 $tagline = $getLocalizedField($activeBanner, 'tagline');
+$taglineIsEventDate = false;
 if ($tagline && !$containsOutdatedYear($tagline)) {
     $config['tagline'] = $tagline;
 } elseif ($activeEvent) {
     $config['tagline'] = $formatEventDate($activeEvent);
+    $taglineIsEventDate = true;
 }
 
-// Details: use banner details if valid, otherwise skip (we already have tagline with date)
 $details = $getLocalizedField($activeBanner, 'details');
 if ($details && !$containsOutdatedYear($details)) {
     $config['details'] = $details;
+} elseif ($activeEvent && !$taglineIsEventDate && !preg_match('/\b20\d{2}\b/', $config['tagline'] ?? '')) {
+    // Banners without their own date text get it from the event; skipped when the tagline already holds a date.
+    $config['details'] = $formatEventDate($activeEvent);
 }
 
 // Button URL: use event URL, or language-specific banner URL

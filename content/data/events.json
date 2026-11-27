@@ -504,25 +504,14 @@
     "banner_id": "mmnl"
   },
   {
-    "timestamp": "2026-11-19",
+    "timestamp": "2026-12-10",
     "time": "10:00 - 17:00",
-    "title_nl": "Loki Hackathon",
-    "title_en": "Loki Hackathon",
-    "description_nl": "Bouw jouw eigen Loki Components in de frontend of backend. Of werk mee aan de Loki Checkout.",
-    "description_en": "Build your own Loki Components in the frontend or backend, or contribute to the Loki Checkout.",
+    "title_nl": "Loki & Nebula Learnathon",
+    "title_en": "Loki & Nebula Learnathon",
+    "description_nl": "Een interactieve brainstorm over Loki Components, Loki Checkout en Nebula.",
+    "description_en": "An interactive brainstorm on Loki Components, Loki Checkout and Nebula.",
     "location": "Yireo, Amalialaan 126, 3743 KJ Baarn",
     "url": "https://www.yireo.com/hackathon/loki-2026-q4",
-    "mage_os_nl_event": false
-  },
-    {
-    "timestamp": "2026-12-15",
-    "time": "10:00 - 17:00",
-    "title_nl": "Nebula Hackathon",
-    "title_en": "Nebula Hackathon",
-    "description_nl": "Ontdek het nieuwe razendsnelle Nebula Admin Theme en werk mee aan de nieuwe Nebula frontend",
-    "description_en": "Discover the new, lightning-fast Nebula Admin Theme and contribute to the new Nebula frontend.",
-    "location": "Yireo, Amalialaan 126, 3743 KJ Baarn",
-    "url": "https://www.yireo.com/hackathon/nebula-2026-q4",
     "mage_os_nl_event": false
   },
   {
